@@ -1,0 +1,9 @@
+body {
+  height: 100%;
+  background-color: #fff !important;
+}
+
+#home_section {
+  height: 100%;
+  padding-top: 250px;
+}
