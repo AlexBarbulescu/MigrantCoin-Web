@@ -1,0 +1,788 @@
+/* -- Ripple out effect -- */
+
+@-webkit-keyframes ripple-out {
+	100% {
+		top: -12px;
+		right: -12px;
+		bottom: -12px;
+		left: -12px;
+		opacity: 0;
+	}
+}
+
+@keyframes ripple-out {
+	100% {
+		top: -12px;
+		right: -12px;
+		bottom: -12px;
+		left: -12px;
+		opacity: 0;
+	}
+}
+
+.ripple-out:hover:before,
+.ripple-out:focus:before,
+.ripple-out:active:before {
+	-webkit-animation-name: ripple-out;
+	animation-name: ripple-out;
+}
+
+.box-text{
+	position: relative;
+	background: rgb(255,162,0);
+	background: linear-gradient(130deg, rgba(255,162,0,1) 0%, rgba(255,108,0,1) 100%);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	width: 75%;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+    z-index: 10;
+}
+
+.map-textbig{
+    color: #3c3c3c;
+	text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 400;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	margin-bottom: 0px !important;
+	line-height: 30px;
+}
+.map-textsmall{
+    color: #3c3c3c;
+	text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+}
+
+.o-purchased-tokens {
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 0px;
+	padding: 250px 0;
+    z-index: 5;
+}
+
+.o-purchased-tokens::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../images_new/migrant-map-data2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 5;
+	overflow: hidden;
+}
+
+.o-purchased-tokens .container {
+	position: relative;
+}
+
+.ripple-out {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+}
+
+.ripple-out:before {
+	content: '';
+	position: absolute;
+	/*border: 5px solid #05528d;*/
+	border: 5px solid #ff7000;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: ripple-out;
+	animation-name: ripple-out;
+}
+
+.o-purchased-tokens .sparks {
+	width: 20px;
+	height: 20px;
+	display: block;
+	background: rgb(255,162,0);
+	background: linear-gradient(130deg, rgba(255,162,0,1) 0%, rgba(255,108,0,1) 100%);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 9;
+	opacity: 1;
+}
+
+	.o-purchased-tokens .sparks.spark-1 {
+		top: -12px;
+		left: 270px;
+/*	    top: 37%;
+	    left: 33.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-2 {
+		top: 180px;
+		left: 390px;
+/*		top: 66%;
+		left: 39.7%;*/
+	}
+	.o-purchased-tokens .sparks.spark-3 {
+		top: -19px;
+		left: 573px;
+/*		top: 36%;
+	    left: 49.4%;*/
+	}
+	.o-purchased-tokens .sparks.spark-4 {
+		top: 134px;
+		left: 629px;
+/*	    top: 61%;
+	    left: 52.3%;*/
+	}
+	.o-purchased-tokens .sparks.spark-5 {
+		top: -30px;
+		left: 896px;
+/*	    top: 34%;
+	    left: 66.3%;*/
+	}
+	.o-purchased-tokens .sparks.spark-6 {
+		top: 227px;
+		left: 937px;
+/*		top: 73%;
+	    left: 68.5%;*/
+	}
+
+	.card-1{
+		position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    top: 16%;
+	    left: 34%;
+	    display: block;
+	    background-image: url(../images_new/card_north_america.png);
+		background-repeat: no-repeat;
+	    z-index: 8;
+	}
+	.card-2{
+		position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    top: 51%;
+	    left: 32%;
+	    display: block;
+	    background-image: url(../images_new/card_south_america.png);
+		background-repeat: no-repeat;
+	    z-index: 8;
+	}
+	.card-3{
+		position: absolute;
+	    width: 100%;
+	    height: 100%;
+		top: 5%;
+	    left: 49.4%;
+	    display: block;
+	    background-image: url(../images_new/card_europe.png);
+    	background-repeat: no-repeat;
+	    z-index: 8;
+	}
+	.card-4{
+		position: absolute;
+	    width: 100%;
+	    height: 100%;
+		top: 64%;
+	    left: 43%;
+	    display: block;
+	    background-image: url(../images_new/card_africa.png);
+		background-repeat: no-repeat;
+	    z-index: 8;
+	}
+	.card-5{
+		position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    top: 8%;
+	    left: 67%;
+	    display: block;
+	    background-image: url(../images_new/card_asia.png);
+		background-repeat: no-repeat;
+	    z-index: 8;
+	}
+	.card-6{
+		position: absolute;
+	    width: 100%;
+	    height: 100%;
+		top: 60%;
+	    left: 59%;
+	    display: block;
+	    background: url(../images_new/card_oceania.png);
+    	background-repeat: no-repeat;
+	    z-index: 8;
+	}
+
+@media screen and (max-width: 1300px) {
+
+	.card-1{
+		background-size: 200px 200px;
+		top: 15%;
+	    left: 21%;
+	}
+	.card-2{
+		background-size: 200px 200px;
+		top: 68%;
+	    left: 32%;
+	}
+	.card-3{
+		background-size: 200px 200px;
+		top: 2%;
+	    left: 49.4%
+	}
+	.card-4{
+		background-size: 200px 200px;
+		top: 61%;
+	    left: 54%;
+	}
+	.card-5{
+		background-size: 200px 200px;
+	    top: 8%;
+	    left: 75%;
+	}
+	.card-6{
+		background-size: 200px 200px;
+		top: 76%;
+	    left: 82%;
+	}
+	.o-purchased-tokens .sparks.spark-1 {
+	    top: -16px;
+	    left: 270px;
+/*		top: 35%;
+	    left: 25%;*/
+	}
+	.o-purchased-tokens .sparks.spark-2 {
+		top: 178px;
+	    left: 391px;
+/*	    top: 66%;
+	    left: 34.4%;*/
+	}
+	.o-purchased-tokens .sparks.spark-3 {
+	    top: -20px;
+	    left: 575px;
+/*		top: 34%;
+	    left: 49.4%;*/
+	}
+	.o-purchased-tokens .sparks.spark-4 {
+		top: 135px;
+	    left: 630px;
+/*	    top: 61%;
+	    left: 53.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-5 {
+		top: -26px;
+		left: 896px;
+/*	    top: 34%;
+	    left: 75%;*/
+	}
+	.o-purchased-tokens .sparks.spark-6 {
+	    top: 223px;
+	    left: 937px;
+/*	    top: 73%;
+	    left: 78.2%;*/
+	}
+
+@media screen and (max-width: 1199px) {
+
+	.box-text{
+		width: 85%;
+	}
+	.card-1{
+		background-size: 149px 149px;
+		top: 14%;
+	    left: 21.5%;
+	}
+	.card-2{
+		background-size: 162px 162px;
+		top: 67%;
+	    left: 32.5%;
+	}
+	.card-3{
+		background-size: 222px 222px;
+		top: 4%;
+	    left: 49%;
+	}
+	.card-4{
+		background-size: 215px 215px;
+		top: 61%;
+	    left: 54%;
+	}
+	.card-5{
+		background-size: 179px 179px;
+	    top: 8%;
+	    left: 78%;
+	}
+	.card-6{
+		background-size: 157px 157px;
+	    top: 73%;
+	    left: 82%
+	}
+
+	.o-purchased-tokens .sparks.spark-1 {
+	    top: -13px;
+	    left: 166px;
+/*		top: 35%;
+	    left: 23.3%;*/
+	}
+	.o-purchased-tokens .sparks.spark-2 {
+	    top: 177px;
+	    left: 286px;
+/*		top: 67%;
+	    left: 33.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-3 {
+	    top: -18px;
+	    left: 468px;
+/*		top: 36%;
+	    left: 49%;*/
+	}
+	.o-purchased-tokens .sparks.spark-4 {
+	    top: 129px;
+	    left: 524px;
+/*		top: 61%;
+	    left: 53.7%;*/
+	}
+	.o-purchased-tokens .sparks.spark-5 {
+	    top: -24px;
+	    left: 791px;
+/*	    top: 34%;
+	    left: 76.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-6 {
+	    top: 225px;
+	    left: 833px;
+/*	    top: 73%;
+	    left: 80%*/
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+
+	.box-text{
+		width: 100%;
+	}
+	.map-textbig{
+	    font-size: 40px;
+	}
+	.map-textsmall{
+	    font-size: 14px;
+	}
+	.o-purchased-tokens {
+		margin: 0;
+		height: auto;
+		min-height: 540px;
+		padding: 0;
+	}
+	.o-purchased-tokens .sparks {
+		width: 15px;
+		height: 15px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		border-radius: 50%;
+		position: absolute;
+		opacity: 1;
+	}
+
+	.o-purchased-tokens::before {
+		background-size: 100%;
+	}
+	.card-1{
+		background-size: 139px 139px;
+		top: 10%;
+	    left: 21.5%;
+	}
+	.card-2{
+		background-size: 152px 152px;
+		top: 67%;
+	    left: 32.5%;
+	}
+	.card-3{
+		background-size: 212px 212px;
+		top: 1%;
+	    left: 49%;
+	}
+	.card-4{
+		background-size: 205px 205px;
+		top: 61%;
+	    left: 54%;
+	}
+	.card-5{
+		background-size: 169px 169px;
+	    top: 6%;
+	    left: 78%;
+	}
+	.card-6{
+		background-size: 147px 147px;
+	    top: 73%;
+	    left: 82%
+	}
+	.o-purchased-tokens .sparks.spark-1 {
+	    top: -8px;
+	    left: 80px;
+/*		top: 35%;
+	    left: 21.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-2 {
+	    top: 164px;
+	    left: 187px;
+/*		top: 67%;
+	    left: 32.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-3 {
+	    top: -12px;
+	    left: 350px;
+/*		top: 36%;
+	    left: 49%;*/
+	}
+	.o-purchased-tokens .sparks.spark-4 {
+		top: 129px;
+		left: 401px;
+/*		top: 61%;
+	    left: 54%;*/
+	}
+	.o-purchased-tokens .sparks.spark-5 {
+	    top: -20px;
+	    left: 639px;
+/*	    top: 34%;
+	    left: 78%;*/
+	}
+	.o-purchased-tokens .sparks.spark-6 {
+	    top: 201px;
+	    left: 677px;
+/*	    top: 73%;
+	    left: 82%;*/
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+/*	.o-purchased-tokens {
+		height: auto;
+		min-height: auto;
+		padding: 17.5%;
+		margin: 0px -20px;
+		padding-top: 150px;
+	}
+	.o-purchased-tokens::before {
+	    position: absolute;
+	    top: 0px;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    display: block;
+		background-size: 100%;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	}
+*/
+	.o-purchased-tokens {
+		height: auto;
+		min-height: auto;
+	    padding: 135px;
+	    margin: 0px -30px;
+	    padding-top: 315px;
+	}
+	.o-purchased-tokens::before {
+	    position: absolute;
+	    top: 0px;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    display: block;
+		background-size: 100%;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	}
+	.o-purchased-tokens .sparks {
+		width: 12px;
+		height: 12px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		border-radius: 50%;
+		position: absolute;
+		opacity: 1;
+	}
+	.map-textbig{
+	    font-size: 32px;
+		padding-top: 15px;
+		padding-bottom: 0px;
+		line-height: 15px;
+	}
+	.map-textsmall{
+	    font-size: 10px;
+		padding-top: 0px;
+		padding-bottom: 5px;
+	}
+	.box-text{
+	margin-left: auto;
+	margin-right: auto;
+    z-index: 100;
+		margin-top: -125px;
+	    display: block;
+		height: 55px;
+		left: -14%;
+	    width: 128%;
+	}
+	.card-1{
+		background-size: 99px 99px;
+		top: 15%;
+	    left: 21%;
+	}
+	.card-2{
+		background-size: 113px 113px;
+		top: 68%;
+	    left: 31.6%;
+	}
+	.card-3{
+		background-size: 172px 172px;
+		top: -3%;
+	    left: 49%;
+	}
+	.card-4{
+		background-size: 165px 165px;
+		top: 60%;
+	    left: 54%;
+	}
+	.card-5{
+		background-size: 129px 129px;
+	    top: 7%;
+	    left: 78%;
+	}
+	.card-6{
+		background-size: 107px 107px;
+		top: 76%;
+	    left: 79%;
+	}
+	.o-purchased-tokens .sparks.spark-1 {
+		top: -153px;
+	    left: 36px;
+/*		top: 35%;
+	    left: 21.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-2 {
+	    top: -6px;
+	    left: 125px;
+/*		top: 67%;
+	    left: 32.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-3 {
+	    top: -156px;
+	    left: 262px;
+/*		top: 36%;
+	    left: 49%;*/
+	}
+	.o-purchased-tokens .sparks.spark-4 {
+		top: -43px;
+	    left: 303px;
+/*		top: 61%;
+	    left: 54%;*/
+	}
+	.o-purchased-tokens .sparks.spark-5 {
+	    top: -161px;
+	    left: 501px;
+/*	    top: 34%;
+	    left: 78%;*/
+	}
+	.o-purchased-tokens .sparks.spark-6 {
+	    top: 21px;
+	    left: 533px;
+/*	    top: 73%;
+	    left: 82%;*/
+	}
+
+}
+@media screen and (max-width: 660px) {
+
+	.o-purchased-tokens .sparks.spark-1 {
+	    top: -148px;
+	    left: 12px;
+	}
+	.o-purchased-tokens .sparks.spark-2 {
+	    top: -20px;
+	    left: 89px;
+	}
+	.o-purchased-tokens .sparks.spark-3 {
+		top: -148px;
+	    left: 207px;
+	}
+	.o-purchased-tokens .sparks.spark-4 {
+		top: -51px;
+	    left: 243px;/
+	}
+	.o-purchased-tokens .sparks.spark-5 {
+	    top: -153px;
+	    left: 414px;
+	}
+	.o-purchased-tokens .sparks.spark-6 {
+	    top: 7px;
+	    left: 442px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+	.o-purchased-tokens {
+		height: auto;
+		min-height: auto;
+		padding: 17.5%;
+		margin: 0px -20px;
+		padding-top: 200px;
+	}
+	.o-purchased-tokens::before {
+	    position: absolute;
+	    top: 0px;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    display: block;
+		background-size: 100%;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	}
+
+	.map-textbig{
+	    font-size: 15px;
+		padding-top: 12px;
+		padding-bottom: 0px;
+		line-height: 0px;
+		font-weight: 600;
+	}
+	.map-textsmall{
+	    font-size: 6px;
+		padding-top: 0px;
+		padding-bottom: 5px;
+		font-weight: 400;
+		letter-spacing: 0.5px;
+	}
+
+	.box-text{
+		margin-top: -90px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 35px;
+		left: -15%;
+		width: 130%;
+	}
+
+	.o-purchased-tokens .sparks {
+		width: 11px;
+		height: 11px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		border-radius: 50%;
+		position: absolute;
+		opacity: 1;
+	}
+
+	.o-purchased-tokens::before {
+	    position: absolute;
+	    top: 0px;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    display: block;
+		background-size: 100%;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	}
+
+	.card-1{
+		background-size: 119px 119px;
+		top: 36%;
+	    left: 20.5%;
+	}
+	.card-2{
+		background-size: 133px 133px;
+		top: 65%;
+	    left: 31.5%;
+	}
+	.card-3{
+		background-size: 192px 192px;
+	    top: 36%;
+	    left: 49%;
+	}
+	.card-4{
+		background-size: 185px 185px;
+	    top: 58%;
+	    left: 53%;
+	}
+	.card-5{
+		background-size: 149px 149px;
+	    top: 34%;
+	    left: 77.5%;
+	}
+	.card-6{
+		background-size: 127px 127px;
+		top: 71%;
+	    left: 81.5%;
+	}
+
+	.o-purchased-tokens .sparks.spark-1 {
+	    top: -105px;
+	    left: 19px;
+/*	    top: 0%;
+	    left: 7.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-2 {
+	    top: -31px;
+	    left: 63px;
+/*		top: 65%;
+	    left: 31.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-3 {
+		top: -105px;
+		left: 131px;
+/*	    top: 36%;
+	    left: 49%;*/
+	}
+	.o-purchased-tokens .sparks.spark-4 {
+		top: -48px;
+   		left: 152px;
+/*	    top: 58%;
+	    left: 53%;*/
+	}
+	.o-purchased-tokens .sparks.spark-5 {
+	    top: -108px;
+	    left: 251px;
+/*	    top: 34%;
+	    left: 77.5%;*/
+	}
+	.o-purchased-tokens .sparks.spark-6 {
+	    top: -18px;
+	    left: 266px;
+/*		top: 71%;
+	    left: 81.5%;*/
+	}
+
+}

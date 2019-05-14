@@ -1,0 +1,242 @@
+.team-item {
+    position: relative;
+    margin: 10px;
+}
+.team h2,
+.team h6 {
+ font-weight:500
+}
+.month-item p {
+ font-size:16px;
+ color:#070023;
+ margin:15px 0 20px
+}
+.team h2,
+.team h6,
+.team p {
+ font-family:Poppins,sans-serif;
+ color:#fff
+}
+
+.team {
+ background:#050017;
+ padding:75px 0 240px
+}
+.team .img-bg {
+ position:absolute;
+ top:0;
+ left:0
+}
+.team h2 {
+ font-size:38px;
+ line-height:1.4;
+ margin:60px 0 120px
+}
+.team h6 {
+ font-size:18px;
+ line-height:1.2;
+ margin:84px 0 0
+}
+.team p {
+ font-size:14px;
+ font-weight:400;
+ line-height:1.4;
+ margin:20px 0 0
+}
+.team-item .job,
+.team-item .name {
+ color:#3f3f3f;
+ line-height:1.2;
+ font-family:Poppins,sans-serif;
+ font-weight: 900;
+}
+
+.team-item {
+ position:relative
+}
+.team-item .name {
+ font-size:26px;
+ font-weight:500
+}
+.team-item .job {
+ font-size:15px;
+ font-weight:400;
+ margin:6px 0 0
+}
+.team-item img {
+ width:100%
+}
+.team-item .info-top {
+ color:#ffffff;
+ position:absolute;
+ left:40px;
+ z-index:99;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s;
+ opacity:1;
+ top:80%
+}
+.team-item .info-bottom .name , .team-item .info-bottom .job {
+ color:#ffffff;
+}
+
+.team-item .info-bottom {
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s;
+ opacity:0;
+ position:absolute;
+ bottom:40px;
+ left:40px;
+ z-index:100
+}
+.team-item .info-bottom p {
+ color: #ffffff !important;
+ display:block;
+ font-size:14px;
+ font-weight:400;
+ line-height:1.7
+}
+.team-item .info-bottom .social {
+ display:block;
+ margin:60px 0 0
+}
+.team-item .info-bottom .social a {
+ display:inline-block;
+ width:17.8px;
+ height:17.8px;
+ margin-right:5px;
+ cursor:pointer
+}
+.team-item .hover-back,
+.team-item:hover .hover-back {
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ position:absolute
+}
+.team-item .info-bottom .social svg {
+ fill:#fff
+}
+.team-item .hover-back {
+ transition:.3s;
+ opacity:0
+}
+.team-item:hover .hover-back {
+ background:rgba(55,102,207,.7);
+ opacity:1;
+ transition:.3s
+}
+.team-item:hover .info-bottom {
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s;
+ ransition-delay:.2s;
+ opacity:1;
+ position:absolute;
+ left:40px
+}
+.team-item:hover .info-bottom p {
+ display:block;
+ font-size:14px;
+ font-weight:400;
+ line-height:1.7
+}
+.faq h2,
+.faq h6,
+.partners h2 {
+ font-weight:500
+}
+.team-item:hover .info-bottom .social {
+ display:block
+}
+.team-item:hover .info-top {
+ opacity:0;
+ -webkit-transition:.2s;
+ -o-transition:.2s;
+ transition:.2s
+}
+.team-item .info-bottom .job {
+ margin-bottom:50px
+}
+
+@media screen and (max-width:1024px) {
+ .team {
+  padding:140px 0 180px
+ }
+ .team h2 {
+  font-size:1.6rem
+ }
+}
+
+
+@media screen and (max-width:768px) {
+ .team h2 {
+  font-size:24px
+ }
+ .team h6 {
+  margin:68px 0 0
+ }
+ .team-item .name {
+  font-size:14px
+ }
+ .team-item .job {
+  font-size:10px
+ }
+ .info-bottom .name {
+  font-size:12px
+ }
+ .team-item .info-bottom .job,
+ .team-item:hover .info-bottom p {
+  font-size:10px
+ }
+ .team-item .info-bottom {
+  bottom:10px;
+  width:100%;
+  right:10px
+ }
+ .team-item .info-bottom p {
+  font-size:10px;
+  line-height:1.4;
+  width:85%
+ }
+ .team-item .info-bottom,
+ .team-item .info-top,
+ .team-item:hover .info-bottom,
+ .team-item:hover .info-top {
+  left:20px
+ }
+ .team {
+  padding:130px 0 140px
+ }
+ .team h2 {
+  margin:70px 0 120px
+ }
+
+}
+
+
+@media screen and (max-width:576px) {
+
+	 .team p {
+	  margin:30px 0 0
+	 }
+	 .team h2 {
+	  margin:30px 0
+	 }
+	 .team h6 {
+	  margin:0
+	 }
+
+	 .team .img-bg {
+	  width:100%;
+	  display:none
+	 }
+	  .team {
+	  padding:100px 0
+	 }
+}
