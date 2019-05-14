@@ -88,6 +88,10 @@ h6 span {
   background: #2756bd;
 }
 
+.logo_light{
+  width: 300px;
+}
+
 @media screen and (max-width:991px) {
   .banner_image_right{
     display: none;
