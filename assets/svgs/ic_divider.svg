@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 22.142">
+  <g id="ic_divider" transform="translate(-387 -2178)">
+    <path id="right-arrow" class="cls-1" d="M21.2,5.007a1.117,1.117,0,0,0-1.587,1.571l8.047,8.047H1.111A1.106,1.106,0,0,0,0,15.737a1.118,1.118,0,0,0,1.111,1.127H27.665L19.618,24.9a1.139,1.139,0,0,0,0,1.587,1.112,1.112,0,0,0,1.587,0l9.952-9.952a1.093,1.093,0,0,0,0-1.571Z" transform="translate(451 2173.326)"/>
+    <g id="Group_1686" data-name="Group 1686" transform="translate(-4)">
+      <rect id="Rectangle_679" data-name="Rectangle 679" class="cls-2" width="12" height="2" rx="1" transform="translate(391 2188)"/>
+      <rect id="Rectangle_680" data-name="Rectangle 680" class="cls-2" width="12" height="2" rx="1" transform="translate(411 2188)"/>
+      <rect id="Rectangle_681" data-name="Rectangle 681" class="cls-2" width="12" height="2" rx="1" transform="translate(431 2188)"/>
+    </g>
+    <g id="Group_1687" data-name="Group 1687">
+      <rect id="Rectangle_682" data-name="Rectangle 682" class="cls-2" width="12" height="2" rx="1" transform="translate(499 2188)"/>
+      <rect id="Rectangle_683" data-name="Rectangle 683" class="cls-2" width="12" height="2" rx="1" transform="translate(519 2188)"/>
+      <rect id="Rectangle_684" data-name="Rectangle 684" class="cls-2" width="12" height="2" rx="1" transform="translate(539 2188)"/>
+    </g>
+  </g>
+</svg>

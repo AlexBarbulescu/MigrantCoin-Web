@@ -73,6 +73,9 @@
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.2s">
                             <a class="nav-link page-scroll nav_item" href="#vision">Vision</a>
                         </li>
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.3s">
+                            <a class="nav-link page-scroll nav_item" href="#how-it-works">How it works</a>
+                        </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.4s">
                             <a class="nav-link page-scroll nav_item" href="#token">Token</a>
                         </li>
@@ -180,7 +183,7 @@
     </section>
     <!-- END TOP -->
     <!-- VISION -->
-    <section id="vision" class="pb-0 white_lr">
+    <section id="vision" class="white_lr">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12">
@@ -188,8 +191,6 @@
                         <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Vision</h4>
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Spending money is easy, sending them should be the same</p>
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another. As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise. MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.8s">In other words, we aim for a revolution. In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now. (Im)migrants do just that: they strive for improvement and hope and dream for a more serene future. We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it. This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.10s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it. This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
                     </div>
                 </div>
             </div>
@@ -235,7 +236,96 @@
             </div>
         </div>
     </section>
+    <section class="white_lr">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="title_blue_dark title_border text-center">
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">In other words, we aim for a revolution. In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now. (Im)migrants do just that: they strive for improvement and hope and dream for a more serene future. We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it. This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it. This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- END VISION -->
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="blue_lr">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="title_default_light title_border text-center">
+                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">How it works</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <div class="hiw-box d-flex justify-content-center">
+                        <?php include("assets/svgs/face-scanner.svg"); ?>
+                    </div>
+                    <div class="hiw-box hiw-divider">
+                        <?php include("assets/svgs/ic_divider.svg"); ?>
+                    </div>
+                    <div class="hiw-box d-flex justify-content-center">
+                        <?php include("assets/svgs/ic_add_money.svg"); ?>
+                    </div>
+                    <div class="hiw-box hiw-divider">
+                        <?php include("assets/svgs/ic_divider.svg"); ?>
+                    </div>
+                    <div class="hiw-box d-flex justify-content-center">
+                        <?php include("assets/svgs/ic_MIgrantCoin.svg"); ?>
+                    </div>
+                    <div class="hiw-box hiw-divider">
+                        <?php include("assets/svgs/ic_divider.svg"); ?>
+                    </div>
+                    <div class="hiw-box">
+                        <?php include("assets/svgs/ic_processing.svg"); ?>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                            <div class="hiw-box hiw-divider rotate-m20" style="margin-bottom: 20px;">
+                                <?php include("assets/svgs/ic_divider.svg"); ?>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="hiw-box hiw-divider rotate-20" style="margin-top: 20px;">
+                                <?php include("assets/svgs/ic_divider.svg"); ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="d-flex flex-row align-items-center" style="margin-bottom: 40px;">
+                            <div class="hiw-box d-flex justify-content-center">
+                                <?php include("assets/svgs/ic_delivery.svg"); ?>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center" style="margin-top: 40px;">
+                            <div class="hiw-box d-flex justify-content-center">
+                                <?php include("assets/svgs/ic_cash_up.svg"); ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                            <div class="hiw-box hiw-divider rotate-20" style="margin-bottom: 20px;">
+                                <?php include("assets/svgs/ic_divider.svg"); ?>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="hiw-box hiw-divider rotate-m20" style="margin-top: 20px;">
+                                <?php include("assets/svgs/ic_divider.svg"); ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hiw-box d-flex justify-content-center">
+                        <?php include("assets/svgs/ic_validation.svg"); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END HOW IT WORKS -->
     <!-- TOKEN -->
     <section id="token" class="white_rl">
         <div class="container">
@@ -654,12 +744,12 @@
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/1.png" alt="">
                             <div class="info-bottom">
-<!--                                 <div class="name">
+                                <div class="name">
                                     Marko Veber
                                 </div>
                                 <div class="job">
                                     CEO
-                                </div> -->
+                                </div>
                                 <p>Project Manager. Business Analyst, Blockchain Enthusiast. Over 8 years in IT. Main competence is development and implementation of international management systems.</p>
                                 <div class="social">
                                     <a href="">
@@ -691,13 +781,16 @@
                                 </div>
                             </div>
                             <div class="info-bottom">
-<!--                                 <div class="name">
+                                <div class="name">
                                     Ethan Mason
                                 </div>
                                 <div class="job">
                                     CTO
-                                </div> -->
-                                <p>Technical leader over 8 years. White hat hacker (smart contract bounties, webapps). Researching applications of cryptography &amp; computation integrity.</p>
+                                </div>
+                                <p>Technical leader over 8 years.
+                                    White hat hacker (smart contract
+                                    bounties, webapps). Researching applications of cryptography &amp; computation integrity.
+                                </p>
                                 <div class="social">
                                     <a href="">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -728,13 +821,18 @@
                                 </div>
                             </div>
                             <div class="info-bottom">
-<!--                                 <div class="name">
+                                <div class="name">
                                     Claire Warner
                                 </div>
                                 <div class="job">
                                     Financial Consultant
-                                </div> -->
-                                <p>Claire is our leading employee in the field of financial advice. She has been working in this field for 5 years and she has already achieved excellent results.</p>
+                                </div>
+                                <p>Claire is our leading employee in
+                                    the field of financial advice. This
+                                    field has been working for 5 years,
+                                    but it has already achieved
+                                    excellent results.
+                                </p>
                                 <div class="social">
                                     <a href="">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -765,12 +863,12 @@
                                 </div>
                             </div>
                             <div class="info-bottom">
- <!--                                <div class="name">
+                                <div class="name">
                                     William Cox
                                 </div>
                                 <div class="job">
                                     Software Development
-                                </div> -->
+                                </div>
                                 <p>William has long worked in the field of information technology. He is responsible for developing the platform and manages the creation of a mobile application and CRX Wallet.</p>
                                 <div class="social">
                                     <a href="">
@@ -802,13 +900,16 @@
                                 </div>
                             </div>
                             <div class="info-bottom">
-<!--                                 <div class="name">
+                                <div class="name">
                                     Darren Leonard
                                 </div>
                                 <div class="job">
                                     Board Advisor
-                                </div> -->
-                                <p>Advisor to several large companies in Western Europe and the US</p>
+                                </div>
+                                <p>Advisor to several large
+                                    companies in Western Europe
+                                    and the US
+                                </p>
                                 <div class="social">
                                     <a href="">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -839,13 +940,13 @@
                                 </div>
                             </div>
                             <div class="info-bottom">
-<!--                                 <div class="name">
+                                <div class="name">
                                     Pauline Rose
                                 </div>
                                 <div class="job">
                                     Board Advisor
-                                </div> -->
-                                <p>Pauline manages a large number of crypto funds of large companies. She has been active since the beginning of crypto-currencies.</p>
+                                </div>
+                                <p>Pauline manages a large number of crypto funds of large companies. It has been active since the beginning of the origin of crypto-currencies.</p>
                                 <div class="social">
                                     <a href="">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -876,12 +977,12 @@
                                 </div>
                             </div>
                             <div class="info-bottom">
-<!--                                 <div class="name">
+                                <div class="name">
                                     Robert Parks
                                 </div>
                                 <div class="job">
                                     Board Advisor
-                                </div> -->
+                                </div>
                                 <p>Robert graduated with honors from several prestigious US universities in the direction of Finance. Since 2010, he is a trusted advisor in 5 crypto-exchange markets.</p>
                                 <div class="social">
                                     <a href="">
@@ -913,13 +1014,16 @@
                                 </div>
                             </div>
                             <div class="info-bottom">
- <!--                                <div class="name">
+                                <div class="name">
                                     Gilbert Carr
                                 </div>
                                 <div class="job">
                                     Board Advisor
-                                </div> -->
-                                <p>For more than 5 years, he has been providing technology services for start-up companies around the world.</p>
+                                </div>
+                                <p>More than 5 years, provides
+                                    technology services for start-up
+                                    companies around the world.
+                                </p>
                                 <div class="social">
                                     <a href="">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
