@@ -88,6 +88,17 @@ h6 span {
   background: #2756bd;
 }
 
+#values .btn_collapse {
+  top: auto !important;
+}
+#values i {
+  color: rgba(255, 255, 255, 0.3);
+}
+#values button.box_wrap {
+  display: block;
+  width: 100%;
+}
+
 .logo_light{
   width: 300px;
 }

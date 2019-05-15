@@ -149,8 +149,11 @@ button,
 .timeline_box.complete .timeline_circle::before {
   border-color: #29597f;
 }
-.rd_complete .roadmap_icon {
+.roadmap_icon {
   background-color: rgba(0, 0, 0, 0.2);
+}
+.rd_complete .roadmap_icon {
+  background-color: #fff;
 }
 .roadmap_box.current .roadmap_inner {
   background-color: rgba(0, 0, 0, 0.2);
