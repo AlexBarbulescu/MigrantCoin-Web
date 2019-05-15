@@ -115,12 +115,13 @@ h6 span {
 .hiw-box.rotate-m20 svg {
   transform: rotate(-20deg);
 }
-.hiw-box p {
+.hiw-box span {
+  display: block;
   position: absolute;
-  bottom: -100%;
+  top: calc(100% + 10px);
   color: #fff;
   margin-bottom: 0;
-  max-width: 100px;
+  max-width: 150px;
   line-height: 20px;
 }
 .hiw-box.hiw-divider {

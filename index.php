@@ -29,15 +29,15 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/spop.min.css">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css?version=3.3">
-    <link rel="stylesheet" href="assets/css/responsive.css?version=3.3">
+    <link rel="stylesheet" href="assets/css/style.css?version=<?=time()?>">
+    <link rel="stylesheet" href="assets/css/responsive.css?version=<?=time()?>">
     <!-- Map CSS -->
-    <link rel="stylesheet" href="assets/css/map.css?version=3.3">
+    <link rel="stylesheet" href="assets/css/map.css?version=<?=time()?>">
     <!-- Team CSS -->
-    <link rel="stylesheet" href="assets/css/team.css?version=3.3">
+    <link rel="stylesheet" href="assets/css/team.css?version=<?=time()?>">
     <!-- MigrantCoin CSS -->
-    <link rel="stylesheet" href="assets/css/migrantcoin.css?version=3.3">
-    <link rel="stylesheet" href="assets/color/migrantcoin.css?version=3.3">
+    <link rel="stylesheet" href="assets/css/migrantcoin.css?version=<?=time()?>">
+    <link rel="stylesheet" href="assets/color/migrantcoin.css?version=<?=time()?>">
     <link rel="stylesheet" href="assets/player/mediaelementplayer.min.css">
 </head>
 
@@ -263,24 +263,28 @@
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <div class="hiw-box d-flex justify-content-center">
                         <?php echo file_get_contents("assets/svgs/face-scanner.svg"); ?>
+                        <span>Authentication</span>
                     </div>
                     <div class="hiw-box hiw-divider">
                         <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                     </div>
                     <div class="hiw-box d-flex justify-content-center">
                         <?php echo file_get_contents("assets/svgs/ic_add_money.svg"); ?>
+                        <span>Add money or cryptocurrency</span>
                     </div>
                     <div class="hiw-box hiw-divider">
                         <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                     </div>
                     <div class="hiw-box d-flex justify-content-center">
                         <?php echo file_get_contents("assets/svgs/ic_MIgrantCoin.svg"); ?>
+                        <span>Pay transfer free with migrantcoin</span>
                     </div>
                     <div class="hiw-box hiw-divider">
                         <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                     </div>
-                    <div class="hiw-box">
+                    <div class="hiw-box d-flex justify-content-center">
                         <?php echo file_get_contents("assets/svgs/ic_processing.svg"); ?>
+                        <span>Processing</span>
                     </div>
                     <div class="d-flex flex-column">
                         <div class="d-flex flex-row">
@@ -298,11 +302,13 @@
                         <div class="d-flex flex-row align-items-center" style="margin-bottom: 40px;">
                             <div class="hiw-box d-flex justify-content-center">
                                 <?php echo file_get_contents("assets/svgs/ic_delivery.svg"); ?>
+                                <span>Delivering to door step</span>
                             </div>
                         </div>
                         <div class="d-flex flex-row align-items-center" style="margin-top: 40px;">
                             <div class="hiw-box d-flex justify-content-center">
                                 <?php echo file_get_contents("assets/svgs/ic_cash_up.svg"); ?>
+                                <span>Cash up from paypoints or bank</span>
                             </div>
                         </div>
                     </div>
@@ -320,6 +326,7 @@
                     </div>
                     <div class="hiw-box d-flex justify-content-center">
                         <?php echo file_get_contents("assets/svgs/ic_validation.svg"); ?>
+                        <span>Validation based on digipass</span>
                     </div>
                 </div>
             </div>
