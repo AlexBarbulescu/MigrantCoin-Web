@@ -262,64 +262,64 @@
             <div class="row">
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <div class="hiw-box d-flex justify-content-center">
-                        <?php include("assets/svgs/face-scanner.svg"); ?>
+                        <?php echo file_get_contents("assets/svgs/face-scanner.svg"); ?>
                     </div>
                     <div class="hiw-box hiw-divider">
-                        <?php include("assets/svgs/ic_divider.svg"); ?>
+                        <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                     </div>
                     <div class="hiw-box d-flex justify-content-center">
-                        <?php include("assets/svgs/ic_add_money.svg"); ?>
+                        <?php echo file_get_contents("assets/svgs/ic_add_money.svg"); ?>
                     </div>
                     <div class="hiw-box hiw-divider">
-                        <?php include("assets/svgs/ic_divider.svg"); ?>
+                        <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                     </div>
                     <div class="hiw-box d-flex justify-content-center">
-                        <?php include("assets/svgs/ic_MIgrantCoin.svg"); ?>
+                        <?php echo file_get_contents("assets/svgs/ic_MIgrantCoin.svg"); ?>
                     </div>
                     <div class="hiw-box hiw-divider">
-                        <?php include("assets/svgs/ic_divider.svg"); ?>
+                        <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                     </div>
                     <div class="hiw-box">
-                        <?php include("assets/svgs/ic_processing.svg"); ?>
+                        <?php echo file_get_contents("assets/svgs/ic_processing.svg"); ?>
                     </div>
                     <div class="d-flex flex-column">
                         <div class="d-flex flex-row">
                             <div class="hiw-box hiw-divider rotate-m20" style="margin-bottom: 20px;">
-                                <?php include("assets/svgs/ic_divider.svg"); ?>
+                                <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                             </div>
                         </div>
                         <div class="d-flex flex-row">
                             <div class="hiw-box hiw-divider rotate-20" style="margin-top: 20px;">
-                                <?php include("assets/svgs/ic_divider.svg"); ?>
+                                <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column justify-content-center">
                         <div class="d-flex flex-row align-items-center" style="margin-bottom: 40px;">
                             <div class="hiw-box d-flex justify-content-center">
-                                <?php include("assets/svgs/ic_delivery.svg"); ?>
+                                <?php echo file_get_contents("assets/svgs/ic_delivery.svg"); ?>
                             </div>
                         </div>
                         <div class="d-flex flex-row align-items-center" style="margin-top: 40px;">
                             <div class="hiw-box d-flex justify-content-center">
-                                <?php include("assets/svgs/ic_cash_up.svg"); ?>
+                                <?php echo file_get_contents("assets/svgs/ic_cash_up.svg"); ?>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
                         <div class="d-flex flex-row">
                             <div class="hiw-box hiw-divider rotate-20" style="margin-bottom: 20px;">
-                                <?php include("assets/svgs/ic_divider.svg"); ?>
+                                <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                             </div>
                         </div>
                         <div class="d-flex flex-row">
                             <div class="hiw-box hiw-divider rotate-m20" style="margin-top: 20px;">
-                                <?php include("assets/svgs/ic_divider.svg"); ?>
+                                <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                             </div>
                         </div>
                     </div>
                     <div class="hiw-box d-flex justify-content-center">
-                        <?php include("assets/svgs/ic_validation.svg"); ?>
+                        <?php echo file_get_contents("assets/svgs/ic_validation.svg"); ?>
                     </div>
                 </div>
             </div>
