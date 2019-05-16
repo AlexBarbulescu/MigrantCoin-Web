@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta -->
     <meta charset="utf-8">
@@ -10,7 +9,7 @@
     <!-- SITE TITLE -->
     <title>MigrantCoin</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png<?=time()?>">
     <!-- Animation CSS -->
     <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Latest Bootstrap min CSS -->
@@ -738,7 +737,7 @@
             </div>
             <div class="row small_space justify-content-center">
                 <div class="row no-gutters">
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1s">
                         <div class="team-item">
                             <div class="info-top">
                                 <div class="name">
@@ -775,7 +774,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.1s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.1s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/2.png" alt="">
@@ -815,7 +814,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.2s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.2s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/3.png" alt="">
@@ -857,7 +856,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.3s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.3s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/4.png" alt="">
@@ -894,7 +893,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.4s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.4s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/5.png" alt="">
@@ -934,7 +933,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.5s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.5s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/6.png" alt="">
@@ -971,7 +970,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.6s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.6s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/7.png" alt="">
@@ -1008,7 +1007,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.7s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.7s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/8.png" alt="">
@@ -1254,7 +1253,6 @@
     <script src="assets/js/chart_script.js"></script>
     <!-- scripts js -->
     <script src="assets/player/mediaelement-and-player.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/scripts.js<?=time()?>"></script>
 </body>
-
 </html>
