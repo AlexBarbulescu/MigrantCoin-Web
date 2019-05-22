@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta -->
     <meta charset="utf-8">
@@ -9,7 +10,7 @@
     <!-- SITE TITLE -->
     <title>MigrantCoin</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png<?=time()?>">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png?version=2>
     <!-- Animation CSS -->
     <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Latest Bootstrap min CSS -->
@@ -28,15 +29,15 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/spop.min.css">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css?version=<?=time()?>">
-    <link rel="stylesheet" href="assets/css/responsive.css?version=<?=time()?>">
+    <link rel="stylesheet" href="assets/css/style.css?version=3.31">
+    <link rel="stylesheet" href="assets/css/responsive.css?version=3.31">
     <!-- Map CSS -->
-    <link rel="stylesheet" href="assets/css/map.css?version=<?=time()?>">
+    <link rel="stylesheet" href="assets/css/map.css?version=3.31">
     <!-- Team CSS -->
-    <link rel="stylesheet" href="assets/css/team.css?version=<?=time()?>">
+    <link rel="stylesheet" href="assets/css/team.css?version=3.31">
     <!-- MigrantCoin CSS -->
-    <link rel="stylesheet" href="assets/css/migrantcoin.css?version=<?=time()?>">
-    <link rel="stylesheet" href="assets/color/migrantcoin.css?version=<?=time()?>">
+    <link rel="stylesheet" href="assets/css/migrantcoin.css?version=3.31">
+    <link rel="stylesheet" href="assets/color/migrantcoin.css?version=3.31">
     <link rel="stylesheet" href="assets/player/mediaelementplayer.min.css">
 </head>
 
@@ -262,28 +263,24 @@
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <div class="hiw-box d-flex justify-content-center">
                         <?php echo file_get_contents("assets/svgs/face-scanner.svg"); ?>
-                        <span>Authentication</span>
                     </div>
                     <div class="hiw-box hiw-divider">
                         <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                     </div>
                     <div class="hiw-box d-flex justify-content-center">
                         <?php echo file_get_contents("assets/svgs/ic_add_money.svg"); ?>
-                        <span>Add money or cryptocurrency</span>
                     </div>
                     <div class="hiw-box hiw-divider">
                         <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                     </div>
                     <div class="hiw-box d-flex justify-content-center">
                         <?php echo file_get_contents("assets/svgs/ic_MIgrantCoin.svg"); ?>
-                        <span>Pay transfer free with migrantcoin</span>
                     </div>
                     <div class="hiw-box hiw-divider">
                         <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
                     </div>
-                    <div class="hiw-box d-flex justify-content-center">
+                    <div class="hiw-box">
                         <?php echo file_get_contents("assets/svgs/ic_processing.svg"); ?>
-                        <span>Processing</span>
                     </div>
                     <div class="d-flex flex-column">
                         <div class="d-flex flex-row">
@@ -301,13 +298,11 @@
                         <div class="d-flex flex-row align-items-center" style="margin-bottom: 40px;">
                             <div class="hiw-box d-flex justify-content-center">
                                 <?php echo file_get_contents("assets/svgs/ic_delivery.svg"); ?>
-                                <span>Delivering to door step</span>
                             </div>
                         </div>
                         <div class="d-flex flex-row align-items-center" style="margin-top: 40px;">
                             <div class="hiw-box d-flex justify-content-center">
                                 <?php echo file_get_contents("assets/svgs/ic_cash_up.svg"); ?>
-                                <span>Cash up from paypoints or bank</span>
                             </div>
                         </div>
                     </div>
@@ -325,7 +320,6 @@
                     </div>
                     <div class="hiw-box d-flex justify-content-center">
                         <?php echo file_get_contents("assets/svgs/ic_validation.svg"); ?>
-                        <span>Validation based on digipass</span>
                     </div>
                 </div>
             </div>
@@ -737,126 +731,94 @@
             </div>
             <div class="row small_space justify-content-center">
                 <div class="row no-gutters">
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1s">
                         <div class="team-item">
                             <div class="info-top">
                                 <div class="name">
-                                    Marko Veber
+                                    Abel Dragomir
                                 </div>
                                 <div class="job">
-                                    CEO
+                                    Community Manager
                                 </div>
                             </div>
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/1.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/01.png" alt="">
                             <div class="info-bottom">
                                 <div class="name">
-                                    Marko Veber
+                                    Abel Dragomir
                                 </div>
                                 <div class="job">
-                                    CEO
+                                    Community Manager
                                 </div>
-                                <p>Project Manager. Business Analyst, Blockchain Enthusiast. Over 8 years in IT. Main competence is development and implementation of international management systems.</p>
+                                <p>Insert text here.</p>
                                 <div class="social">
-                                    <a href="">
+                                    <a href="https://www.linkedin.com/in/abeldragomir/">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <title>LinkedIn icon</title>
                                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>Facebook icon</title>
-                                            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path>
                                         </svg>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.1s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.1s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/2.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/02.png" alt="">
                             <div class="info-top">
                                 <div class="name">
-                                    Ethan Mason
+                                    Krall Mazilu Ion
                                 </div>
                                 <div class="job">
-                                    CTO
+                                    Legal Adviser
                                 </div>
                             </div>
                             <div class="info-bottom">
                                 <div class="name">
-                                    Ethan Mason
+                                    Krall Mazilu Ion
                                 </div>
                                 <div class="job">
-                                    CTO
+                                    Legal Adviser
                                 </div>
-                                <p>Technical leader over 8 years.
-                                    White hat hacker (smart contract
-                                    bounties, webapps). Researching applications of cryptography &amp; computation integrity.
-                                </p>
+                                <p>Insert text here</p>
                                 <div class="social">
-                                    <a href="">
+                                    <a href="https://www.linkedin.com/in/ion-mazilu-krall-51291972">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <title>LinkedIn icon</title>
                                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>Facebook icon</title>
-                                            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path>
                                         </svg>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.2s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.2s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/3.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/03.png" alt="">
                             <div class="info-top">
                                 <div class="name">
-                                    Claire Warner
+                                    Alex Barbulescu
                                 </div>
                                 <div class="job">
-                                    Financial Consultant
+                                    Graphic Designer
                                 </div>
                             </div>
                             <div class="info-bottom">
                                 <div class="name">
-                                    Claire Warner
+                                    Alex Barbulescu
                                 </div>
                                 <div class="job">
-                                    Financial Consultant
+                                    Graphic Designer
                                 </div>
-                                <p>Claire is our leading employee in
-                                    the field of financial advice. This
-                                    field has been working for 5 years,
-                                    but it has already achieved
-                                    excellent results.
-                                </p>
+                                <p>Insert text here</p>
                                 <div class="social">
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>Facebook icon</title>
-                                            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path>
-                                        </svg>
-                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.3s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.3s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/4.png" alt="">
@@ -893,7 +855,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.4s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.4s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/5.png" alt="">
@@ -933,7 +895,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.5s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.5s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/6.png" alt="">
@@ -970,7 +932,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.6s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.6s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/7.png" alt="">
@@ -1007,7 +969,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="flipInX" data-animation-delay="1.7s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.7s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/8.png" alt="">
@@ -1253,6 +1215,6 @@
     <script src="assets/js/chart_script.js"></script>
     <!-- scripts js -->
     <script src="assets/player/mediaelement-and-player.min.js"></script>
-    <script src="assets/js/scripts.js<?=time()?>"></script>
+    <script src="assets/js/scripts.js?version=2"></script>
 </body>
 </html>
