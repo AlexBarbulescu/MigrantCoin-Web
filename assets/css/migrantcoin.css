@@ -140,6 +140,15 @@ h6 span {
     margin:auto;
 }
 
+.sedr_big{
+  visibility: visible;
+}
+
+.sedr_small{
+  visibility: hidden;
+  width: 0%;
+  height: 0%;
+}
 
 @media screen and (max-width:991px) {
   .banner_image_right{
@@ -164,7 +173,18 @@ h6 span {
     padding-bottom: 50px;
     padding-left: 0px;
   }
+  .sedr_big{
+    visibility: hidden;
+    display: none;
+    width: 0;
+    height: 0;
+  }
 
+  .sedr_small{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width:576px) {
@@ -178,5 +198,16 @@ h6 span {
     padding-bottom: 50px;
     padding-left: 0px;
   }
+  .sedr_big{
+    visibility: hidden;
+    display: none;
+    width: 0;
+    height: 0;
+  }
 
+  .sedr_small{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+  }
 }

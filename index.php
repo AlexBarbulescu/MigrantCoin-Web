@@ -191,7 +191,11 @@
                     <div class="title_blue_dark title_border text-center">
                         <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">How It works</h4>
                     </div>
-                    <img class="animation" data-animation="fadeInUp" data-animation-delay="1s" src="assets/images/SEDR04.png">
+
+                    <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
+	                    <img class="sedr_big" src="assets/images/SEDR01.png">
+	                    <img class="sedr_small" src="assets/images/SEDR02.png">
+                	</p>
 
                     <div class="title_blue_dark title_border text-center"><br>
                         <span class="font-weight-bold">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</span><br>
