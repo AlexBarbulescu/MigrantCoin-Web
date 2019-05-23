@@ -115,13 +115,12 @@ h6 span {
 .hiw-box.rotate-m20 svg {
   transform: rotate(-20deg);
 }
-.hiw-box span {
-  display: block;
+.hiw-box p {
   position: absolute;
-  top: calc(100% + 10px);
+  bottom: -100%;
   color: #fff;
   margin-bottom: 0;
-  max-width: 150px;
+  max-width: 100px;
   line-height: 20px;
 }
 .hiw-box.hiw-divider {
@@ -135,6 +134,12 @@ h6 span {
 .logo_light{
   width: 300px;
 }
+
+.col-12 img {
+    display:block;
+    margin:auto;
+}
+
 
 @media screen and (max-width:991px) {
   .banner_image_right{

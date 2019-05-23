@@ -68,13 +68,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.1s">
-                            <a class="nav-link page-scroll nav_item active" href="#home_section">Home</a>
+                            <a class="nav-link page-scroll nav_item" href="#home_section">Home</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.2s">
-                            <a class="nav-link page-scroll nav_item" href="#vision">Vision</a>
+                            <a class="nav-link page-scroll nav_item" href="#how-it-works">How it works</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.3s">
-                            <a class="nav-link page-scroll nav_item" href="#how-it-works">How it works</a>
+                            <a class="nav-link page-scroll nav_item" href="#vision">Vision</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.4s">
                             <a class="nav-link page-scroll nav_item" href="#token">Token</a>
@@ -182,20 +182,45 @@
         <div class="angle_bottom"></div>
     </section>
     <!-- END TOP -->
-    <!-- VISION -->
-    <section id="vision" class="white_lr">
+
+    <!-- START HOW IT WORKS -->
+    <section id="how-it-works" class="white_ce">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Vision</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Spending money is easy, sending them should be the same</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another. As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise. MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p>
+                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">How It works</h4>
+                    </div>
+                    <img class="animation" data-animation="fadeInUp" data-animation-delay="1s" src="assets/images/SEDR04.png">
+
+                    <div class="title_blue_dark title_border text-center"><br>
+                        <span class="font-weight-bold">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</span><br>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
+                            By using blockchain and the Stellar platform, remittances take a few minutes to reach their destination.<br>
+                            The user only needs to sign in, deposit the amount he or she wants to send and choose the way to deliver it.<br>
+                            The sender may opt for a bank account transfer or for a paypoint via which the money can reach the beneficiary.<br><br>
+
+                            It takes a few simple steps:<br>
+                                1. Download the MigrantCoin app.<br>
+                                2. Sign up to create an account.<br>
+                                3. Choose between a paypoint and a bank account (sender’s discretion) to purchase MGC.<br>
+                                4. Send the money.<br><br>
+
+                            MigrantCoin will then process quickly the transaction and deliver the money to the beneficiary in person, by courier.<br>
+                            The beneficiary will acknowledge the receipt of the money with an electronic signature.<br>
+                            Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.</p>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- END HOW IT WORKS -->
+
+
+
+
+    <!-- START MAP -->
     <section class="section_token blue_lr">
         <div class="angle_top"></div>
         <div class="divider large_divider"></div>
@@ -236,11 +261,19 @@
             </div>
         </div>
     </section>
-    <section class="white_lr">
+    <!-- END MAP -->
+
+
+
+    <!-- VISION -->
+     <section id="vision" class="white_ce">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="title_blue_dark title_border text-center">
+                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Vision</h4>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Spending money is easy, sending them should be the same</p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another. As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise. MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p>
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">In other words, we aim for a revolution. In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now. (Im)migrants do just that: they strive for improvement and hope and dream for a more serene future. We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it. This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it. This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
                     </div>
@@ -249,85 +282,9 @@
         </div>
     </section>
     <!-- END VISION -->
-    <!-- HOW IT WORKS -->
-    <section id="how-it-works" class="blue_lr">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12">
-                    <div class="title_default_light title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">How it works</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 d-flex align-items-center justify-content-center">
-                    <div class="hiw-box d-flex justify-content-center">
-                        <?php echo file_get_contents("assets/svgs/face-scanner.svg"); ?>
-                    </div>
-                    <div class="hiw-box hiw-divider">
-                        <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
-                    </div>
-                    <div class="hiw-box d-flex justify-content-center">
-                        <?php echo file_get_contents("assets/svgs/ic_add_money.svg"); ?>
-                    </div>
-                    <div class="hiw-box hiw-divider">
-                        <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
-                    </div>
-                    <div class="hiw-box d-flex justify-content-center">
-                        <?php echo file_get_contents("assets/svgs/ic_MIgrantCoin.svg"); ?>
-                    </div>
-                    <div class="hiw-box hiw-divider">
-                        <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
-                    </div>
-                    <div class="hiw-box">
-                        <?php echo file_get_contents("assets/svgs/ic_processing.svg"); ?>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <div class="d-flex flex-row">
-                            <div class="hiw-box hiw-divider rotate-m20" style="margin-bottom: 20px;">
-                                <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <div class="hiw-box hiw-divider rotate-20" style="margin-top: 20px;">
-                                <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column justify-content-center">
-                        <div class="d-flex flex-row align-items-center" style="margin-bottom: 40px;">
-                            <div class="hiw-box d-flex justify-content-center">
-                                <?php echo file_get_contents("assets/svgs/ic_delivery.svg"); ?>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row align-items-center" style="margin-top: 40px;">
-                            <div class="hiw-box d-flex justify-content-center">
-                                <?php echo file_get_contents("assets/svgs/ic_cash_up.svg"); ?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <div class="d-flex flex-row">
-                            <div class="hiw-box hiw-divider rotate-20" style="margin-bottom: 20px;">
-                                <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <div class="hiw-box hiw-divider rotate-m20" style="margin-top: 20px;">
-                                <?php echo file_get_contents("assets/svgs/ic_divider.svg"); ?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hiw-box d-flex justify-content-center">
-                        <?php echo file_get_contents("assets/svgs/ic_validation.svg"); ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END HOW IT WORKS -->
+
     <!-- TOKEN -->
-    <section id="token" class="white_rl">
+    <section id="token" class="white_ce">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">

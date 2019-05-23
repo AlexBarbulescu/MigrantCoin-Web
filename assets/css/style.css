@@ -302,6 +302,12 @@ button:focus {
 	overflow: hidden;
 }
 
+.white_ce{
+	background-color: -webkit-linear-gradient(135deg, #5292e6 0%, #4965e1 100%);
+	background-color: linear-gradient(315deg, #5292e6 0%, #4965e1 100%);
+	overflow: hidden;
+}
+
 .blue_light_bg,
 .v_blue_pro {
 	background-color: #5957cd;
@@ -1092,10 +1098,11 @@ to {
 	background-color: #052d85;
 }
 .bg_light .angle_top {
-	border-top-color: #FBFBFC;
+	/*border-top-color: #FBFBFC;*/
+	border-top-color: #F7FAFC;
 }
 .bg_light .angle_bottom {
-	border-bottom-color: #FBFBFC;
+	border-bottom-color: #F7FAFC;
 }
 .v_light_purple .btn-border.btn-white-bg {
 	color: #280e3b;
@@ -1195,7 +1202,7 @@ header a:hover,
     margin: 15px 0;
 }
 .navbar-expand-lg .navbar-nav > li > .nav-link.active:before {
-	background-color: #ff69c9;
+/*	background-color: #ff69c9;
 	bottom: 10px;
 	content: "";
 	height: 1px;
@@ -1203,8 +1210,34 @@ header a:hover,
 	position: absolute;
 	right: 0;
 	width: 100%;
-	
+	*/
 }
+
+.navbar-expand-lg .navbar-nav > li > .nav-link:hover {
+	color: #FFFFFF;
+}
+
+.navbar-expand-lg .navbar-nav > li > .nav-link:before {
+	  content: "";
+	  position: absolute;
+	  width: 100%;
+	  height: 2px;
+	  bottom: 10px;
+	  left: 0;
+	  background-color: #FFFFFF;
+	  visibility: hidden;
+	  -webkit-transform: scaleX(0);
+	  transform: scaleX(0);
+	  -webkit-transition: all 0.2s ease-in-out 0s;
+	  transition: all 0.2s ease-in-out 0s;
+}
+
+.navbar-expand-lg .navbar-nav > li > .nav-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 .navbar-expand-lg .nav_btn > li {
 	margin-left: 15px;
 	padding: 0;
