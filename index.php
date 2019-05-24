@@ -197,21 +197,21 @@
                         <img class="sedr_small" src="assets/images/SEDR02.png">
                     </p>
 
-                    <div class="title_blue_dark title_border text-center"><br>
-                        <span class="font-weight-bold">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</span><br>
+                    <div class="title_blue_dark title_border text-center"><br/>
+                        <span class="font-weight-bold">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</span><br/>
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
-                            By using blockchain and the Stellar platform, remittances take a few minutes to reach their destination.<br>
-                            The user only needs to sign in, deposit the amount he or she wants to send and choose the way to deliver it.<br>
-                            The sender may opt for a bank account transfer or for a paypoint via which the money can reach the beneficiary.<br><br>
+                            By using blockchain and the Stellar platform, remittances take a few minutes to reach their destination.<br/>
+                            The user only needs to sign in, deposit the amount he or she wants to send and choose the way to deliver it.<br/>
+                            The sender may opt for a bank account transfer or for a paypoint via which the money can reach the beneficiary.<br/><br/>
 
-                            It takes a few simple steps:<br>
-                                1. Download the MigrantCoin app.<br>
-                                2. Sign up to create an account.<br>
-                                3. Choose between a paypoint and a bank account (sender’s discretion) to purchase MGC.<br>
-                                4. Send the money.<br><br>
+                            It takes a few simple steps:<br/>
+                                1. Download the MigrantCoin app.<br/>
+                                2. Sign up to create an account.<br/>
+                                3. Choose between a paypoint and a bank account (sender’s discretion) to purchase MGC.<br/>
+                                4. Send the money.<br/><br/>
 
-                            MigrantCoin will then process quickly the transaction and deliver the money to the beneficiary in person, by courier.<br>
-                            The beneficiary will acknowledge the receipt of the money with an electronic signature.<br>
+                            MigrantCoin will then process quickly the transaction and deliver the money to the beneficiary in person, by courier.<br/>
+                            The beneficiary will acknowledge the receipt of the money with an electronic signature.<br/>
                             Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.</p>
                         </p>
                     </div>
@@ -277,9 +277,16 @@
                     <div class="title_blue_dark title_border text-center">
                         <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Vision</h4>
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Spending money is easy, sending them should be the same</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another. As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise. MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">In other words, we aim for a revolution. In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now. (Im)migrants do just that: they strive for improvement and hope and dream for a more serene future. We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it. This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it. This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another.<br/>
+                        As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise.<br/>
+                        MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">In other words, we aim for a revolution.<br/>
+                        In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now.<br/>
+                        (Im)migrants do just that: they strive for improvement and hope and dream for a more serene future.<br/>
+                        We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.<br/>
+                        This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.<br/>
+                        This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
                     </div>
                 </div>
             </div>
@@ -424,7 +431,7 @@
                                     <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2019</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Token creation<br />
+                                        Token creation<br/>
                                         Sales
                                     </p>
                                 </div>
@@ -481,7 +488,7 @@
                                     <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2020</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Beta version of the platform released<br />
+                                        Beta version of the platform released<br/>
                                         Testing beta version
                                     </p>
                                 </div>
@@ -524,9 +531,9 @@
                                     <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1 2021</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Compliance implementation<br />
-                                        Infrastructure setup<br />
-                                        Security implementation<br />
+                                        Compliance implementation<br/>
+                                        Infrastructure setup<br/>
+                                        Security implementation<br/>
                                         Security enforcement: penetration test by independent specialists
                                     </p>
                                 </div>
@@ -541,7 +548,7 @@
                                     <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2021</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Money transfer licence UK - (6-12 months)<br />
+                                        Money transfer licence UK - (6-12 months)<br/>
                                         Public support – Call Center
                                     </p>
                                 </div>
@@ -560,7 +567,7 @@
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_dark title_border text-center">
                         <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Mission</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Perspiciatis unde omnis iste natus error sit.</p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">To allow immigrants who want to send money to a recipient in their country of origin through blockchain.</p>
                     </div>
                 </div>
             </div>
@@ -614,7 +621,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value2" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-heart"></i>
-                        <span class="btn_text">We value<br />people</span>
+                        <span class="btn_text">We value<br/>people</span>
                     </button>
                     <div id="value2" class="collapse btn_collapse">
                         <span class="btn_textsmall">Our concept is being developed for migrants and those at home alike. We believe that our appreciation of the people will draw, in time, their appreciation of our efforts. Without people, there would be no point to our struggle.</span>
@@ -632,7 +639,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value4" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-eye"></i>
-                        <span class="btn_text">We love<br />transparency</span>
+                        <span class="btn_text">We love<br/>transparency</span>
                     </button>
                     <div id="value4" class="collapse btn_collapse">
                         <span class="btn_textsmall">We believe that transparency in relation to the investors and to our community is very important. We propose that all the amounts of money gathered in the ICO should be justified and we shall do our best to fulfill our commitments.</span>
@@ -681,7 +688,7 @@
     <!-- START SECTION TEAM -->
     <section class="about_shape_bg">
         <div class="angle_top"></div>
-        <br id="team"><br><br>
+        <br id="team"><br/><br/>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
@@ -980,7 +987,7 @@
                 </div>
             </div>
         </div>
-        <br><br><br>
+        <br/><br/><br/>
         <div class="angle_bottom"></div>
     </section>
     <!-- END SECTION TEAM -->
@@ -1013,9 +1020,9 @@
                                         <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Why is the Migrantcoin project unique?</a> </h6>
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
-                                        <div class="card-body">- The transactions are reversible.<br />
-                                            - The guarantee of the amount in the case where the transaction is reversible.<br />
-                                            - The money which is sent reaches directly the recipient’s address.<br />
+                                        <div class="card-body">- The transactions are reversible.<br/>
+                                            - The guarantee of the amount in the case where the transaction is reversible.<br/>
+                                            - The money which is sent reaches directly the recipient’s address.<br/>
                                             - The lowest taxes on the market OR We offer some of the lowest taxes on the market.</div>
                                     </div>
                                 </div>
@@ -1024,9 +1031,9 @@
                                         <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What are the benefits of Migrantcoin for customers?</a> </h6>
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
-                                        <div class="card-body">- They can send money with just a few clicks.<br />
-                                            - Money which is sent reaches the receiver’s door.<br />
-                                            - The money transfer is a matter of seconds.<br />
+                                        <div class="card-body">- They can send money with just a few clicks.<br/>
+                                            - Money which is sent reaches the receiver’s door.<br/>
+                                            - The money transfer is a matter of seconds.<br/>
                                             - Bonuses for those who achieve a specific amount/value of the transactions.</div>
                                     </div>
                                 </div>
@@ -1047,8 +1054,8 @@
                                         <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What problems does Migrantcoin seek to solve?</a> </h6>
                                     </div>
                                     <div id="collapseFive" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
-                                        <div class="card-body">- The high taxes applied in the case of international money transfers.<br />
-                                            - It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.<br />
+                                        <div class="card-body">- The high taxes applied in the case of international money transfers.<br/>
+                                            - It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.<br/>
                                             - It will save a lot of time for customers, both for sender and receiver.</div>
                                     </div>
                                 </div>
@@ -1057,7 +1064,7 @@
                                         <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">How will Migrantcoin benefit holders?</a> </h6>
                                     </div>
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
-                                        <div class="card-body">- We will offer a quarterly or annual bonus for staking.<br />
+                                        <div class="card-body">- We will offer a quarterly or annual bonus for staking.<br/>
                                             - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.</div>
                                     </div>
                                 </div>
@@ -1098,9 +1105,9 @@
                         </div>
                         <div class="footer_desc">
                             <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                Migrantcoin Ltd<br />
-                                2 Institute Road Aldershot, Institute Road, Aldershot, GU12 4DA, United Kingdom<br />
-                                <br />
+                                Migrantcoin Ltd<br/>
+                                2 Institute Road Aldershot, Institute Road, Aldershot, GU12 4DA, United Kingdom<br/>
+                                <br/>
                                 <a href="#">contact@migrantcoin.com</a>
                             </p>
                         </div>
