@@ -9,7 +9,7 @@ type: 'doughnut',
 data: {
  
  datasets: [{
-  data: [13.97, 6.12, 12.2, 7.12, 10.59],
+  data: [10, 5, 15, 5, 65],
   backgroundColor: ['#f69040','#78c596','#f17776','#0eadc9','#5b5da8'],
   borderColor: [
    'rgba(255,255,255,0.5)',
@@ -22,11 +22,11 @@ data: {
   label: 'Dataset 1'
  }],
  labels: [
-  'Marketing & General',
-  'Team & Advisors',
-  'Pre-ICO Tokens',
-  'Platform Integration',
-  'Mobile Ad Platform'
+  'Founder & Team',
+  'Advisors',
+  'Marketing',
+  'Partnership',
+  'Crowdsale'
  ]
 },
 options: {
@@ -36,7 +36,7 @@ options: {
  },
  title: {
    display: false,
-   text: 'Chart.js Doughnut Chart'
+   text: ''
  },
  pieceLabel: {
   render: 'percentage',
@@ -58,8 +58,8 @@ type: 'doughnut',
 data: {
  
  datasets: [{
-  data: [7.23, 10.845, 13.855, 9.64, 8.43],
-  backgroundColor: ['#f17776','#0eadc9','#5b5da8','#f69040','#78c596'],
+  data: [40, 20, 35, 2, 3],
+  backgroundColor: ['#f69040','#78c596','#f17776','#0eadc9','#5b5da8'],
   borderColor: [
    'rgba(255,255,255,0.5)',
    'rgba(255,255,255,0.5)',
@@ -71,11 +71,11 @@ data: {
   label: 'Dataset 1'
  }],
  labels: [
-  'ICO Sale',
-  'Build Out',
-  'Team & Advisers',
-  'Private Investors',
-  'Bounty'
+  'R & D',
+  'Marketing',
+  'Ops',
+  'Legal',
+  'Licensing '
  ]
 },
 options: {
@@ -85,11 +85,11 @@ options: {
  },
  title: {
    display: false,
-   text: 'Chart.js Doughnut Chart'
+   text: ''
  },
  pieceLabel: {
   render: 'percentage',
-  fontColor: ['#f17776','#0eadc9','#5b5da8','#f69040','#78c596'],
+  fontColor: ['#f69040','#78c596','#f17776','#0eadc9','#5b5da8'],
   fontSize: 16,
   fontStyle: 'bold',
   position: 'outside',

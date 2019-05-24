@@ -300,7 +300,7 @@
             </div>
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-7 col-md-12">
-                    <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="0.6s">
+                    <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="1.5s">
                         <canvas id="token_sale"></canvas>
                         <div class="chart_icon">
                             <img src="assets/images/logo-chart.png" />
@@ -308,7 +308,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="0.6s">
+                    <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="1.5s">
                         <li>
                             <h6>Founder & Team <span>- 200.000.000</span></h6>
                             <div class="progress bg-orange">
@@ -354,7 +354,7 @@
             </div>
             <div class="row align-items-center justify-content-center flex-row-reverse">
                 <div class="col-lg-7 col-md-12">
-                    <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="0.6s">
+                    <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="1.5s">
                         <canvas id="token_dist"></canvas>
                         <div class="chart_icon">
                             <img src="assets/images/logo-chart.png" />
@@ -362,7 +362,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="0.6s">
+                    <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="1.5s">
                         <li>
                             <h6>R & D <span>- 4.231.966</span></h6>
                             <div class="progress bg-orange">
@@ -776,6 +776,12 @@
                                 </div>
                                 <p>Insert text here</p>
                                 <div class="social">
+                                    <a href="https://www.linkedin.com/in/ion-mazilu-krall-51291972">
+										<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+											<title>Twitter icon</title>
+											<path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/>
+										</svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1174,7 +1180,7 @@
     <!-- chart js  -->
     <script src="assets/js/Chart.bundle.js"></script>
     <script src="assets/js/Chart.PieceLabel.min.js"></script>
-    <script src="assets/js/chart_script.js"></script>
+    <script src="assets/js/chart_script.js?version=<?=time()?>"></script>
     <!-- scripts js -->
     <script src="assets/player/mediaelement-and-player.min.js"></script>
     <script src="assets/js/scripts.js?version=<?=time()?>"></script>
