@@ -12,6 +12,7 @@
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png?version=2>
     <!-- Animation CSS -->
+    
     <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Latest Bootstrap min CSS -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -29,15 +30,15 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/spop.min.css">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css?version=3.31">
-    <link rel="stylesheet" href="assets/css/responsive.css?version=3.31">
+    <link rel="stylesheet" href="assets/css/style.css?version=<?=time()?>">
+    <link rel="stylesheet" href="assets/css/responsive.css?version=<?=time()?>">
     <!-- Map CSS -->
-    <link rel="stylesheet" href="assets/css/map.css?version=3.31">
+    <link rel="stylesheet" href="assets/css/map.css?version=<?=time()?>">
     <!-- Team CSS -->
-    <link rel="stylesheet" href="assets/css/team.css?version=3.31">
+    <link rel="stylesheet" href="assets/css/team.css?version=<?=time()?>">
     <!-- MigrantCoin CSS -->
-    <link rel="stylesheet" href="assets/css/migrantcoin.css?version=3.31">
-    <link rel="stylesheet" href="assets/color/migrantcoin.css?version=3.31">
+    <link rel="stylesheet" href="assets/css/migrantcoin.css?version=<?=time()?>">
+    <link rel="stylesheet" href="assets/color/migrantcoin.css?version=<?=time()?>">
     <link rel="stylesheet" href="assets/player/mediaelementplayer.min.css">
 </head>
 
@@ -1176,6 +1177,6 @@
     <script src="assets/js/chart_script.js"></script>
     <!-- scripts js -->
     <script src="assets/player/mediaelement-and-player.min.js"></script>
-    <script src="assets/js/scripts.js?version=2"></script>
+    <script src="assets/js/scripts.js?version=<?=time()?>"></script>
 </body>
 </html>
