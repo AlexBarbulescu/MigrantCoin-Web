@@ -92,7 +92,8 @@ h6 span {
   top: auto !important;
 }
 #values i {
-  color: rgba(255, 255, 255, 0.3);
+  color: #FFA200;
+  /*color: rgba(255, 255, 255, 0.3);*/
 }
 #values button.box_wrap {
   display: block;

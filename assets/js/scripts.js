@@ -53,6 +53,18 @@ Version      : 1.7
 	    }
 
 	});
+
+	//detect if page is refreshed and scrolled in order for the fixed navbar to show
+	if (performance.navigation.type == 1 && window.scrollY >= 80) {
+		$('header').addClass('nav-fixed');
+	}
+
+	// if(window.scrollY >= 80){
+	// 	console.info( "page is scroll");
+	// }else{
+	// 	console.info( "page at top");
+	// }
+
 	
 	//Show Hide dropdown-menu Main navigation 
 	$( document ).ready( function () {
@@ -91,6 +103,7 @@ Version      : 1.7
 
     });
 	
+
 	//Main navigation Active Class Add Remove
 	$('.navbar-toggler').on('click', function() {
 		$("header").toggleClass("active");

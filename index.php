@@ -55,12 +55,11 @@
     </div>
     <!-- END LOADER -->
     <!-- START HEADER -->
-    <header class="header_wrap fixed-top">
+    <header id="header" class="header_wrap fixed-top">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand page-scroll animation" href="#home_section" data-animation="fadeInDown" data-animation-delay="0s">
                     <img class="logo_light" src="assets/images/logo-white.png" alt="logo" />
-                    <img class="logo_dark" src="assets/images_old/logo_dark.png" alt="logo" />
                 </a>
                 <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="0.1s">
                     <span class="ion-android-menu"></span>
@@ -597,6 +596,7 @@
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_light title_border text-center">
                         <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Values</h4>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">For more detail, click on each item.</p>
                     </div>
                 </div>
             </div>
