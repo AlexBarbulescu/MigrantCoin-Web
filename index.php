@@ -192,9 +192,9 @@
                     </div>
 
                     <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
-	                    <img class="sedr_big" src="assets/images/SEDR01.png">
-	                    <img class="sedr_small" src="assets/images/SEDR02.png">
-                	</p>
+                        <img class="sedr_big" src="assets/images/SEDR01.png">
+                        <img class="sedr_small" src="assets/images/SEDR02.png">
+                    </p>
 
                     <div class="title_blue_dark title_border text-center"><br>
                         <span class="font-weight-bold">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</span><br>
@@ -1050,7 +1050,7 @@
                                         <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">How will Migrantcoin benefit holders?</a> </h6>
                                     </div>
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
-                                        <div class="card-body">- We will offer a quarterly or annual interest for staking.<br />
+                                        <div class="card-body">- We will offer a quarterly or annual bonus for staking.<br />
                                             - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.</div>
                                     </div>
                                 </div>
