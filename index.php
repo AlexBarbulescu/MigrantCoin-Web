@@ -55,11 +55,27 @@
         <div class="loader-section section-right"></div>
     </div>
     <!-- END LOADER -->
+
+    <!-- START SOCIAL MEDIA BAR -->
+    <div class="sticky-container scrollup">
+        <ul class="sticky">
+            <li>
+                <img src="assets/images/telegram-circle.png" width="32" height="32">
+                <p><a href="https://t.me/migrantcoin" target="_blank">Join us on<br>Telegram</a></p>
+            </li>
+            <li>
+                <img src="assets/images/twitter-circle.png" width="32" height="32">
+                <p><a href="https://twitter.com/MigrantcoinO" target="_blank">Follow Us on<br>Twitter</a></p>
+            </li>
+        </ul>
+    </div>
+    <!-- END SOCIAL MEDIA BAR -->
+
     <!-- START HEADER -->
     <header id="header" class="header_wrap fixed-top">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand page-scroll animation" href="#home_section" data-animation="fadeInDown" data-animation-delay="0s">
+                <a class="navbar-brand page-scroll animation" href="#home_section" data-animation="fadeInDown" data-animation-delay="2s">
                     <img class="logo_light" src="assets/images/logo-white.png" alt="logo" />
                 </a>
                 <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="0.1s">
@@ -67,41 +83,44 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.1s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.1s">
                             <a class="nav-link page-scroll nav_item" href="#home_section">Home</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.2s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.2s">
                             <a class="nav-link page-scroll nav_item" href="#how-it-works">How it works</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.3s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.3s">
                             <a class="nav-link page-scroll nav_item" href="#vision">Vision</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.4s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.4s">
                             <a class="nav-link page-scroll nav_item" href="#token">Token</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.5s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.5s">
                             <a class="nav-link page-scroll nav_item" href="#roadmap">Roadmap</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.6s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.6s">
                             <a class="nav-link page-scroll nav_item" href="#mission">Mission</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.7s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.7s">
                             <a class="nav-link page-scroll nav_item" href="#values">Values</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.8s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.8s">
                             <a class="nav-link page-scroll nav_item" href="#team">Team</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.9s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.9s">
                             <a class="nav-link page-scroll nav_item" href="#faq">FAQ</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.10s">
-                            <a class="nav-link nav_icon nav_item" href="https://twitter.com/MigrantcoinO" target="_blank"><i class="fab fa-twitter"></i></a>
+
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.10s">&nbsp;</li>
+
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.11s">
+                            <a class="nav-icon nav_icon nav_item" href="https://t.me/migrantcoin" target="_blank"><i class="fab fa-telegram-plane"></i></a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.11s">
-                            <a class="nav-link nav_icon nav_item" href="https://medium.com/@Migrantcoin" target="_blank"><i class="fab fa-medium-m"></i></a>
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.12s">
+                            <a class="nav-icon nav_icon nav_item" href="https://medium.com/@Migrantcoin" target="_blank"><i class="fab fa-medium-m"></i></a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.12s">
-                            <a class="nav-link nav_icon nav_item" href="https://t.me/migrantcoin" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.13s">
+                            <a class="nav-icon nav_icon nav_item" href="https://twitter.com/MigrantcoinO" target="_blank"><i class="fab fa-twitter"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -179,7 +198,7 @@
                 </div>
             </div>
         </div>
-        <div class="angle_bottom"></div>
+        <!-- <div class="angle_bottom"></div> -->
     </section>
     <!-- END TOP -->
 
@@ -202,7 +221,7 @@
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
                             By using blockchain and the Stellar platform, remittances take a few minutes to reach their destination.<br/>
                             The user only needs to sign in, deposit the amount he or she wants to send and choose the way to deliver it.<br/>
-                            The sender may opt for a bank account transfer or for a paypoint via which the money can reach the beneficiary.<br/><br/>
+                            The sender may opt for a bank account transfer, delivery to the door or for a paypoint via which the money can reach the beneficiary.<br/><br/>
 
                             It takes a few simple steps:<br/>
                                 1. Download the MigrantCoin app.<br/>
@@ -277,15 +296,15 @@
                     <div class="title_blue_dark title_border text-center">
                         <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Vision</h4>
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Spending money is easy, sending them should be the same</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another.<br/>
-                        As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise.<br/>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another.
+                        As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise.
                         MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p>
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">In other words, we aim for a revolution.<br/>
-                        In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now.<br/>
-                        (Im)migrants do just that: they strive for improvement and hope and dream for a more serene future.<br/>
-                        We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.<br/>
+                        In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now.
+                        (Im)migrants do just that: they strive for improvement and hope and dream for a more serene future.
+                        We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.
                         This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.<br/>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.
                         This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
                     </div>
                 </div>
@@ -335,7 +354,7 @@
                             </div>
                         </li>
                         <li>
-                            <h6>Partnership <span>- 100.000.000</span></h6>
+                            <h6>Partnerships <span>- 100.000.000</span></h6>
                             <div class="progress bg-blue">
                                 <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
                             </div>
@@ -550,6 +569,21 @@
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Money transfer licence UK - (6-12 months)<br/>
                                         Public support – Call Center
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="roadmap_box">
+                                <div class="roadmap_inner">
+                                    <div class="icon_roadmap">
+                                        <i class="fas animation" data-animation="fadeInDown" data-animation-delay="0.20s"></i>
+                                    </div>
+                                    <div class="roadmap_icon"></div>
+                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">2021</h6>
+                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                                        Extend to other Countries,<br/>
+                                        beside the initial 6 initially planned.
                                     </p>
                                 </div>
                             </div>
@@ -784,10 +818,10 @@
                                 <p>Insert text here</p>
                                 <div class="social">
                                     <a href="https://www.linkedin.com/in/ion-mazilu-krall-51291972">
-										<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-											<title>Twitter icon</title>
-											<path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/>
-										</svg>
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>Twitter icon</title>
+                                            <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/>
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
