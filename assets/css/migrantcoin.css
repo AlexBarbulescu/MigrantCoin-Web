@@ -216,6 +216,9 @@ h6 span {
   display: none;
 }
 
+.text_md_center{
+  text-align: center;
+}
 
 @media screen and (max-width:991px) {
   .banner_image_right{
