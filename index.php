@@ -43,16 +43,16 @@
 </head>
 
 <body class="bg_light" data-spy="scroll" data-offset="110">
+    
     <!-- START LOADER -->
     <div id="loader-wrapper">
-        <div id="loading-center-absolute">
-            <div class="object" id="object_four"></div>
-            <div class="object" id="object_three"></div>
-            <div class="object" id="object_two"></div>
-            <div class="object" id="object_one"></div>
+        <div id="loader-animation" class="spinner-container">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
         </div>
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
     </div>
     <!-- END LOADER -->
 

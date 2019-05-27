@@ -535,13 +535,13 @@ button:focus {
 	transition: all 0.8s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 .loaded #loader-wrapper {
-	visibility: hidden;
-	-webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
-	-ms-transform: translateY(-100%);  /* IE 9 */
+	/* visibility: hidden;
+	-webkit-transform: translateY(-100%);  
+	-ms-transform: translateY(-100%); 
 	-moz-transform: translateY(-100%);
-	transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+	transform: translateY(-100%);  
 	-webkit-transition: all 0.5s 1s ease-out;  
-	transition: all 0.3s 1s ease-out;
+	transition: all 0.3s 1s ease-out; */
 }
 
 .v_blue #loader-wrapper .loader-section,
