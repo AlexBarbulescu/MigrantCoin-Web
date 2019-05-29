@@ -43,7 +43,6 @@
 </head>
 
 <body class="bg_light" data-spy="scroll" data-offset="110">
-    
     <!-- START LOADER -->
     <div id="loader-wrapper">
         <div id="loader-animation" class="spinner-container">
@@ -53,6 +52,7 @@
                 <div class="bounce3"></div>
             </div>
         </div>
+
     </div>
     <!-- END LOADER -->
 
@@ -282,10 +282,8 @@
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">In other words, we aim for a revolution.<br />
                             In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now.
                             (Im)migrants do just that: they strive for improvement and hope and dream for a more serene future.
-                            We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.
-                            This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.
-                            This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
+                            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.
+                                This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
                     </div>
                 </div>
             </div>
@@ -300,7 +298,7 @@
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
                         <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Token allocation</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">It is also possible to have a static supply with a dynamic funding goal, in which the distribution of tokens will be made according to the funds received</p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">A fixed number of tokens will be created for token sale. There will be no more tokens generated after that.</p>
                     </div>
                 </div>
             </div>
@@ -583,7 +581,7 @@
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_dark title_border text-center">
                         <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Mission</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">To allow immigrants who want to send money to a recipient in their country of origin through blockchain.</p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">To allow migrants who want to send money to a recipient in their country of origin through blockchain.</p>
                     </div>
                 </div>
             </div>
