@@ -39,6 +39,10 @@ Version      : 1.7
 /*===================================*
 01. GENERAL STYLE
 *===================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
 body {
 	background: #ffffff none repeat scroll 0 0;
     color: #7a7a7a;
@@ -281,9 +285,13 @@ button:focus {
 }
 
 .blue_lr{
-	background: url(../images/common-bg4.png) center center/cover, -webkit-linear-gradient(45deg, #4965e1 0%, #5292e6 100%);
-	background: url(../images/common-bg4.png) center center/cover, linear-gradient(45deg, #4965e1 0%, #5292e6 100%);
-	overflow: hidden;
+	background: linear-gradient(45deg, #5292e6 0%, #4965e1 100%);
+	background-image: url("../images/common-bg4.png");
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .blue_rl{
 	background: url(../images/common-bg3.png) center center/cover, -webkit-linear-gradient(135deg, #5292e6 0%, #4965e1 100%);
@@ -1851,6 +1859,7 @@ header a:hover,
 04. WHY CHOOSE SECTION
 *===================================*/
 .box_wrap {
+
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	margin-top: 30px;
 	padding: 20px 15px;
@@ -1864,8 +1873,8 @@ header a:hover,
 	color: #7a7a7a;
 	font-size: 22px;
 	font-weight: 600;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 .box_wrap p {
 	margin:0;

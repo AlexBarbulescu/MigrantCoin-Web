@@ -423,10 +423,12 @@
                         <div class="item">
                             <div class="roadmap_box rd_complete current">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas fa-money-bill-alt animation" data-animation="fadeInDown" data-animation-delay="0.2s"></i>
+                                    <div class="spinner_circle">
+                                        <div class="spinner_point"></div>
+                                        <div class="double-bounce1"></div>
+                                        <div class="double-bounce2"></div>
+                                        <div class="double-bounce3"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2019</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Token creation<br />
@@ -438,10 +440,13 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas fa-play animation" data-animation="fadeInDown" data-animation-delay="0.4s"></i>
+                                    <div class="sk-folding-cube mask">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube1 sk-cube"></div>
+                                        <div class="sk-cube2 sk-cube"></div>
+                                        <div class="sk-cube4 sk-cube"></div>
+                                        <div class="sk-cube3 sk-cube"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2019</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Alpha version of the platform released
@@ -452,10 +457,18 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas fa-university animation" data-animation="fadeInDown" data-animation-delay="0.6s"></i>
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q4 2019</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Testing Alpha version with Alpha customers and delivery businesses and banks
@@ -466,10 +479,18 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas fa-mobile-alt animation" data-animation="fadeInDown" data-animation-delay="0.8s"></i>
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1-Q2 2020</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Mobile Phone app released
@@ -480,10 +501,18 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas fa-mouse-pointer animation" data-animation="fadeInDown" data-animation-delay="0.10s"></i>
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2020</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Beta version of the platform released<br />
@@ -495,10 +524,18 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas fa-box-open animation" data-animation="fadeInDown" data-animation-delay="0.12s"></i>
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2020</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Relase version 1 of platform (web and mobile)
@@ -509,10 +546,18 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas fa-shipping-fast animation" data-animation="fadeInDown" data-animation-delay="0.14s"></i>
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q4 2020</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Platform fully functional in Romania
@@ -523,10 +568,18 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas fa-shield-alt animation" data-animation="fadeInDown" data-animation-delay="0.16s"></i>
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1 2021</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Compliance implementation<br />
@@ -540,10 +593,18 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas animation" data-animation="fadeInDown" data-animation-delay="0.20s"></i>
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2021</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Money transfer licence UK - (6-12 months)<br />
@@ -555,10 +616,18 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="icon_roadmap">
-                                        <i class="fas animation" data-animation="fadeInDown" data-animation-delay="0.20s"></i>
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <div class="roadmap_icon"></div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">2021</h6>
                                     <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Extend to other Countries,<br />
@@ -590,7 +659,9 @@
                     <div class="box_wrap radius_box bg-white text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                         <i class="fas fa-user-clock"></i>
                         <h4>Time saving</h4>
-                        <p>Time is money and so much more, and we urge you to keep this in mind. A decentralized cryptocurrency remittance system will help people save precious hours they would otherwise waste on trips to the nearest bank or MTO. Our solution will enable you to avoid commuting just for the sake of sending and receiving money.</p>
+                        <p>Time is money and so much more, and we urge you to keep this in mind. <br />
+                            A decentralized cryptocurrency remittance system will help people save precious hours they would otherwise waste on trips to the nearest bank or MTO.
+                            Our solution will enable you to avoid commuting just for the sake of sending and receiving money.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -604,7 +675,9 @@
                     <div class="box_wrap radius_box bg-white text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
                         <i class="fas fa-user-shield"></i>
                         <h4>Risk free</h4>
-                        <p>Many receive money via occasional delivering parties, which raises the risk of losing it. Even worse, the money may never reach its intended destination. MigrantCoin seeks to eliminate this risk, by its user-powered structure allowing the detection of any potential error in the process of sending and receiving a specific sum of money, owing to the ensuing transparency and security of the system.</p>
+                        <p>Many receive money via occasional delivering parties, which raises the risk of losing it.
+                            Even worse, the money may never reach its intended destination. <br />
+                            MigrantCoin seeks to eliminate this risk, by its user-powered structure allowing the detection of any potential error in the process of sending and receiving a specific sum of money, owing to the ensuing transparency and security of the system.</p>
                     </div>
                 </div>
             </div>
