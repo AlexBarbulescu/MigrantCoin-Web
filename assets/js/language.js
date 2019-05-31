@@ -1,5 +1,7 @@
 var arrLang = {
     "en": {
+        "LANG": "EN",
+
         "HOME": "Home", // Home
         "HOWITWORKS": "How it works", // How it works
         "VISION": "Vision", // Vision
@@ -167,6 +169,8 @@ var arrLang = {
  
     },
     "ro": {
+        "LANG": "RO",
+
         "HOME": "Acasa", // Home
         "HOWITWORKS": "Despre", // How it works
         "VISION": "Viziune", // Vision
@@ -378,5 +382,12 @@ $(".translate").click(function () {
 
     $(".lang").each(function (index, element) {
         $(this).text(arrLang[lang][$(this).attr("key")]);
+    });
+
+    $(".dropdown-toggle").each(function (index, element) {
+        // $(".dropdown-menu a").parents(".dropdown").find('.dropdown-toggle').html($(this).text(lang));
+        // $(".dropdown-menu a").parents(".dropdown").find('.dropdown-toggle').val($(this).data(lang));
+
+        $(this).text(arrLanguage[lang][$(this).attr("id")]);
     });
 });

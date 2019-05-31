@@ -124,31 +124,15 @@
                             <a class="nav-icon nav_icon nav_item" href="https://twitter.com/MigrantcoinO" target="_blank"><i class="fab fa-twitter"></i></a>
                         </li>
 
-
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon language"> EN</span></a>
+                            <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon lang language" key="LANG"> EN</span></a>
                             <div class="dropdown-menu" aria-labelledby="dropdown09">
                                 <a class="dropdown-item translate" id="en" href="#en"><span class="flag-icon flag-icon-en"> </span> EN</a>
                                 <a class="dropdown-item translate" id="ro" href="#ro"><span class="flag-icon flag-icon-ro"> </span> RO</a>
                             </div>
                         </li>
 
-                        <!-- <li class="translate" id="en">EN</li>
-                        <li class="translate" id="ro">RO</li> -->
-
                     </ul>
-
-                    <!-- <ul class="navbar-nav nav_btn align-items-center">
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="1.7s">
-                            <div class="lng_dropdown">
-                                <select name="countries" id="lng_select">
-                                    <option value='en' data-image="assets/images/en.png" data-title="en"><a class="translate" id="en" href="#en">EN</a></option>
-                                    <option value='ro' data-image="assets/images/ro.png" data-title="ro"><a class="translate" id="ro" href="#ro">RO</a></option>
-                                </select>
-                            </div>
-                        </li>
-                    </ul> -->
-
                 </div>
             </nav>
         </div>
@@ -248,7 +232,6 @@
         </div>
     </section>
     <!-- END HOW IT WORKS -->
-
 
     <!-- START MAP -->
     <section class="section_token blue_lr">
