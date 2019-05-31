@@ -246,13 +246,6 @@ h6 span {
 	transition: all 0.3s 1s ease-out;
 }
 
-
-
-
-
-
-
-
 .sk-folding-cube {
   margin: 0px auto;
   position: relative;
@@ -330,8 +323,6 @@ h6 span {
 }
 
 
-
-
 .spinner {
   margin: 100px auto 0;
   width: 70px;
@@ -371,7 +362,6 @@ h6 span {
   top: 15px;
 
 }
-
 
 .sk-cube-grid {
   width: 40px;
@@ -423,8 +413,6 @@ h6 span {
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s; }
 
-
-
 .spinner_circle {
   width: 40px;
   height: 40px;
@@ -471,6 +459,60 @@ h6 span {
 .double-bounce3 {
   -webkit-animation-delay: -4s;
   animation-delay: -4s;
+}
+
+.language{
+  color: #fff;
+}
+
+.lang{
+  margin-bottom: 0;
+}
+.lang-width{
+    width: 110%;
+}
+
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  line-height: 0em;
+}
+
+.flag-icon:before {
+  content: "\00a0";
+}
+
+.flag-icon-en {
+  background-image: url(../images/en.png);
+  height: 18px;
+  width: 18px;
+  line-height: 1em;
+  display: inline-block;
+}
+
+.flag-icon-ro {
+  background-image: url(../images/ro.png);
+  height: 18px;
+  width: 18px;
+  line-height: 1em;
+  display: inline-block;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-item{
+  font-size: 16px;
+}
+
+.dropdown-menu{
+  min-width: 0rem;
+}
+
+
+header .navbar-nav a {
+    color: #ffffff !important;
 }
 
 @-webkit-keyframes sk-bounce {
@@ -570,6 +612,9 @@ h6 span {
   }
   .sticky-container{
     display: none;
+  }
+  .lang{
+    width: 100%;
   }
 }
 

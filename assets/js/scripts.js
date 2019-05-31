@@ -121,7 +121,7 @@ Version      : 1.7
 	
 	//Language Select Dropdown
 	$(document).ready(function() {
-	$("#lng_select,#doc_select").msDropdown();
+		$("#lng_select,#doc_select").msDropdown();
 	})
    
 	/*===================================*

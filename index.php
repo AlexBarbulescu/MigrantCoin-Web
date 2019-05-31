@@ -83,32 +83,33 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
+
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.1s">
-                            <a class="nav-link page-scroll nav_item" href="#home_section">Home</a>
+                            <a class="nav-link page-scroll nav_item lang" key="HOME" href="#home_section">Home</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.2s">
-                            <a class="nav-link page-scroll nav_item" href="#how-it-works">How it works</a>
+                            <a class="nav-link page-scroll nav_item lang" key="HOWITWORKS" href="#how-it-works">How it works</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.3s">
-                            <a class="nav-link page-scroll nav_item" href="#vision">Vision</a>
+                            <a class="nav-link page-scroll nav_item lang" key="VISION" href="#vision">Vision</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.4s">
-                            <a class="nav-link page-scroll nav_item" href="#token">Token</a>
+                            <a class="nav-link page-scroll nav_item lang" key="TOKEN" href="#token">Token</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.5s">
-                            <a class="nav-link page-scroll nav_item" href="#roadmap">Roadmap</a>
+                            <a class="nav-link page-scroll nav_item lang" key="ROADMAP" href="#roadmap">Roadmap</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.6s">
-                            <a class="nav-link page-scroll nav_item" href="#mission">Mission</a>
+                            <a class="nav-link page-scroll nav_item lang" key="MISSION" href="#mission">Mission</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.7s">
-                            <a class="nav-link page-scroll nav_item" href="#values">Values</a>
+                            <a class="nav-link page-scroll nav_item lang" key="VALUES" href="#values">Values</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.8s">
-                            <a class="nav-link page-scroll nav_item" href="#team">Team</a>
+                            <a class="nav-link page-scroll nav_item lang" key="TEAM" href="#team">Team</a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.9s">
-                            <a class="nav-link page-scroll nav_item" href="#faq">FAQ</a>
+                            <a class="nav-link page-scroll nav_item lang" key="FAQ" href="#faq">FAQ</a>
                         </li>
 
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.10s">&nbsp;</li>
@@ -122,7 +123,32 @@
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="2.13s">
                             <a class="nav-icon nav_icon nav_item" href="https://twitter.com/MigrantcoinO" target="_blank"><i class="fab fa-twitter"></i></a>
                         </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon language"> EN</span></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                <a class="dropdown-item translate" id="en" href="#en"><span class="flag-icon flag-icon-en"> </span> EN</a>
+                                <a class="dropdown-item translate" id="ro" href="#ro"><span class="flag-icon flag-icon-ro"> </span> RO</a>
+                            </div>
+                        </li>
+
+                        <!-- <li class="translate" id="en">EN</li>
+                        <li class="translate" id="ro">RO</li> -->
+
                     </ul>
+
+                    <!-- <ul class="navbar-nav nav_btn align-items-center">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="1.7s">
+                            <div class="lng_dropdown">
+                                <select name="countries" id="lng_select">
+                                    <option value='en' data-image="assets/images/en.png" data-title="en"><a class="translate" id="en" href="#en">EN</a></option>
+                                    <option value='ro' data-image="assets/images/ro.png" data-title="ro"><a class="translate" id="ro" href="#ro">RO</a></option>
+                                </select>
+                            </div>
+                        </li>
+                    </ul> -->
+
                 </div>
             </nav>
         </div>
@@ -135,11 +161,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12 order-lg-first">
                     <div class="banner_text text_md_center">
-                        <h1 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">MigrantCoin delivers money to your home</h1>
-                        <p class="animation mb-0" data-animation="fadeInUp" data-animation-delay="0.3s">Blockchain-based decentralized money transfer powered by users.</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Possibility to send money home straight from your virtual wallet.</p>
+                        <h1 class="animation lang" key="TOP_01" data-animation="fadeInUp" data-animation-delay="0.1s">MigrantCoin delivers money to your home</h1>
+                        <p class="animation mb-0 lang" key="TOP_02" data-animation="fadeInUp" data-animation-delay="0.3s">Blockchain-based decentralized money transfer powered by users.</p>
+                        <p class="animation lang" key="TOP_03" data-animation="fadeInUp" data-animation-delay="0.4s">Possibility to send money home straight from your virtual wallet.</p><br />
                         <div class="btn_group animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                            <a href="MIGRANTCOIN_Whitepaper.pdf" target="_blank" class="btn btn-border-white btn-radius">Whitepaper</i></a>
+                            <a href="MIGRANTCOIN_Whitepaper.pdf" target="_blank" class="btn btn-border-white btn-radius lang" key="TOP_04">Whitepaper</i></a>
                         </div>
                     </div>
                 </div>
@@ -167,12 +193,12 @@
                                         <div class="progress-bar progress-bar-striped gradient" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100" style="width:46%"> 46% </div>
                                         <span class="progress_label bg-white" style="left: 30%"> <strong> 46,000 BCC </strong></span>
                                         <span class="progress_label bg-white" style="left: 75%"> <strong> 90,000 BCC </strong></span>
-                                        <span class="progress_min_val">Sale Raised</span>
-                                        <span class="progress_max_val">Soft-caps</span>
+                                        <span class="progress_min_val lang" key="TOP_05">Sale Raised</span>
+                                        <span class=" progress_max_val lang" key="TOP_06">Soft-caps</span>
                                     </div>
                                 </div>
-                                <div class="btn_col">
-                                    <a href="#" class="btn btn-border-white btn-radius animation" data-animation="fadeInUp" data-animation-delay="0.4s">Buy Tokens <i class="ion-ios-arrow-thin-right"></i></a>
+                                <div class=" btn_col">
+                                    <a href="#" class="btn btn-border-white btn-radius animation lang" key="TOP_07" data-animation=" fadeInUp" data-animation-delay="0.4s">Buy Tokens <i class="ion-ios-arrow-thin-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +216,7 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">How It works</h4>
+                        <h4 class="animation lang" key="HOWITWORKS_01" data-animation="fadeInUp" data-animation-delay="0.2s">How It works</h4>
                     </div>
 
                     <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
@@ -198,22 +224,23 @@
                         <img class="sedr_small" src="assets/images/SEDR02.png">
                     </p>
 
-                    <div class="title_blue_dark title_border text-center"><br />
-                        <span class="font-weight-bold">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</span><br />
+                    <div class="title_blue_dark title_border text-center">
+                        <span class="font-weight-bold lang lang-width" key="HOWITWORKS_02">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</span>
                         <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
-                            By using blockchain and the Stellar platform, remittances take a few minutes to reach their destination.<br />
-                            The user only needs to sign in, deposit the amount he or she wants to send and choose the way to deliver it.<br />
-                            The sender may opt for a bank account transfer, delivery to the door or for a paypoint via which the money can reach the beneficiary.<br /><br />
+                            <p class="lang lang-width" key="HOWITWORKS_03">By using blockchain and the Stellar platform, remittances take a few minutes to reach their destination.</p>
+                            <p class="lang lang-width" key="HOWITWORKS_04">The user only needs to sign in, deposit the amount he or she wants to send and choose the way to deliver it.</p>
+                            <p class="lang lang-width" key="HOWITWORKS_05">The sender may opt for a bank account transfer, delivery to the door or for a paypoint via which the money can reach the beneficiary.</p><br />
 
-                            It takes a few simple steps:<br />
-                            1. Download the MigrantCoin app.<br />
-                            2. Sign up to create an account.<br />
-                            3. Choose between a paypoint and a bank account (sender’s discretion) to purchase MGC.<br />
-                            4. Send the money.<br /><br />
+                            <p class="lang lang-width" key="HOWITWORKS_06">It takes a few simple steps:</p>
+                            <p class="lang lang-width" key="HOWITWORKS_07">1. Download the MigrantCoin app.</p>
+                            <p class="lang lang-width" key="HOWITWORKS_08">2. Sign up to create an account.</p>
+                            <p class="lang lang-width" key="HOWITWORKS_09">3. Choose between a paypoint and a bank account (sender’s discretion) to purchase MGC.</p>
+                            <p class="lang lang-width" key="HOWITWORKS_10">4. Send the money.</p><br />
 
-                            MigrantCoin will then process quickly the transaction and deliver the money to the beneficiary in person, by courier.<br />
-                            The beneficiary will acknowledge the receipt of the money with an electronic signature.<br />
-                            Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.</p>
+                            <p class="lang lang-width" key="HOWITWORKS_11">MigrantCoin will then process quickly the transaction and deliver the money to the beneficiary in person, by courier.</p>
+                            <p class="lang lang-width" key="HOWITWORKS_12">The beneficiary will acknowledge the receipt of the money with an electronic signature.</p>
+                            <p class="lang lang-width" key="HOWITWORKS_13">Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.</p>
+                        </p>
                         </p>
                     </div>
                 </div>
@@ -221,8 +248,6 @@
         </div>
     </section>
     <!-- END HOW IT WORKS -->
-
-
 
 
     <!-- START MAP -->
@@ -238,8 +263,8 @@
                 <span class="sparks spark-5 ripple-out"></span>
                 <span class="sparks spark-6 ripple-out"></span>
                 <div class="box-text text-center wow fadeIn">
-                    <p class="map-textbig">258 Millions of migrants</p>
-                    <p class="map-textsmall">Spens 128 days on commuting in their lifetime to send money to their relatives</p>
+                    <p class="map-textbig lang" key="MAP_01">258 Millions of migrants</p>
+                    <p class="map-textsmall lang" key="MAP_02">Spens 128 days on commuting in their lifetime to send money to their relatives</p>
                 </div>
             </div>
         </div>
@@ -274,16 +299,16 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Vision</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Spending money is easy, sending them should be the same</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another.
-                            As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise.
-                            MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">In other words, we aim for a revolution.<br />
-                            In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now.
-                            (Im)migrants do just that: they strive for improvement and hope and dream for a more serene future.
-                            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.
-                                This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
+                        <h4 class="animation lang" key="VISION_01" data-animation="fadeInUp" data-animation-delay="0.2s">Vision</h4>
+                        <p class="animation lang" key="VISION_02" data-animation="fadeInUp" data-animation-delay="0.4s">Spending money is easy, sending them should be the same</p> <br />
+                        <p class="animation lang lang-width" key="VISION_03 VISION_04" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another.</p>
+                        <p class="lang lang-width" key="VISION_04">As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise.</p>
+                        <p class="lang lang-width" key="VISION_05">MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p> <br />
+                        <p class="animation lang lang-width" key="VISION_06" data-animation="fadeInUp" data-animation-delay="0.2s">In other words, we aim for a revolution.</p>
+                        <p class="lang lang-width" key="VISION_07">In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now.</p>
+                        <p class="lang lang-width" key="VISION_08">(Im)migrants do just that: they strive for improvement and hope and dream for a more serene future.</p> <br />
+                        <p class="animation lang lang-width" key="VISION_09" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.</p>
+                        <p class="lang lang-width" key="VISION_10">This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
                     </div>
                 </div>
             </div>
@@ -297,8 +322,8 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Token allocation</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">A fixed number of tokens will be created for token sale. There will be no more tokens generated after that.</p>
+                        <h4 class="animation lang" key="TOKEN_01" data-animation="fadeInUp" data-animation-delay="0.2s">Token allocation</h4>
+                        <p class="animation lang" key="TOKEN_02" data-animation="fadeInUp" data-animation-delay="0.4s">A fixed number of tokens will be created for token sale. There will be no more tokens generated after that.</p>
                     </div>
                 </div>
             </div>
@@ -314,31 +339,41 @@
                 <div class="col-lg-4 col-md-12">
                     <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="1.5s">
                         <li>
-                            <h6>Founder & Team <span>- 200.000.000</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_03">Founder & Team - 200.000.000</p>
+                            </h6>
                             <div class="progress bg-orange">
                                 <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
                             </div>
                         </li>
                         <li>
-                            <h6>Advisors <span>- 100.000.000</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_04">Advisors - 100.000.000</p>
+                            </h6>
                             <div class="progress bg-green">
                                 <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
                             </div>
                         </li>
                         <li>
-                            <h6>Marketing <span>- 300.000.000</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_05">Marketing - 300.000.000</p>
+                            </h6>
                             <div class="progress bg-red">
                                 <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
                             </div>
                         </li>
                         <li>
-                            <h6>Partnerships <span>- 100.000.000</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_06">Partnerships - 100.000.000</p>
+                            </h6>
                             <div class="progress bg-blue">
                                 <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
                             </div>
                         </li>
                         <li>
-                            <h6>Crowdsale <span>- 1.300.000.000</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_07">Crowdsale - 1.300.000.000</p>
+                            </h6>
                             <div class="progress bg-purple">
                                 <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
                             </div>
@@ -351,8 +386,8 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Funds distribution</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">It is also possible to have a static supply with a dynamic funding goal, in which the distribution of tokens will be made according to the funds received</p>
+                        <h4 class="animation lang" key="TOKEN_08" data-animation="fadeInUp" data-animation-delay="0.2s">Funds distribution</h4>
+                        <p class="animation lang" key="TOKEN_09" data-animation="fadeInUp" data-animation-delay="0.4s">It is also possible to have a static supply with a dynamic funding goal, in which the distribution of tokens will be made according to the funds received</p>
                     </div>
                 </div>
             </div>
@@ -368,31 +403,41 @@
                 <div class="col-lg-4 col-md-12">
                     <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="1.5s">
                         <li>
-                            <h6>R & D <span>- 4.231.966</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_10">R & D - 4.231.966</p>
+                            </h6>
                             <div class="progress bg-orange">
                                 <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
                             </div>
                         </li>
                         <li>
-                            <h6>Marketing <span>- 2.115.983</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_11">Marketing - 2.115.983</p>
+                            </h6>
                             <div class="progress bg-green">
                                 <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
                             </div>
                         </li>
                         <li>
-                            <h6>Ops <span>- 3.702.971</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_12">Ops - 3.702.971</p>
+                            </h6>
                             <div class="progress bg-red">
                                 <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
                             </div>
                         </li>
                         <li>
-                            <h6>Legal <span>- 211.598</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_13">Legal - 211.598</p>
+                            </h6>
                             <div class="progress bg-blue">
                                 <div class="progress-bar" role="progressbar" style="width: 2%;" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
                             </div>
                         </li>
                         <li>
-                            <h6>Licensing <span>- 317.397</span></h6>
+                            <h6>
+                                <p class="lang" key="TOKEN_14">Licensing - 317.397</p>
+                            </h6>
                             <div class="progress bg-purple">
                                 <div class="progress-bar" role="progressbar" style="width: 3%;" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100">3%</div>
                             </div>
@@ -410,8 +455,8 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_light title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Roadmap</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Our journey has just began</p>
+                        <h4 class="animation lang" key="ROADMAP_01" data-animation="fadeInUp" data-animation-delay="0.2s">Roadmap</h4>
+                        <p class="animation lang" key="ROADMAP_02" data-animation="fadeInUp" data-animation-delay="0.4s">Our journey has just began</p>
                     </div>
                 </div>
             </div>
@@ -430,10 +475,8 @@
                                         <div class="double-bounce3"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2019</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Token creation<br />
-                                        Sales
-                                    </p>
+                                    <p class="animation lang" key="ROADMAP_03" data-animation="fadeInUp" data-animation-delay="0.4s">Token creation</p>
+                                    <p class="animation lang" key="ROADMAP_04" data-animation="fadeInUp" data-animation-delay="0.4s">Sales</p>
                                 </div>
                             </div>
                         </div>
@@ -448,7 +491,7 @@
                                         <div class="sk-cube3 sk-cube"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2019</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                                    <p class="animation lang" key="ROADMAP_05" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Alpha version of the platform released
                                     </p>
                                 </div>
@@ -470,7 +513,7 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q4 2019</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                                    <p class="animation lang" key="ROADMAP_06" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Testing Alpha version with Alpha customers and delivery businesses and banks
                                     </p>
                                 </div>
@@ -492,7 +535,7 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1-Q2 2020</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                                    <p class="animation lang" key="ROADMAP_07" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Mobile Phone app released
                                     </p>
                                 </div>
@@ -514,10 +557,8 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2020</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Beta version of the platform released<br />
-                                        Testing beta version
-                                    </p>
+                                    <p class="animation lang" key="ROADMAP_08" data-animation="fadeInUp" data-animation-delay="0.4s">Beta version of the platform released</p>
+                                    <p class="animation lang" key="ROADMAP_09" data-animation="fadeInUp" data-animation-delay="0.4s">Testing beta version</p>
                                 </div>
                             </div>
                         </div>
@@ -537,7 +578,7 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2020</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                                    <p class="animation lang" key="ROADMAP_10" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Relase version 1 of platform (web and mobile)
                                     </p>
                                 </div>
@@ -559,7 +600,7 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q4 2020</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                                    <p class="animation lang" key="ROADMAP_11" data-animation="fadeInUp" data-animation-delay="0.4s">
                                         Platform fully functional in Romania
                                     </p>
                                 </div>
@@ -581,12 +622,10 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1 2021</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Compliance implementation<br />
-                                        Infrastructure setup<br />
-                                        Security implementation<br />
-                                        Security enforcement: penetration test by independent specialists
-                                    </p>
+                                    <p class="animation lang" key="ROADMAP_12" data-animation="fadeInUp" data-animation-delay="0.4s">Compliance implementation</p>
+                                    <p class="animation lang" key="ROADMAP_13" data-animation="fadeInUp" data-animation-delay="0.4s">Infrastructure setup</p>
+                                    <p class="animation lang" key="ROADMAP_14" data-animation="fadeInUp" data-animation-delay="0.4s">Security implementation</p>
+                                    <p class="animation lang" key="ROADMAP_15" data-animation="fadeInUp" data-animation-delay="0.4s">Security enforcement: penetration test by independent specialists</p>
                                 </div>
                             </div>
                         </div>
@@ -606,10 +645,8 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2021</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Money transfer licence UK - (6-12 months)<br />
-                                        Public support – Call Center
-                                    </p>
+                                    <p class="animation lang" key="ROADMAP_16" data-animation="fadeInUp" data-animation-delay="0.4s">Money transfer licence UK - (6-12 months)</p>
+                                    <p class="animation lang" key="ROADMAP_17" data-animation="fadeInUp" data-animation-delay="0.4s">Public support – Call Center</p>
                                 </div>
                             </div>
                         </div>
@@ -629,10 +666,8 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">2021</h6>
-                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Extend to other Countries,<br />
-                                        beside the initial 6 initially planned.
-                                    </p>
+                                    <p class="animation lang" key="ROADMAP_18" data-animation="fadeInUp" data-animation-delay="0.4s">Extend to other Countries,</p>
+                                    <p class="animation lang" key="ROADMAP_19" data-animation="fadeInUp" data-animation-delay="0.4s">beside the initial 6 initially planned.</p>
                                 </div>
                             </div>
                         </div>
@@ -649,8 +684,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_dark title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Mission</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">To allow migrants who want to send money to a recipient in their country of origin through blockchain.</p>
+                        <h4 class="animation lang" key="MISSION_01" data-animation="fadeInUp" data-animation-delay="0.2s">Mission</h4>
+                        <p class="animation lang" key="MISSION_02" data-animation="fadeInUp" data-animation-delay="0.4s">To allow migrants who want to send money to a recipient in their country of origin through blockchain.</p>
                     </div>
                 </div>
             </div>
@@ -658,26 +693,26 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="box_wrap radius_box bg-white text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                         <i class="fas fa-user-clock"></i>
-                        <h4>Time saving</h4>
-                        <p>Time is money and so much more, and we urge you to keep this in mind. <br />
-                            A decentralized cryptocurrency remittance system will help people save precious hours they would otherwise waste on trips to the nearest bank or MTO.
-                            Our solution will enable you to avoid commuting just for the sake of sending and receiving money.</p>
+                        <h4 class="lang" key="MISSION_03">Time saving</h4>
+                        <p class="lang" key="MISSION_04">Time is money and so much more, and we urge you to keep this in mind.</p>
+                        <p class="lang" key="MISSION_05">A decentralized cryptocurrency remittance system will help people save precious hours they would otherwise waste on trips to the nearest bank or MTO.</p>
+                        <p class="lang" key="MISSION_06">Our solution will enable you to avoid commuting just for the sake of sending and receiving money.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="box_wrap radius_box bg-white text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-shield-alt"></i>
-                        <h4>Fully Secured</h4>
-                        <p>The world we envisage is one in which people have undeterred, steady access to the methods by which they can send and receive money and in which they can feel the money they send/pick up is safe.</p>
+                        <h4 class="lang" key="MISSION_07">Fully Secured</h4>
+                        <p class="lang" key="MISSION_08">The world we envisage is one in which people have undeterred, steady access to the methods by which they can send and receive money and in which they can feel the money they send/pick up is safe.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 col-sm-12">
                     <div class="box_wrap radius_box bg-white text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
                         <i class="fas fa-user-shield"></i>
-                        <h4>Risk free</h4>
-                        <p>Many receive money via occasional delivering parties, which raises the risk of losing it.
-                            Even worse, the money may never reach its intended destination. <br />
-                            MigrantCoin seeks to eliminate this risk, by its user-powered structure allowing the detection of any potential error in the process of sending and receiving a specific sum of money, owing to the ensuing transparency and security of the system.</p>
+                        <h4 class="lang" key="MISSION_09">Risk free</h4>
+                        <p class="lang" key="MISSION_10">Many receive money via occasional delivering parties, which raises the risk of losing it.</p>
+                        <p class="lang" key="MISSION_11">Even worse, the money may never reach its intended destination.</p>
+                        <p class="lang" key="MISSION_12">MigrantCoin seeks to eliminate this risk, by its user-powered structure allowing the detection of any potential error in the process of sending and receiving a specific sum of money, owing to the ensuing transparency and security of the system.</p>
                     </div>
                 </div>
             </div>
@@ -691,8 +726,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_light title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Values</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">For more detail, click on each item.</p>
+                        <h4 class="animation lang" key="VALUES_01" data-animation="fadeInUp" data-animation-delay="0.2s">Values</h4>
+                        <p class="animation lang" key="VALUES_02" data-animation="fadeInUp" data-animation-delay="0.4s">For more detail, click on each item.</p>
                     </div>
                 </div>
             </div>
@@ -700,73 +735,79 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value1" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                         <i class="fas fa-lightbulb"></i>
-                        <span class="btn_text">We embrace change and innovation</span>
+                        <span class="btn_text lang" key="VALUES_03">We embrace change and innovation</span>
                     </button>
                     <div id="value1" class="collapse btn_collapse">
-                        <span class="btn_textsmall">Change and innovation are needed if we want to advance. MigrantCoin looks at the money remittance market and finds that there is considerable room for improvement.</span>
+                        <span class="btn_textsmall lang" key="VALUES_04">Change and innovation are needed if we want to advance. MigrantCoin looks at the money remittance market and finds that there is considerable room for improvement.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value2" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-heart"></i>
-                        <span class="btn_text">We value<br />people</span>
+                        <span class="btn_text">
+                            <p class="lang" key="VALUES_05">We value</p>
+                            <p class="lang" key="VALUES_06">people</p>
+                        </span>
                     </button>
                     <div id="value2" class="collapse btn_collapse">
-                        <span class="btn_textsmall">Our concept is being developed for migrants and those at home alike. We believe that our appreciation of the people will draw, in time, their appreciation of our efforts. Without people, there would be no point to our struggle.</span>
+                        <span class="btn_textsmall lang" key="VALUES_07">Our concept is being developed for migrants and those at home alike. We believe that our appreciation of the people will draw, in time, their appreciation of our efforts. Without people, there would be no point to our struggle.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value3" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-chess"></i>
-                        <span class="btn_text">We like to think differently</span>
+                        <span class="btn_text lang" key="VALUES_08">We like to think differently</span>
                     </button>
                     <div id="value3" class="collapse btn_collapse">
-                        <span class="btn_textsmall">Following a careful analysis of the remittance market, we concluded that, in general, the solutions offered to the problems of this market are rather similar. MigrantCoin seeks to implement unique solutions to these issues and we believe that we can make a difference.</span>
+                        <span class="btn_textsmall lang" key="VALUES_09">Following a careful analysis of the remittance market, we concluded that, in general, the solutions offered to the problems of this market are rather similar. MigrantCoin seeks to implement unique solutions to these issues and we believe that we can make a difference.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value4" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-eye"></i>
-                        <span class="btn_text">We love<br />transparency</span>
+                        <span class="btn_text">
+                            <p class="lang" key="VALUES_10">We value</p>
+                            <p class="lang" key="VALUES_11">transparency</p>
+                        </span>
                     </button>
                     <div id="value4" class="collapse btn_collapse">
-                        <span class="btn_textsmall">We believe that transparency in relation to the investors and to our community is very important. We propose that all the amounts of money gathered in the ICO should be justified and we shall do our best to fulfill our commitments.</span>
+                        <span class="btn_textsmall lang" key="VALUES_12">We believe that transparency in relation to the investors and to our community is very important. We propose that all the amounts of money gathered in the ICO should be justified and we shall do our best to fulfill our commitments.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value5" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-tasks"></i>
-                        <span class="btn_text">We identify needs and satisfy them</span>
+                        <span class="btn_text lang" key="VALUES_13">We identify needs and satisfy them</span>
                     </button>
                     <div id="value5" class="collapse btn_collapse">
-                        <span class="btn_textsmall">The MigrantCoin project is, first of all, the result of the desire to solve some of the needs of a specific category of people ((im)migrants) and, thus, to make their lives easier.</span>
+                        <span class="btn_textsmall lang" key="VALUES_14">The MigrantCoin project is, first of all, the result of the desire to solve some of the needs of a specific category of people ((im)migrants) and, thus, to make their lives easier.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value6" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-handshake"></i>
-                        <span class="btn_text">We offer guarantees and trust</span>
+                        <span class="btn_text lang" key="VALUES_15">We offer guarantees and trust</span>
                     </button>
                     <div id="value6" class="collapse btn_collapse">
-                        <span class="btn_textsmall">Our main concern is to guarantee the amounts of money entrusted to us for their delivery to the destination indicated by the client. Your trust is our success – and we aim for success.</span>
+                        <span class="btn_textsmall lang" key="VALUES_16">Our main concern is to guarantee the amounts of money entrusted to us for their delivery to the destination indicated by the client. Your trust is our success – and we aim for success.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value7" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-rocket"></i>
-                        <span class="btn_text">We keep an eye on the future</span>
+                        <span class="btn_text lang" key="VALUES_17">We keep an eye on the future</span>
                     </button>
                     <div id="value7" class="collapse btn_collapse">
-                        <span class="btn_textsmall">Conventional payment and money transfer systems cannot keep the pace with the human kind’s desire of quick and constant evolution. We are the result of the technological revolution and it is our duty to offer to the future generations the tools required for the same remittance of money, anywhere in the world, fast and risk-free.</span>
+                        <span class="btn_textsmall lang" key="VALUES_18">Conventional payment and money transfer systems cannot keep the pace with the human kind’s desire of quick and constant evolution. We are the result of the technological revolution and it is our duty to offer to the future generations the tools required for the same remittance of money, anywhere in the world, fast and risk-free.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value8" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-hands-helping"></i>
-                        <span class="btn_text">We are open for partnerships</span>
+                        <span class="btn_text lang" key="VALUES_19">We are open for partnerships</span>
                     </button>
                     <div id="value8" class="collapse btn_collapse">
-                        <span class="btn_textsmall">MigrantCoin is a project aiming to make its services available across the world. This is a very difficult and complex process we alone cannot complete. For this reason, you will be happy to know that, in the countries where we will offer our services, you too can become our partner.</span>
+                        <span class="btn_textsmall lang" key="VALUES_20">MigrantCoin is a project aiming to make its services available across the world. This is a very difficult and complex process we alone cannot complete. For this reason, you will be happy to know that, in the countries where we will offer our services, you too can become our partner.</span>
                     </div>
                 </div>
             </div>
@@ -782,8 +823,8 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_dark title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">A Small Team Having a Vast Experience</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Our extraordinary team, ready to achieve high results.</p>
+                        <h4 class="animation lang" key="TEAM_01" data-animation="fadeInUp" data-animation-delay="0.2s">A Small Team Having a Vast Experience</h4>
+                        <p class="animation lang" key="TEAM_02" data-animation="fadeInUp" data-animation-delay="0.4s">Our extraordinary team, ready to achieve high results.</p>
                     </div>
                 </div>
             </div>
@@ -795,7 +836,7 @@
                                 <div class="name">
                                     Abel Dragomir
                                 </div>
-                                <div class="job">
+                                <div class="job lang" key="TEAM_03">
                                     Community Manager
                                 </div>
                             </div>
@@ -805,7 +846,7 @@
                                 <div class="name">
                                     Abel Dragomir
                                 </div>
-                                <div class="job">
+                                <div class="job lang" key="TEAM_03">
                                     Community Manager
                                 </div>
                                 <p>Insert text here.</p>
@@ -828,7 +869,7 @@
                                 <div class="name">
                                     Krall Mazilu Ion
                                 </div>
-                                <div class="job">
+                                <div class="job lang" key="TEAM_04">
                                     Legal Adviser
                                 </div>
                             </div>
@@ -836,7 +877,7 @@
                                 <div class="name">
                                     Krall Mazilu Ion
                                 </div>
-                                <div class="job">
+                                <div class="job lang" key="TEAM_04">
                                     Legal Adviser
                                 </div>
                                 <p>Insert text here</p>
@@ -859,7 +900,7 @@
                                 <div class="name">
                                     Alex Barbulescu
                                 </div>
-                                <div class="job">
+                                <div class="job lang" key="TEAM_05">
                                     Graphic Designer
                                 </div>
                             </div>
@@ -867,7 +908,7 @@
                                 <div class="name">
                                     Alex Barbulescu
                                 </div>
-                                <div class="job">
+                                <div class="job lang" key="TEAM_05">
                                     Graphic Designer
                                 </div>
                                 <p>Insert text here</p>
@@ -1087,8 +1128,8 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_light title_border text-center">
-                        <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Have Any Questions?</h4>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context</p>
+                        <h4 class="animation lang" key="FAQ_01" data-animation="fadeInUp" data-animation-delay="0.2s">Have Any Questions?</h4>
+                        <p class="animation lang" key="FAQ_02" data-animation="fadeInUp" data-animation-delay="0.4s">Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context</p><br />
                     </div>
                 </div>
             </div>
@@ -1099,40 +1140,44 @@
                             <div id="accordion1" class="faq_content2">
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                                     <div class="card-header" id="headingTwo">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">What is Migrantcoin?</a> </h6>
+                                        <h6 class="mb-0"> <a class="collapsed lang" key="FAQ_03" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">What is Migrantcoin?</a> </h6>
                                     </div>
                                     <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
-                                        <div class="card-body">A platform started on the Stellar blockchain, meant for international money transfer, through a currency of the same name. The Migrantcoin platform applies especially to the immigrants who want to send money toward a recipient in their country of origin.</div>
+                                        <div class="card-body lang" key="FAQ_04">A platform started on the Stellar blockchain, meant for international money transfer, through a currency of the same name. The Migrantcoin platform applies especially to the immigrants who want to send money toward a recipient in their country of origin.</div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                                     <div class="card-header" id="headingTwo">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Why is the Migrantcoin project unique?</a> </h6>
+                                        <h6 class="mb-0"> <a class="collapsed lang" key="FAQ_05" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Why is the Migrantcoin project unique?</a> </h6>
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
-                                        <div class="card-body">- The transactions are reversible.<br />
-                                            - The guarantee of the amount in the case where the transaction is reversible.<br />
-                                            - The money which is sent reaches directly the recipient’s address.<br />
-                                            - The lowest taxes on the market OR We offer some of the lowest taxes on the market.</div>
+                                        <div class="card-body">
+                                            <p class="lang" key="FAQ_06">- The transactions are reversible.</p>
+                                            <p class="lang" key="FAQ_07">- The guarantee of the amount in the case where the transaction is reversible.</p>
+                                            <p class="lang" key="FAQ_08">- The money which is sent reaches directly the recipient’s address.</p>
+                                            <p class="lang" key="FAQ_09">- The lowest taxes on the market OR We offer some of the lowest taxes on the market.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                                     <div class="card-header" id="headingThree">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What are the benefits of Migrantcoin for customers?</a> </h6>
+                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_10" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What are the benefits of Migrantcoin for customers?</a> </h6>
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
-                                        <div class="card-body">- They can send money with just a few clicks.<br />
-                                            - Money which is sent reaches the receiver’s door.<br />
-                                            - The money transfer is a matter of seconds.<br />
-                                            - Bonuses for those who achieve a specific amount/value of the transactions.</div>
+                                        <div class="card-body">
+                                            <p class="lang" key="FAQ_11">- They can send money with just a few clicks.</p>
+                                            <p class="lang" key="FAQ_12">- Money which is sent reaches the receiver’s door.</p>
+                                            <p class="lang" key="FAQ_13">- The money transfer is a matter of seconds.</p>
+                                            <p class="lang" key="FAQ_14">- Bonuses for those who achieve a specific amount/value of the transactions.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="1s">
                                     <div class="card-header" id="headingFour">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Does Migrantcoin have a legal entity for its business?</a> </h6>
+                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_15" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Does Migrantcoin have a legal entity for its business?</a> </h6>
                                     </div>
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion1">
-                                        <div class="card-body">Yes. Migrantcoin Ltd is an active company with the registered office located in Aldershot, Hampshire (UK). It can also be contacted via email at contact@migrantcoin.com.</div>
+                                        <div class="card-body lang" key="FAQ_16">Yes. Migrantcoin Ltd is an active company with the registered office located in Aldershot, Hampshire (UK). It can also be contacted via email at contact@migrantcoin.com.</div>
                                     </div>
                                 </div>
                             </div>
@@ -1141,37 +1186,41 @@
                             <div id="accordion2" class="faq_content2">
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                                     <div class="card-header" id="headingSix">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What problems does Migrantcoin seek to solve?</a> </h6>
+                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_17" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What problems does Migrantcoin seek to solve?</a> </h6>
                                     </div>
                                     <div id="collapseFive" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
-                                        <div class="card-body">- The high taxes applied in the case of international money transfers.<br />
-                                            - It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.<br />
-                                            - It will save a lot of time for customers, both for sender and receiver.</div>
+                                        <div class="card-body">
+                                            <p class="lang" key="FAQ_18">- The high taxes applied in the case of international money transfers.</p>
+                                            <p class="lang" key="FAQ_19">- It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.</p>
+                                            <p class="lang" key="FAQ_20">- It will save a lot of time for customers, both for sender and receiver.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                                     <div class="card-header" id="headingSix">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">How will Migrantcoin benefit holders?</a> </h6>
+                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_21" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">How will Migrantcoin benefit holders?</a> </h6>
                                     </div>
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
-                                        <div class="card-body">- We will offer a quarterly or annual bonus for staking.<br />
-                                            - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.</div>
+                                        <div class="card-body">
+                                            <p class="lang" key="FAQ_22">- We will offer a quarterly or annual bonus for staking.</p>
+                                            <p class="lang" key="FAQ_23"> - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                                     <div class="card-header" id="headingSeven">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">How is Migrantcoin legally compliant?</a> </h6>
+                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_24" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">How is Migrantcoin legally compliant?</a> </h6>
                                     </div>
                                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion2">
-                                        <div class="card-body">Migrantcoin platform will operate under the legislation of UK.</div>
+                                        <div class="card-body lang" key="FAQ_25">Migrantcoin platform will operate under the legislation of UK.</div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="1s">
                                     <div class="card-header" id="headingEight">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Will Migrantcoin be available worldwide?</a> </h6>
+                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_26" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Will Migrantcoin be available worldwide?</a> </h6>
                                     </div>
                                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
-                                        <div class="card-body">First, the Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.</div>
+                                        <div class="card-body lang" key="FAQ_27">First, the Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.</div>
                                     </div>
                                 </div>
                             </div>
@@ -1195,41 +1244,39 @@
                             </a>
                         </div>
                         <div class="footer_desc">
-                            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                Migrantcoin Ltd<br />
-                                2 Institute Road Aldershot, Institute Road, Aldershot, GU12 4DA, United Kingdom<br />
-                                <br />
-                                <a href="#">contact@migrantcoin.com</a>
-                            </p>
+                            <p class="animation lang" key="FOOTER_01" data-animation="fadeInUp" data-animation-delay="0.4s">Migrantcoin Ltd</p>
+                            <p class="animation lang" key="FOOTER_02" data-animation="fadeInUp" data-animation-delay="0.4s">2 Institute Road Aldershot, Institute Road, Aldershot, GU12 4DA, United Kingdom</p>
+                            <br />
+                            <p class="animation lang" key="FOOTER_03" data-animation="fadeInUp" data-animation-delay="0.4s"><a href="#">contact@migrantcoin.com</a></p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 res_md_mt_30 res_sm_mt_20">
-                        <h4 class="footer_title border_title animation" data-animation="fadeInUp" data-animation-delay="0.2s">Quick Links</h4>
+                        <h4 class="footer_title border_title animation lang" key="FOOTER_04" data-animation="fadeInUp" data-animation-delay="0.2s">Quick Links</h4><br />
                         <ul class="footer_link list_arrow">
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                                <a class="page-scroll" href="#vision">Vision</a>
+                                <a class="page-scroll lang" key="FOOTER_05" href="#vision">Vision</a>
                             </li>
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                                <a class="page-scroll" href="#token">Token</a>
+                                <a class="page-scroll lang" key="FOOTER_06" href="#token">Token</a>
                             </li>
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                <a class="page-scroll" href="#roadmap">Roadmap</a>
+                                <a class="page-scroll lang" key="FOOTER_07" href="#roadmap">Roadmap</a>
                             </li>
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-                                <a class="page-scroll" href="#mission">Mission</a>
+                                <a class="page-scroll lang" key="FOOTER_08" href="#mission">Mission</a>
                             </li>
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-                                <a class="page-scroll" href="#values">Values</a>
+                                <a class="page-scroll lang" key="FOOTER_09" href="#values">Values</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-5 col-md-6 res_md_mt_30 res_sm_mt_20">
                         <div class="newsletter_form">
-                            <h4 class="footer_title border_title animation" data-animation="fadeInUp" data-animation-delay="0.2s">Newsletter</h4>
-                            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">Sign up for updates and market news. Subscribe to our newsletter and receive update about ICOs and crypto tips</p>
+                            <h4 class="footer_title border_title animation lang" key="FOOTER_10" data-animation="fadeInUp" data-animation-delay="0.2s">Newsletter</h4> <br />
+                            <p class="animation lang" key="FOOTER_11" data-animation="fadeInUp" data-animation-delay="0.4s">Sign up for updates and market news. Subscribe to our newsletter and receive update about ICOs and crypto tips</p><br />
                             <form class="subscribe_form animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                 <input class="input-rounded" type="text" required placeholder="Enter Email Address" />
-                                <button type="submit" title="Subscribe" class="btn-info" name="submit" value="Submit"> Subscribe </button>
+                                <button type="submit" title="Subscribe" class="btn-info lang" key="FOOTER_12" name="submit" value="Submit"> Subscribe </button>
                             </form>
                         </div>
                     </div>
@@ -1240,12 +1287,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class="copyright">MigrantCoin &copy; 2019 All Rights Reserved.</p>
+                        <p class="language">MigrantCoin &copy; <a class="class=" copyright lang" key="FOOTER_13">2019 All Rights Reserved.</a></p>
                     </div>
                     <div class="col-md-6">
                         <ul class="list_none footer_menu">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
+                            <li class="lang language" key="FOOTER_14"><a href=" #">Privacy Policy</a></li>
+                            <li class="lang language" key="FOOTER_15"><a href="#">Terms & Conditions</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1282,6 +1329,8 @@
     <!-- scripts js -->
     <script src="assets/player/mediaelement-and-player.min.js"></script>
     <script src="assets/js/scripts.js?version=<?= time() ?>"></script>
+    <script src="assets/js/language.js?version=<?= time() ?>"></script>
+
 </body>
 
 </html>
