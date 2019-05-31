@@ -608,6 +608,7 @@ header .navbar-nav a {
     display: none;
   }
   #home_section{
+    height: 100%;
     padding-top: 100px;
     padding-right: 0px;
     padding-bottom: 50px;
@@ -619,6 +620,9 @@ header .navbar-nav a {
   .lang{
     width: 100%;
   }
+  .text_md_center{
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -626,6 +630,7 @@ header .navbar-nav a {
     display: none;
   }
   #home_section{
+    height: 115%;
     padding-top: 100px;
     padding-right: 0px;
     padding-bottom: 50px;
@@ -651,7 +656,7 @@ header .navbar-nav a {
     display: none;
   }
   #home_section{
-    height: 120%;
+    height: 110%;
     padding-top: 100px;
     padding-right: 0px;
     padding-bottom: 50px;

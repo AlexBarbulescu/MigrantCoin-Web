@@ -39,7 +39,6 @@
     <!-- MigrantCoin CSS -->
     <link rel="stylesheet" href="assets/css/migrantcoin.css?version=<?= time() ?>">
     <link rel="stylesheet" href="assets/color/migrantcoin.css?version=<?= time() ?>">
-    <link rel="stylesheet" href="assets/player/mediaelementplayer.min.css">
 </head>
 
 <body class="bg_light" data-spy="scroll" data-offset="110">
@@ -154,9 +153,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 order-first">
-                    <div class="banner_image_right res_md_mb_50 res_xs_mb_20 animation" data-animation-delay="0.5s" data-animation="fadeInRight">
-                        <video src="assets/videos/about.mp4" class="mejs__player" width="555" height="312" type="video/mp4"></video>
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hRitW810wmY" allowfullscreen></iframe>
                     </div>
+
+
                 </div>
             </div>
             <div class="row">
@@ -1344,7 +1346,6 @@
     <script src="assets/js/Chart.PieceLabel.min.js"></script>
     <script src="assets/js/chart_script.js?version=<?= time() ?>"></script>
     <!-- scripts js -->
-    <script src="assets/player/mediaelement-and-player.min.js"></script>
     <script src="assets/js/scripts.js?version=<?= time() ?>"></script>
     <script src="assets/js/language.js?version=<?= time() ?>"></script>
 
