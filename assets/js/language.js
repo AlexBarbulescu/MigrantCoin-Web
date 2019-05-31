@@ -357,7 +357,14 @@ $(document).ready(function () {
     $(".lang").each(function (index, element) {
         $(this).text(arrLang[lang][$(this).attr("key")]);
     });
+
+    $(".dropdown-menu a").click(function () {
+        $(this).parents(".dropdown").find('.dropdown-toggle').html($(this).text());
+        $(this).parents(".dropdown").find('.dropdown-toggle').val($(this).data('value'));
+    });
+
 });
+
 
 // get/set the selected language
 $(".translate").click(function () {
@@ -373,8 +380,3 @@ $(".translate").click(function () {
         $(this).text(arrLang[lang][$(this).attr("key")]);
     });
 });
-
-// $(".dropdown-menu a").click(function() {
-//     $(this).parents(".dropdown").find('.dropdown-item ').html($(this).text());
-//     $(this).parents(".dropdown").find('.dropdown-item ').val($(this).data('value'));
-// });
