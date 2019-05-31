@@ -214,7 +214,7 @@ h6 span {
 }
 
 .nav-fixed .nav-icon{
-  display: none;
+  /* display: none; */
 }
 
 .text_md_center{
@@ -468,6 +468,11 @@ h6 span {
 .lang{
   margin-bottom: 0;
 }
+
+.inline{
+  display: inline;
+}
+
 .lang-width{
     width: 110%;
 }

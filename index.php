@@ -57,7 +57,7 @@
     <!-- END LOADER -->
 
     <!-- START SOCIAL MEDIA BAR -->
-    <div class="sticky-container">
+    <!-- <div class="sticky-container">
         <ul class="sticky">
             <li>
                 <img src="assets/images/telegram-circle.png" width="32" height="32">
@@ -68,7 +68,7 @@
                 <p><a href="https://twitter.com/MigrantcoinO" target="_blank">Follow Us on<br>Twitter</a></p>
             </li>
         </ul>
-    </div>
+    </div> -->
     <!-- END SOCIAL MEDIA BAR -->
 
     <!-- START HEADER -->
@@ -1140,7 +1140,11 @@
                             <div id="accordion1" class="faq_content2">
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                                     <div class="card-header" id="headingTwo">
-                                        <h6 class="mb-0"> <a class="collapsed lang" key="FAQ_03" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">What is Migrantcoin?</a> </h6>
+                                        <h6 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                <p class="lang inline language" key="FAQ_03">What is Migrantcoin?</p>
+                                            </a>
+                                        </h6>
                                     </div>
                                     <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
                                         <div class="card-body lang" key="FAQ_04">A platform started on the Stellar blockchain, meant for international money transfer, through a currency of the same name. The Migrantcoin platform applies especially to the immigrants who want to send money toward a recipient in their country of origin.</div>
@@ -1148,33 +1152,45 @@
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                                     <div class="card-header" id="headingTwo">
-                                        <h6 class="mb-0"> <a class="collapsed lang" key="FAQ_05" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Why is the Migrantcoin project unique?</a> </h6>
+                                        <h6 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <p class="lang inline language" key="FAQ_05">Why is the Migrantcoin project unique?</p>
+                                            </a>
+                                        </h6>
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
                                         <div class="card-body">
-                                            <p class="lang" key="FAQ_06">- The transactions are reversible.</p>
-                                            <p class="lang" key="FAQ_07">- The guarantee of the amount in the case where the transaction is reversible.</p>
-                                            <p class="lang" key="FAQ_08">- The money which is sent reaches directly the recipient’s address.</p>
-                                            <p class="lang" key="FAQ_09">- The lowest taxes on the market OR We offer some of the lowest taxes on the market.</p>
+                                            <p class="lang language" key="FAQ_06">- The transactions are reversible.</p>
+                                            <p class="lang language" key="FAQ_07">- The guarantee of the amount in the case where the transaction is reversible.</p>
+                                            <p class="lang language" key="FAQ_08">- The money which is sent reaches directly the recipient’s address.</p>
+                                            <p class="lang language" key="FAQ_09">- The lowest taxes on the market OR We offer some of the lowest taxes on the market.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                                     <div class="card-header" id="headingThree">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_10" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What are the benefits of Migrantcoin for customers?</a> </h6>
+                                        <h6 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <p class="lang inline language" key="FAQ_10">What are the benefits of Migrantcoin for customers?</p>
+                                            </a>
+                                        </h6>
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
                                         <div class="card-body">
-                                            <p class="lang" key="FAQ_11">- They can send money with just a few clicks.</p>
-                                            <p class="lang" key="FAQ_12">- Money which is sent reaches the receiver’s door.</p>
-                                            <p class="lang" key="FAQ_13">- The money transfer is a matter of seconds.</p>
-                                            <p class="lang" key="FAQ_14">- Bonuses for those who achieve a specific amount/value of the transactions.</p>
+                                            <p class="lang language" key="FAQ_11">- They can send money with just a few clicks.</p>
+                                            <p class="lang language" key="FAQ_12">- Money which is sent reaches the receiver’s door.</p>
+                                            <p class="lang language" key="FAQ_13">- The money transfer is a matter of seconds.</p>
+                                            <p class="lang language" key="FAQ_14">- Bonuses for those who achieve a specific amount/value of the transactions.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="1s">
                                     <div class="card-header" id="headingFour">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_15" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Does Migrantcoin have a legal entity for its business?</a> </h6>
+                                        <h6 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                <p class="lang inline language" key="FAQ_15">Does Migrantcoin have a legal entity for its business?</p>
+                                            </a>
+                                        </h6>
                                     </div>
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion1">
                                         <div class="card-body lang" key="FAQ_16">Yes. Migrantcoin Ltd is an active company with the registered office located in Aldershot, Hampshire (UK). It can also be contacted via email at contact@migrantcoin.com.</div>
@@ -1186,30 +1202,42 @@
                             <div id="accordion2" class="faq_content2">
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                                     <div class="card-header" id="headingSix">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_17" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What problems does Migrantcoin seek to solve?</a> </h6>
+                                        <h6 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                <p class="lang inline language" key="FAQ_17">What problems does Migrantcoin seek to solve?</p>
+                                            </a>
+                                        </h6>
                                     </div>
                                     <div id="collapseFive" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
                                         <div class="card-body">
-                                            <p class="lang" key="FAQ_18">- The high taxes applied in the case of international money transfers.</p>
-                                            <p class="lang" key="FAQ_19">- It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.</p>
-                                            <p class="lang" key="FAQ_20">- It will save a lot of time for customers, both for sender and receiver.</p>
+                                            <p class="lang language" key="FAQ_18">- The high taxes applied in the case of international money transfers.</p>
+                                            <p class="lang language" key="FAQ_19">- It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.</p>
+                                            <p class="lang language" key="FAQ_20">- It will save a lot of time for customers, both for sender and receiver.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                                     <div class="card-header" id="headingSix">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_21" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">How will Migrantcoin benefit holders?</a> </h6>
+                                        <h6 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                <p class="lang inline language" key="FAQ_21">How will Migrantcoin benefit holders?</p>
+                                            </a>
+                                        </h6>
                                     </div>
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
                                         <div class="card-body">
-                                            <p class="lang" key="FAQ_22">- We will offer a quarterly or annual bonus for staking.</p>
-                                            <p class="lang" key="FAQ_23"> - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.</p>
+                                            <p class="lang language" key="FAQ_22">- We will offer a quarterly or annual bonus for staking.</p>
+                                            <p class="lang language" key="FAQ_23"> - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                                     <div class="card-header" id="headingSeven">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_24" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">How is Migrantcoin legally compliant?</a> </h6>
+                                        <h6 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                <p class="lang inline language" key="FAQ_24">How is Migrantcoin legally compliant?</p>
+                                            </a>
+                                        </h6>
                                     </div>
                                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion2">
                                         <div class="card-body lang" key="FAQ_25">Migrantcoin platform will operate under the legislation of UK.</div>
@@ -1217,7 +1245,11 @@
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="1s">
                                     <div class="card-header" id="headingEight">
-                                        <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse lang" key="FAQ_26" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Will Migrantcoin be available worldwide?</a> </h6>
+                                        <h6 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                <p class="lang inline language" key="FAQ_26">Will Migrantcoin be available worldwide?</p>
+                                            </a>
+                                        </h6>
                                     </div>
                                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
                                         <div class="card-body lang" key="FAQ_27">First, the Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.</div>
