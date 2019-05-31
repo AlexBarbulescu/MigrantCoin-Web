@@ -519,7 +519,11 @@ Version      : 1.7
 	});
 	
 	// hide video thumbnail on house hover
-	document.getElementById("hideMe").onmouseover = function (e) {
+	// document.getElementById("hideMe").onmouseover = function (e) {
+	// 	e.target.style.visibility = 'hidden';
+	// }
+
+	document.getElementById("hideMe").onclick = function (e) {
 		e.target.style.visibility = 'hidden';
 	}
 
