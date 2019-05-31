@@ -603,8 +603,6 @@ header .navbar-nav a {
   }
 }
 
-
-
 @media screen and (max-width:991px) {
   .banner_image_right{
     display: none;

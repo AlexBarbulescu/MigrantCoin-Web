@@ -1291,7 +1291,9 @@
                             <p class="animation lang" key="FOOTER_11" data-animation="fadeInUp" data-animation-delay="0.4s">Sign up for updates and market news. Subscribe to our newsletter and receive update about ICOs and crypto tips</p><br />
                             <form class="subscribe_form animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                 <input class="input-rounded" type="text" required placeholder="Enter Email Address" />
-                                <button type="submit" title="Subscribe" class="btn-info lang" key="FOOTER_12" name="submit" value="Submit"> Subscribe </button>
+                                <button type="submit" title="Subscribe" class="btn-info" name="submit" value="Submit">
+                                    <p class="lang" key="FOOTER_12">Subscribe</p>
+                                </button>
                             </form>
                         </div>
                     </div>
