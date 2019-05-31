@@ -518,6 +518,11 @@ Version      : 1.7
 		});
 	});
 	
+	// hide video thumbnail on house hover
+	document.getElementById("hideMe").onmouseover = function (e) {
+		e.target.style.visibility = 'hidden';
+	}
+
 	google.maps.event.addDomListener(window, 'load', init);
         
             function init() {
@@ -552,4 +557,3 @@ Version      : 1.7
 			
 					
 })(jQuery);
-

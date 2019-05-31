@@ -39,6 +39,7 @@
     <!-- MigrantCoin CSS -->
     <link rel="stylesheet" href="assets/css/migrantcoin.css?version=<?= time() ?>">
     <link rel="stylesheet" href="assets/color/migrantcoin.css?version=<?= time() ?>">
+
 </head>
 
 <body class="bg_light" data-spy="scroll" data-offset="110">
@@ -153,12 +154,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 order-first">
-
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hRitW810wmY" allowfullscreen></iframe>
+                        <a class="thumbnail-link">
+                            <img src="assets/images/thumbnail.jpg" id="hideMe" class="video-thumbnail">
+                            <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/hRitW810wmY?showinfo=0&autohide=1&color=white&controls=2&modestbranding=1" allowfullscreen></iframe>
+                        </a>
                     </div>
-
-
                 </div>
             </div>
             <div class="row">

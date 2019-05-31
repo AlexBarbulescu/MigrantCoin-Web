@@ -515,6 +515,17 @@ h6 span {
   min-width: 0rem;
 }
 
+.thumbnail-link{
+  box-shadow: 5px 10px #888888;
+}
+
+.video-thumbnail{
+	z-index:300;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
 
 header .navbar-nav a {
     color: #ffffff !important;
