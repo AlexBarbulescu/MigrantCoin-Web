@@ -77,7 +77,7 @@
     <header id="header" class="header_wrap fixed-top">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand page-scroll animation" href="#home_section" data-animation="fadeInDown" data-animation-delay="2s">
+                <a class="navbar-brand page-scroll animation" href="#home_section" data-animation="fadeInDown" data-animation-delay="0.1s">
                     <img class="logo_light no-select" src="assets/images/logo-white.png" alt="logo" />
                 </a>
                 <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="0.1s">
@@ -86,43 +86,43 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
 
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.1s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.1s">
                             <a class="nav-link page-scroll nav_item lang" key="HOME" href="#home_section">Home</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.2s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.2s">
                             <a class="nav-link page-scroll nav_item lang" key="HOWITWORKS" href="#how-it-works">How it works</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.3s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.3s">
                             <a class="nav-link page-scroll nav_item lang" key="VISION" href="#vision">Vision</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.4s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.4s">
                             <a class="nav-link page-scroll nav_item lang" key="TOKEN" href="#token">Token</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.5s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.5s">
                             <a class="nav-link page-scroll nav_item lang" key="ROADMAP" href="#roadmap">Roadmap</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.6s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.6s">
                             <a class="nav-link page-scroll nav_item lang" key="MISSION" href="#mission">Mission</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.7s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.7s">
                             <a class="nav-link page-scroll nav_item lang" key="VALUES" href="#values">Values</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.8s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.8s">
                             <a class="nav-link page-scroll nav_item lang" key="TEAM" href="#team">Team</a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.9s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.9s">
                             <a class="nav-link page-scroll nav_item lang" key="FAQ" href="#faq">FAQ</a>
                         </li>
 
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.10s">&nbsp;</li>
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.10s">&nbsp;</li>
 
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.11s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.11s">
                             <a class="nav-icon nav_icon nav_item" href="https://t.me/migrantcoin" target="_blank"><i class="fab fa-telegram-plane"></i></a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.12s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.12s">
                             <a class="nav-icon nav_icon nav_item" href="https://medium.com/@Migrantcoin" target="_blank"><i class="fab fa-medium-m"></i></a>
                         </li>
-                        <li class="animation" data-animation="fadeInDown" data-animation-delay="2.13s">
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.13s">
                             <a class="nav-icon nav_icon nav_item" href="https://twitter.com/MigrantcoinO" target="_blank"><i class="fab fa-twitter"></i></a>
                         </li>
 
@@ -979,7 +979,7 @@
                     <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/00.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/05.png" alt="">
                             <div class="info-top">
                                 <div class="name">
                                     Cristian Zlatea
@@ -1014,7 +1014,7 @@
                             <img class="img-fluid" src="assets/images/team/04.png" alt="">
                             <div class="info-top">
                                 <div class="name">
-                                    Cristian Zlatea
+                                    Valean Octavian
                                 </div>
                                 <div class="job">
 
