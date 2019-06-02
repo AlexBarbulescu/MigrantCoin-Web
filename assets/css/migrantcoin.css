@@ -533,6 +533,14 @@ h6 span {
 	width:100%;
 }
 
+.no-select{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 header .navbar-nav a {
     color: #ffffff !important;
 }

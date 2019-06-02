@@ -122,6 +122,8 @@ var arrLang = {
         "TEAM_03": "Community Manager", // Community Manager
         "TEAM_04": "Legal Adviser", // Legal Adviser
         "TEAM_05": "Graphic Designer", // Graphic Designer
+        "TEAM_06": "Lead Developer", // Lead Developer
+        "TEAM_07": "Software Developer", // Software Developer
 
         "FAQ_01": "Have Any Questions?", // Have Any Questions?
         "FAQ_02": "Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context", // Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context
@@ -294,6 +296,8 @@ var arrLang = {
         "TEAM_03": "Community Manager", // Community Manager
         "TEAM_04": "Legal Adviser", // Legal Adviser
         "TEAM_05": "Designer Grafic", // Graphic Designer
+        "TEAM_06": "Lead Developer", // Lead Developer
+        "TEAM_07": "Software Developer", // Software Developer
 
         "FAQ_01": "Ai intrebari?", // Have Any Questions?
         "FAQ_02": "Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context", // Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context

@@ -526,6 +526,7 @@ Version      : 1.7
 	document.getElementById("hideMe").onclick = function (e) {
 		e.target.style.visibility = 'hidden';
 	}
+	
 
 	google.maps.event.addDomListener(window, 'load', init);
         
@@ -559,5 +560,4 @@ Version      : 1.7
                 });
             }	
 			
-					
 })(jQuery);

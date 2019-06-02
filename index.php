@@ -10,35 +10,37 @@
     <!-- SITE TITLE -->
     <title>MigrantCoin</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png?version=2>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png?version=2">
     <!-- Animation CSS -->
-    
-    <link rel=" stylesheet" href="assets/css/animate.css">
+
+    <link rel=" stylesheet" type="text/css" href="assets/css/animate.css">
     <!-- Latest Bootstrap min CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <!-- Font Awesome CSS 
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" >-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <!-- ionicons CSS -->
-    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css">
     <!--- owl carousel CSS-->
-    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/owlcarousel/css/owl.theme.default.min.css">
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/spop.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/spop.min.css">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css?version=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/responsive.css?version=<?= time() ?>">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css?version=<?= time() ?>">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css?version=<?= time() ?>">
     <!-- Map CSS -->
-    <link rel="stylesheet" href="assets/css/map.css?version=<?= time() ?>">
+    <link rel="stylesheet" type="text/css" href="assets/css/map.css?version=<?= time() ?>">
     <!-- Team CSS -->
-    <link rel="stylesheet" href="assets/css/team.css?version=<?= time() ?>">
+    <link rel="stylesheet" type="text/css" href="assets/css/team.css?version=<?= time() ?>">
     <!-- MigrantCoin CSS -->
-    <link rel="stylesheet" href="assets/css/migrantcoin.css?version=<?= time() ?>">
-    <link rel="stylesheet" href="assets/color/migrantcoin.css?version=<?= time() ?>">
+    <link rel="stylesheet" type="text/css" href="assets/css/migrantcoin.css?version=<?= time() ?>">
+    <link rel="stylesheet" type="text/css" href="assets/color/migrantcoin.css?version=<?= time() ?>">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css" />
 
 </head>
 
@@ -76,7 +78,7 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand page-scroll animation" href="#home_section" data-animation="fadeInDown" data-animation-delay="2s">
-                    <img class="logo_light" src="assets/images/logo-white.png" alt="logo" />
+                    <img class="logo_light no-select" src="assets/images/logo-white.png" alt="logo" />
                 </a>
                 <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="0.1s">
                     <span class="ion-android-menu"></span>
@@ -156,7 +158,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 order-first">
                     <div class="embed-responsive embed-responsive-16by9">
                         <a class="thumbnail-link">
-                            <img src="assets/images/thumbnail.jpg" id="hideMe" class="video-thumbnail">
+                            <img src="assets/images/thumbnail.jpg" id="hideMe" class="video-thumbnail no-select">
                             <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/hRitW810wmY?showinfo=0&autohide=1&color=white&controls=2&modestbranding=1" allowfullscreen></iframe>
                         </a>
                     </div>
@@ -212,23 +214,20 @@
                     </p>
 
                     <div class="title_blue_dark title_border text-center">
-                        <span class="font-weight-bold lang lang-width" key="HOWITWORKS_02">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</span>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
-                            <p class="lang lang-width" key="HOWITWORKS_03">By using blockchain and the Stellar platform, remittances take a few minutes to reach their destination.</p>
-                            <p class="lang lang-width" key="HOWITWORKS_04">The user only needs to sign in, deposit the amount he or she wants to send and choose the way to deliver it.</p>
-                            <p class="lang lang-width" key="HOWITWORKS_05">The sender may opt for a bank account transfer, delivery to the door or for a paypoint via which the money can reach the beneficiary.</p><br />
+                        <p class="animation font-weight-bold lang lang-width" key="HOWITWORKS_02" data-animation="fadeInUp" data-animation-delay="0.2s">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</p><br />
+                        <p class="animation lang lang-width" key="HOWITWORKS_03" data-animation="fadeInUp" data-animation-delay="0.3s">By using blockchain and the Stellar platform, remittances take a few minutes to reach their destination.</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_04" data-animation="fadeInUp" data-animation-delay="0.3s">The user only needs to sign in, deposit the amount he or she wants to send and choose the way to deliver it.</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_05" data-animation="fadeInUp" data-animation-delay="0.3s">The sender may opt for a bank account transfer, delivery to the door or for a paypoint via which the money can reach the beneficiary.</p><br />
 
-                            <p class="lang lang-width" key="HOWITWORKS_06">It takes a few simple steps:</p>
-                            <p class="lang lang-width" key="HOWITWORKS_07">1. Download the MigrantCoin app.</p>
-                            <p class="lang lang-width" key="HOWITWORKS_08">2. Sign up to create an account.</p>
-                            <p class="lang lang-width" key="HOWITWORKS_09">3. Choose between a paypoint and a bank account (sender’s discretion) to purchase MGC.</p>
-                            <p class="lang lang-width" key="HOWITWORKS_10">4. Send the money.</p><br />
+                        <p class="animation lang lang-width" key="HOWITWORKS_06" data-animation="fadeInUp" data-animation-delay="0.4s">It takes a few simple steps:</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_07" data-animation="fadeInUp" data-animation-delay="0.4s">1. Download the MigrantCoin app.</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_08" data-animation="fadeInUp" data-animation-delay="0.4s">2. Sign up to create an account.</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_09" data-animation="fadeInUp" data-animation-delay="0.4s">3. Choose between a paypoint and a bank account (sender’s discretion) to purchase MGC.</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_10" data-animation="fadeInUp" data-animation-delay="0.4s">4. Send the money.</p><br />
 
-                            <p class="lang lang-width" key="HOWITWORKS_11">MigrantCoin will then process quickly the transaction and deliver the money to the beneficiary in person, by courier.</p>
-                            <p class="lang lang-width" key="HOWITWORKS_12">The beneficiary will acknowledge the receipt of the money with an electronic signature.</p>
-                            <p class="lang lang-width" key="HOWITWORKS_13">Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.</p>
-                        </p>
-                        </p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_11" data-animation="fadeInUp" data-animation-delay="0.5s">MigrantCoin will then process quickly the transaction and deliver the money to the beneficiary in person, by courier.</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_12" data-animation="fadeInUp" data-animation-delay="0.5s">The beneficiary will acknowledge the receipt of the money with an electronic signature.</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_13" data-animation="fadeInUp" data-animation-delay="0.5s">Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.</p>
                     </div>
                 </div>
             </div>
@@ -286,15 +285,15 @@
                 <div class="col-12">
                     <div class="title_blue_dark title_border text-center">
                         <h4 class="animation lang" key="VISION_01" data-animation="fadeInUp" data-animation-delay="0.2s">Vision</h4>
-                        <p class="animation lang" key="VISION_02" data-animation="fadeInUp" data-animation-delay="0.4s">Spending money is easy, sending them should be the same</p> <br />
-                        <p class="animation lang lang-width" key="VISION_03 VISION_04" data-animation="fadeInUp" data-animation-delay="0.6s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another.</p>
-                        <p class="lang lang-width" key="VISION_04">As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise.</p>
-                        <p class="lang lang-width" key="VISION_05">MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p> <br />
-                        <p class="animation lang lang-width" key="VISION_06" data-animation="fadeInUp" data-animation-delay="0.2s">In other words, we aim for a revolution.</p>
-                        <p class="lang lang-width" key="VISION_07">In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now.</p>
-                        <p class="lang lang-width" key="VISION_08">(Im)migrants do just that: they strive for improvement and hope and dream for a more serene future.</p> <br />
-                        <p class="animation lang lang-width" key="VISION_09" data-animation="fadeInUp" data-animation-delay="0.4s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.</p>
-                        <p class="lang lang-width" key="VISION_10">This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
+                        <p class="animation lang" key="VISION_02" data-animation="fadeInUp" data-animation-delay="0.3s">Spending money is easy, sending them should be the same</p> <br />
+                        <p class="animation lang lang-width" key="VISION_03" data-animation="fadeInUp" data-animation-delay="0.5s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another.</p>
+                        <p class="animation lang lang-width" key="VISION_04" data-animation="fadeInUp" data-animation-delay="0.5s">As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise.</p>
+                        <p class="animation lang lang-width" key="VISION_05" data-animation="fadeInUp" data-animation-delay="0.5s">MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p> <br />
+                        <p class="animation lang lang-width" key="VISION_06" data-animation="fadeInUp" data-animation-delay="0.6s">In other words, we aim for a revolution.</p>
+                        <p class="animation lang lang-width" key="VISION_07" data-animation="fadeInUp" data-animation-delay="0.6s">In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now.</p>
+                        <p class="animation lang lang-width" key="VISION_08" data-animation="fadeInUp" data-animation-delay="0.6s">(Im)migrants do just that: they strive for improvement and hope and dream for a more serene future.</p> <br />
+                        <p class="animation lang lang-width" key="VISION_09" data-animation="fadeInUp" data-animation-delay="0.7s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.</p>
+                        <p class="animation lang lang-width" key="VISION_10" data-animation="fadeInUp" data-animation-delay="0.7s">This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
                     </div>
                 </div>
             </div>
@@ -810,13 +809,14 @@
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_dark title_border text-center">
                         <h4 class="animation lang" key="TEAM_01" data-animation="fadeInUp" data-animation-delay="0.2s">A Small Team Having a Vast Experience</h4>
-                        <p class="animation lang" key="TEAM_02" data-animation="fadeInUp" data-animation-delay="0.4s">Our extraordinary team, ready to achieve high results.</p>
+                        <p class="animation lang" key="TEAM_02" data-animation="fadeInUp" data-animation-delay="0.2s">Our extraordinary team, ready to achieve high results.</p>
                     </div>
                 </div>
             </div>
             <div class="row small_space justify-content-center">
                 <div class="row no-gutters">
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1s">
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.3s">
                         <div class="team-item">
                             <div class="info-top">
                                 <div class="name">
@@ -847,7 +847,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.1s">
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.4s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/02.png" alt="">
@@ -878,13 +879,142 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.2s">
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.5s">
+                        <div class="team-item">
+                            <div class="hover-back"></div>
+                            <img class="img-fluid" src="assets/images/team/00.png" alt="">
+                            <div class="info-top">
+                                <div class="name">
+                                    Șerban Victor
+                                </div>
+                                <div class="job lang" key="TEAM_06">
+                                    Lead Developer
+                                </div>
+                            </div>
+                            <div class="info-bottom">
+                                <div class="name">
+                                    Șerban Victor
+                                </div>
+                                <div class="job lang" key="TEAM_06">
+                                    Lead Developer
+                                </div>
+                                <p></p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/serban-victor-itil/">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>LinkedIn icon</title>
+                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.6s">
+                        <div class="team-item">
+                            <div class="hover-back"></div>
+                            <img class="img-fluid" src="assets/images/team/00.png" alt="">
+                            <div class="info-top">
+                                <div class="name">
+                                    Emanuel Tănasă
+                                </div>
+                                <div class="job lang" key="TEAM_07">
+                                    Software Developer
+                                </div>
+                            </div>
+                            <div class="info-bottom">
+                                <div class="name">
+                                    Emanuel Tănasă
+                                </div>
+                                <div class="job lang" key="TEAM_07">
+                                    Software Developer
+                                </div>
+                                <p></p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/emanueltanasa/">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>LinkedIn icon</title>
+                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.7s">
+                        <div class="team-item">
+                            <div class="hover-back"></div>
+                            <img class="img-fluid" src="assets/images/team/00.png" alt="">
+                            <div class="info-top">
+                                <div class="name">
+                                    Dragos Ungur
+                                </div>
+                                <div class="job lang" key="TEAM_07">
+                                    Software Developer
+                                </div>
+                            </div>
+                            <div class="info-bottom">
+                                <div class="name">
+                                    Dragos Ungur
+                                </div>
+                                <div class="job lang" key="TEAM_07">
+                                    Software Developer
+                                </div>
+                                <p></p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/dragos-ungur-2b008926/">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>LinkedIn icon</title>
+                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
+                        <div class="team-item">
+                            <div class="hover-back"></div>
+                            <img class="img-fluid" src="assets/images/team/00.png" alt="">
+                            <div class="info-top">
+                                <div class="name">
+                                    Cristian Zlatea
+                                </div>
+                                <div class="job lang" key="TEAM_07">
+                                    Software Developer
+                                </div>
+                            </div>
+                            <div class="info-bottom">
+                                <div class="name">
+                                    Cristian Florin Zlatea
+                                </div>
+                                <div class="job lang" key="TEAM_07">
+                                    Software Developer
+                                </div>
+                                <p></p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/czlatea/">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>LinkedIn icon</title>
+                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.9s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/03.png" alt="">
                             <div class="info-top">
                                 <div class="name">
-                                    Alex Barbulescu
+                                    Alex Bărbulescu
                                 </div>
                                 <div class="job lang" key="TEAM_05">
                                     Graphic Designer
@@ -892,14 +1022,14 @@
                             </div>
                             <div class="info-bottom">
                                 <div class="name">
-                                    Alex Barbulescu
+                                    Alex Bărbulescu
                                 </div>
                                 <div class="job lang" key="TEAM_05">
                                     Graphic Designer
                                 </div>
                                 <p>Insert text here</p>
                                 <div class="social">
-                                    <a href="https://www.linkedin.com/in/ion-mazilu-krall-51291972">
+                                    <a href="https://twitter.com/Alex_TNT">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <title>Twitter icon</title>
                                             <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
@@ -909,197 +1039,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.3s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/4.png" alt="">
-                            <div class="info-top">
-                                <div class="name">
-                                    William Cox
-                                </div>
-                                <div class="job">
-                                    Software Development
-                                </div>
-                            </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    William Cox
-                                </div>
-                                <div class="job">
-                                    Software Development
-                                </div>
-                                <p>William has long worked in the field of information technology. He is responsible for developing the platform and manages the creation of a mobile application and CRX Wallet.</p>
-                                <div class="social">
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>Facebook icon</title>
-                                            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.4s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/5.png" alt="">
-                            <div class="info-top">
-                                <div class="name">
-                                    Darren Leonard
-                                </div>
-                                <div class="job">
-                                    Board Advisor
-                                </div>
-                            </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Darren Leonard
-                                </div>
-                                <div class="job">
-                                    Board Advisor
-                                </div>
-                                <p>Advisor to several large
-                                    companies in Western Europe
-                                    and the US
-                                </p>
-                                <div class="social">
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>Facebook icon</title>
-                                            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.5s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/6.png" alt="">
-                            <div class="info-top">
-                                <div class="name">
-                                    Pauline Rose
-                                </div>
-                                <div class="job">
-                                    Board Advisor
-                                </div>
-                            </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Pauline Rose
-                                </div>
-                                <div class="job">
-                                    Board Advisor
-                                </div>
-                                <p>Pauline manages a large number of crypto funds of large companies. It has been active since the beginning of the origin of crypto-currencies.</p>
-                                <div class="social">
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>Facebook icon</title>
-                                            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.6s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/7.png" alt="">
-                            <div class="info-top">
-                                <div class="name">
-                                    Robert Parks
-                                </div>
-                                <div class="job">
-                                    Board Advisor
-                                </div>
-                            </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Robert Parks
-                                </div>
-                                <div class="job">
-                                    Board Advisor
-                                </div>
-                                <p>Robert graduated with honors from several prestigious US universities in the direction of Finance. Since 2010, he is a trusted advisor in 5 crypto-exchange markets.</p>
-                                <div class="social">
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>Facebook icon</title>
-                                            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.7s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/8.png" alt="">
-                            <div class="info-top">
-                                <div class="name">
-                                    Gilbert Carr
-                                </div>
-                                <div class="job">
-                                    Board Advisor
-                                </div>
-                            </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Gilbert Carr
-                                </div>
-                                <div class="job">
-                                    Board Advisor
-                                </div>
-                                <p>More than 5 years, provides
-                                    technology services for start-up
-                                    companies around the world.
-                                </p>
-                                <div class="social">
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                    <a href="">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>Facebook icon</title>
-                                            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -1319,6 +1259,7 @@
             </div>
         </div>
     </footer>
+
     <!-- END FOOTER -->
     <a href="#" class="scrollup btn-default"><i class="ion-ios-arrow-up"></i></a>
     <!-- Latest jQuery -->
@@ -1349,6 +1290,24 @@
     <!-- scripts js -->
     <script src="assets/js/scripts.js?version=<?= time() ?>"></script>
     <script src="assets/js/language.js?version=<?= time() ?>"></script>
+
+    <script src="assets/js/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#1D3BB7"
+                    },
+                    "button": {
+                        "background": "transparent",
+                        "text": "#ffffff",
+                        "border": "#FF7000"
+                    }
+                }
+            })
+        });
+    </script>
 
 </body>
 
