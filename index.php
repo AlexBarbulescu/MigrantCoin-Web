@@ -307,14 +307,14 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="TOKEN_01" data-animation="fadeInUp" data-animation-delay="0.2s">Token allocation</h4>
+                        <h4 class="animation lang" key="TOKEN_01" data-animation="fadeInUp" data-animation-delay="0.4s">Token allocation</h4>
                         <p class="animation lang" key="TOKEN_02" data-animation="fadeInUp" data-animation-delay="0.4s">A fixed number of tokens will be created for token sale. There will be no more tokens generated after that.</p>
                     </div>
                 </div>
             </div>
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-7 col-md-12">
-                    <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="1.5s">
+                    <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="0.4s">
                         <canvas id="token_sale"></canvas>
                         <div class="chart_icon">
                             <img src="assets/images/logo-chart.png" />
@@ -322,7 +322,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="1.5s">
+                    <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="0.4s">
                         <li>
                             <h6>
                                 <p class="lang" key="TOKEN_03">Founder & Team - 200.000.000</p>
@@ -366,19 +366,49 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="container mt-5">
+            <br />
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="TOKEN_08" data-animation="fadeInUp" data-animation-delay="0.2s">Funds distribution</h4>
+                        <h4 class="animation lang" key="TOKEN_15" data-animation="fadeInUp" data-animation-delay="0.4s">Token Info</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 offset-md-3 animation offset-left-token" data-animation="fadeInUp" data-animation-delay="0.4s">
+                <div class="row">
+                    <div class="col col-box">
+                        <p class="lang black" key="TOKEN_16">Token symbol :</p>
+                        <p class="lang gray">&nbsp;&nbsp; MGC</p><br />
+                    </div>
+                    <div class="col offset-right-token col-box">
+                        <p class="lang black" key="TOKEN_17">Type :</p>
+                        <p class="lang gray">&nbsp;&nbsp; ERC-20</p>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col col-box">
+                        <p class="lang black" key="TOKEN_18">Token initial value :</p>
+                        <p class="lang gray">&nbsp;&nbsp; 1 MGC = 0.01 USD</p><br />
+                    </div>
+                    <div class="col offset-right-token col-box">
+                        <p class="lang black" key="TOKEN_19">Total supply :</p>
+                        <p class="lang gray">&nbsp;&nbsp; 2,000,000,000</p>
+                    </div>
+                </div>
+            </div>
+
+            <br />
+            <div class="row text-center">
+                <div class="col-lg-8 col-md-12 offset-lg-2">
+                    <div class="title_blue_dark title_border text-center">
+                        <h4 class="animation lang" key="TOKEN_08" data-animation="fadeInUp" data-animation-delay="0.4s">Funds distribution</h4>
                         <p class="animation lang" key="TOKEN_09" data-animation="fadeInUp" data-animation-delay="0.4s">It is also possible to have a static supply with a dynamic funding goal, in which the distribution of tokens will be made according to the funds received</p>
                     </div>
                 </div>
             </div>
             <div class="row align-items-center justify-content-center flex-row-reverse">
                 <div class="col-lg-7 col-md-12">
-                    <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="1.5s">
+                    <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="0.4s">
                         <canvas id="token_dist"></canvas>
                         <div class="chart_icon">
                             <img src="assets/images/logo-chart.png" />
@@ -386,7 +416,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="1.5s">
+                    <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="0.4s">
                         <li>
                             <h6>
                                 <p class="lang" key="TOKEN_10">R & D - 4.231.966</p>

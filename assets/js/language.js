@@ -62,6 +62,11 @@ var arrLang = {
         "TOKEN_12": "Ops - 3.702.971", // Ops - 3.702.971
         "TOKEN_13": "Legal - 211.598", // Legal - 211.598
         "TOKEN_14": "Licensing - 317.397", // Licensing - 317.397 
+        "TOKEN_15": "Token Info", // Token Info
+        "TOKEN_16": "Token symbol :", // Token symbol :
+        "TOKEN_17": "Type :", // Type :
+        "TOKEN_18": "Token initial value :", // Token initial value :
+        "TOKEN_19": "Total supply :", // Total supply :
 
         "ROADMAP_01": "Roadmap", // Roadmap
         "ROADMAP_02": "Our journey has just began", // Our journey has just began
@@ -236,6 +241,11 @@ var arrLang = {
         "TOKEN_12": "Ops - 3.702.971", // Ops - 3.702.971
         "TOKEN_13": "Legal - 211.598", // Legal - 211.598
         "TOKEN_14": "Licensing - 317.397", // Licensing - 317.397
+        "TOKEN_15": "Informatii despre Token", // Token Info
+        "TOKEN_16": "Token symbol :", // Token symbol :
+        "TOKEN_17": "Type :", // Type :
+        "TOKEN_18": "Token initial value :", // Token initial value :
+        "TOKEN_19": "Total supply :", // Total supply :
 
         "ROADMAP_01": "Roadmap", // Roadmap
         "ROADMAP_02": "Calatoria noastra a inceput", // Our journey has just began
