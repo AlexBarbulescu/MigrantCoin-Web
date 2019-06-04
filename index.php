@@ -771,58 +771,64 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value3" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-chess"></i>
-                        <span class="btn_text lang" key="VALUES_08">We like to think differently</span>
+                        <span class="btn_text">
+                            <p class="lang" key="VALUES_08">We like</p>
+                            <p class="lang" key="VALUES_09">to think differently</p>
+                        </span>
                     </button>
                     <div id="value3" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_09">Following a careful analysis of the remittance market, we concluded that, in general, the solutions offered to the problems of this market are rather similar. MigrantCoin seeks to implement unique solutions to these issues and we believe that we can make a difference.</span>
+                        <span class="btn_textsmall lang" key="VALUES_10">Following a careful analysis of the remittance market, we concluded that, in general, the solutions offered to the problems of this market are rather similar. MigrantCoin seeks to implement unique solutions to these issues and we believe that we can make a difference.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value4" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-eye"></i>
                         <span class="btn_text">
-                            <p class="lang" key="VALUES_10">We value</p>
-                            <p class="lang" key="VALUES_11">transparency</p>
+                            <p class="lang" key="VALUES_11">We value</p>
+                            <p class="lang" key="VALUES_12">transparency</p>
                         </span>
                     </button>
                     <div id="value4" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_12">We believe that transparency in relation to the investors and to our community is very important. We propose that all the amounts of money gathered in the ICO should be justified and we shall do our best to fulfill our commitments.</span>
+                        <span class="btn_textsmall lang" key="VALUES_13">We believe that transparency in relation to the investors and to our community is very important. We propose that all the amounts of money gathered in the ICO should be justified and we shall do our best to fulfill our commitments.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value5" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-tasks"></i>
-                        <span class="btn_text lang" key="VALUES_13">We identify needs and satisfy them</span>
+                        <span class="btn_text lang" key="VALUES_14">We identify needs and satisfy them</span>
                     </button>
                     <div id="value5" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_14">The MigrantCoin project is, first of all, the result of the desire to solve some of the needs of a specific category of people ((im)migrants) and, thus, to make their lives easier.</span>
+                        <span class="btn_textsmall lang" key="VALUES_15">The MigrantCoin project is, first of all, the result of the desire to solve some of the needs of a specific category of people ((im)migrants) and, thus, to make their lives easier.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value6" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-handshake"></i>
-                        <span class="btn_text lang" key="VALUES_15">We offer guarantees and trust</span>
+                        <span class="btn_text lang" key="VALUES_16">We offer guarantees and trust</span>
                     </button>
                     <div id="value6" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_16">Our main concern is to guarantee the amounts of money entrusted to us for their delivery to the destination indicated by the client. Your trust is our success – and we aim for success.</span>
+                        <span class="btn_textsmall lang" key="VALUES_17">Our main concern is to guarantee the amounts of money entrusted to us for their delivery to the destination indicated by the client. Your trust is our success – and we aim for success.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value7" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-rocket"></i>
-                        <span class="btn_text lang" key="VALUES_17">We keep an eye on the future</span>
+                        <span class="btn_text">
+                            <p class="lang" key="VALUES_18">We keep an eye</p>
+                            <p class="lang" key="VALUES_19">on the future</p>
+                        </span>
                     </button>
                     <div id="value7" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_18">Conventional payment and money transfer systems cannot keep the pace with the human kind’s desire of quick and constant evolution. We are the result of the technological revolution and it is our duty to offer to the future generations the tools required for the same remittance of money, anywhere in the world, fast and risk-free.</span>
+                        <span class="btn_textsmall lang" key="VALUES_20">Conventional payment and money transfer systems cannot keep the pace with the human kind’s desire of quick and constant evolution. We are the result of the technological revolution and it is our duty to offer to the future generations the tools required for the same remittance of money, anywhere in the world, fast and risk-free.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value8" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-hands-helping"></i>
-                        <span class="btn_text lang" key="VALUES_19">We are open for partnerships</span>
+                        <span class="btn_text lang" key="VALUES_21">We are open for partnerships</span>
                     </button>
                     <div id="value8" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_20">MigrantCoin is a project aiming to make its services available across the world. This is a very difficult and complex process we alone cannot complete. For this reason, you will be happy to know that, in the countries where we will offer our services, you too can become our partner.</span>
+                        <span class="btn_textsmall lang" key="VALUES_22">MigrantCoin is a project aiming to make its services available across the world. This is a very difficult and complex process we alone cannot complete. For this reason, you will be happy to know that, in the countries where we will offer our services, you too can become our partner.</span>
                     </div>
                 </div>
             </div>
@@ -1214,8 +1220,7 @@
                                     </div>
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
                                         <div class="card-body">
-                                            <p class="lang language" key="FAQ_22">- We will offer a quarterly or annual bonus for staking.</p>
-                                            <p class="lang language" key="FAQ_23"> - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.</p>
+                                            <p class="lang language" key="FAQ_22"> - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1223,24 +1228,24 @@
                                     <div class="card-header" id="headingSeven">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                                <p class="lang inline language" key="FAQ_24">How is Migrantcoin legally compliant?</p>
+                                                <p class="lang inline language" key="FAQ_23">How is Migrantcoin legally compliant?</p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion2">
-                                        <div class="card-body lang" key="FAQ_25">Migrantcoin platform will operate under the legislation of UK.</div>
+                                        <div class="card-body lang" key="FAQ_24">Migrantcoin platform will operate under the legislation of UK.</div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="1s">
                                     <div class="card-header" id="headingEight">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                <p class="lang inline language" key="FAQ_26">Will Migrantcoin be available worldwide?</p>
+                                                <p class="lang inline language" key="FAQ_25">Will Migrantcoin be available worldwide?</p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
-                                        <div class="card-body lang" key="FAQ_27">First, the Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.</div>
+                                        <div class="card-body lang" key="FAQ_26">First, the Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.</div>
                                     </div>
                                 </div>
                             </div>
