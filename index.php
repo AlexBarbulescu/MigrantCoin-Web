@@ -1076,6 +1076,30 @@
                         </div>
                     </div>
 
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
+                        <div class="team-item">
+                            <div class="hover-back"></div>
+                            <img class="img-fluid" src="assets/images/team/06.png" alt="">
+                            <div class="info-top">
+                                <div class="name">
+                                    Zarcher
+                                </div>
+                                <div class="job lang" key="TEAM_08">
+                                    Advisors
+                                </div>
+                            </div>
+                            <div class="info-bottom">
+                                <div class="name">
+                                    Zarcher
+                                </div>
+                                <div class="job lang" key="TEAM_08">
+                                    Advisors
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.0s">
                         <div class="team-item">
                             <div class="hover-back"></div>

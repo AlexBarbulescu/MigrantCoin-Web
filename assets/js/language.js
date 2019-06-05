@@ -131,6 +131,7 @@ var arrLang = {
         "TEAM_05": "Graphic Designer", // Graphic Designer
         "TEAM_06": "Lead Developer", // Lead Developer
         "TEAM_07": "Software Developer", // Software Developer
+        "TEAM_08": "Advisor", // Advisor
 
         "FAQ_01": "Have Any Questions?", // Have Any Questions?
         "FAQ_02": "Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context", // Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context
@@ -308,6 +309,7 @@ var arrLang = {
         "TEAM_05": "Designer Grafic", // Graphic Designer
         "TEAM_06": "Developer Principal", // Lead Developer
         "TEAM_07": "Developer Software", // Software Developer
+        "TEAM_08": "Consilier", // Advisor
 
         "FAQ_01": "Ai intrebari?", // Have Any Questions?
         "FAQ_02": "Intrebari frecvente (FAQ) sau Raspunsuri si intrebari (Q&A), reprezinta o lista de intrebari si raspunsuri considerate relevante", // Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context
