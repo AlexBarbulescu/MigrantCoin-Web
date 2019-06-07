@@ -54,7 +54,6 @@
                 <div class="bounce3"></div>
             </div>
         </div>
-
     </div>
     <!-- END LOADER -->
 
@@ -169,7 +168,8 @@
                     <div class="divider small_divider"></div>
                 </div>
             </div>
-            <div class="row">
+
+            <!-- <div class="row">
                 <div class="col-md-12">
                     <div class="banner_inner">
                         <div class="mgc_blue_bg banner_token text-center animation" data-animation="fadeIn" data-animation-delay="0.1s">
@@ -179,9 +179,9 @@
                                 </div>
                                 <div class="progress_col">
                                     <div class="progress animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                                        <div class="progress-bar progress-bar-striped gradient" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100" style="width:46%"> 46% </div>
-                                        <span class="progress_label bg-white" style="left: 30%"> <strong> 46,000 BCC </strong></span>
-                                        <span class="progress_label bg-white" style="left: 75%"> <strong> 90,000 BCC </strong></span>
+                                        <div class="progress-bar progress-bar-striped gradient" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100" style="width:0%"> 0% </div>
+                                        <span class="progress_label bg-white" style="left: 30%"> <strong> 46,000 MGC </strong></span>
+                                        <span class="progress_label bg-white" style="left: 75%"> <strong> 90,000 MGC </strong></span>
                                         <span class="progress_min_val lang" key="TOP_05">Sale Raised</span>
                                         <span class=" progress_max_val lang" key="TOP_06">Soft-caps</span>
                                     </div>
@@ -193,7 +193,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
         </div>
         <!-- <div class="angle_bottom"></div> -->
     </section>
@@ -856,6 +857,38 @@
                         <div class="team-item">
                             <div class="info-top">
                                 <div class="name">
+                                    Titus Pal
+                                </div>
+                                <div class="job">
+                                    Operations Manager
+                                </div>
+                            </div>
+                            <div class="hover-back"></div>
+                            <img class="img-fluid" src="assets/images/team/07.png" alt="">
+                            <div class="info-bottom">
+                                <div class="name">
+                                    Titus Pal
+                                </div>
+                                <div class="job">
+                                    Operations Manager
+                                </div>
+                                <p>Insert text here.</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/titus-pal-19295082/" target="_blank">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>LinkedIn icon</title>
+                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.4s">
+                        <div class="team-item">
+                            <div class="info-top">
+                                <div class="name">
                                     Abel Dragomir
                                 </div>
                                 <div class="job lang" key="TEAM_03">
@@ -884,7 +917,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.4s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.5s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/02.png" alt="">
@@ -916,7 +949,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.5s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.6s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/00.png" alt="">
@@ -948,7 +981,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.6s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.7s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/00.png" alt="">
@@ -980,7 +1013,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.7s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/00.png" alt="">
@@ -1012,7 +1045,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.9s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/00.png" alt="">
@@ -1044,7 +1077,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.9s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.0s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/05.png" alt="">
@@ -1076,7 +1109,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.0s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.1s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/04.png" alt="">
@@ -1085,7 +1118,7 @@
                                     Valean Octavian
                                 </div>
                                 <div class="job">
-
+                                    Network Specialist
                                 </div>
                             </div>
                             <div class="info-bottom">
@@ -1093,7 +1126,7 @@
                                     Valean Octavian
                                 </div>
                                 <div class="job">
-
+                                    Network Specialist
                                 </div>
                                 <p></p>
                                 <div class="social">
@@ -1108,7 +1141,71 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.1s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.2s">
+                        <div class="team-item">
+                            <div class="hover-back"></div>
+                            <img class="img-fluid" src="assets/images/team/09.png" alt="">
+                            <div class="info-top">
+                                <div class="name">
+                                    Kiraly Tamas
+                                </div>
+                                <div class="job">
+                                    Marketing
+                                </div>
+                            </div>
+                            <div class="info-bottom">
+                                <div class="name">
+                                    Kiraly Tamas
+                                </div>
+                                <div class="job">
+                                    Marketing
+                                </div>
+                                <p></p>
+                                <div class="social">
+                                    <a href="" target="_blank">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>LinkedIn icon</title>
+                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.3s">
+                        <div class="team-item">
+                            <div class="hover-back"></div>
+                            <img class="img-fluid" src="assets/images/team/08.png" alt="">
+                            <div class="info-top">
+                                <div class="name">
+                                    Adina Suciu
+                                </div>
+                                <div class="job lang" key="TEAM_08">
+                                    Advisors
+                                </div>
+                            </div>
+                            <div class="info-bottom">
+                                <div class="name">
+                                    Adina Suciu
+                                </div>
+                                <div class="job lang" key="TEAM_08">
+                                    Advisors
+                                </div>
+                                <p></p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/adinasuciu/" target="_blank">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>LinkedIn icon</title>
+                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.4s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/06.png" alt="">
@@ -1127,12 +1224,12 @@
                                 <div class="job lang" key="TEAM_08">
                                     Advisors
                                 </div>
-
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.2s">
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.5s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/03.png" alt="">
@@ -1153,6 +1250,12 @@
                                 </div>
                                 <p>Insert text here</p>
                                 <div class="social">
+                                    <a href="https://www.linkedin.com/in/alex-barbulescu-78b46a1b/" target="_blank">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>LinkedIn icon</title>
+                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                        </svg>
+                                    </a>
                                     <a href="https://twitter.com/Alex_TNT" target="_blank">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <title>Twitter icon</title>
