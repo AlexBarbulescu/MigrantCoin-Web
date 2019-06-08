@@ -742,6 +742,8 @@ header .navbar-nav a {
     animation: none !important;
   }
 
+  .cc-window{
+    visibility: hidden;
+  }
+
 }
-
-
