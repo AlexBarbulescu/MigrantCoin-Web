@@ -77,7 +77,7 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand page-scroll animation" href="#home_section" data-animation="fadeInDown" data-animation-delay="0.1s">
-                    <img class="logo_light no-select" src="assets/images/logo-white.png" alt="logo" />
+                    <img class="logo_light no-select" src="assets/images/logo_white.png" alt="logo" />
                 </a>
                 <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="0.1s">
                     <span class="ion-android-menu"></span>
