@@ -34,7 +34,7 @@ var arrLang = {
         "HOWITWORKS_12": "The beneficiary will acknowledge the receipt of the money with an electronic signature.", // The beneficiary will acknowledge the receipt of the money with an electronic signature.
         "HOWITWORKS_13": "Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.", // Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.
 
-        "MAP_01": "258 Millions of migrants", // 258 Millions of migrants
+        "MAP_01": "258 Million of migrants", // 258 Million of migrants
         "MAP_02": "Spens 128 days on commuting in their lifetime to send money to their relatives", // Spens 128 days on commuting in their lifetime to send money to their relatives
 
         "VISION_01": "Vision", // Vision
@@ -69,13 +69,13 @@ var arrLang = {
         "TOKEN_19": "Total supply :", // Total supply :
 
         "ROADMAP_01": "Roadmap", // Roadmap
-        "ROADMAP_02": "Our journey has just began", // Our journey has just began
+        "ROADMAP_02": "Our journey has just begun", // Our journey has just begun
         "ROADMAP_03": "Token creation", // Token creation
         "ROADMAP_04": "Sales", // Sales
-        "ROADMAP_05": "Alpha version of the platform released", // Alpha version of the platform released
-        "ROADMAP_06": "Testing Alpha version with Alpha customers and delivery businesses and banks", // Testing Alpha version with Alpha customers and delivery businesses and banks
-        "ROADMAP_07": "Mobile Phone app released", // Mobile Phone app released
-        "ROADMAP_08": "Beta version of the platform released", // Beta version of the platform released
+        "ROADMAP_05": "Release of Alpha version", // Release of Alpha version
+        "ROADMAP_06": "Release of Alpha version with alpha customers and delivery businesses and banks", // Release of Alpha version with alpha customers and delivery businesses and banks
+        "ROADMAP_07": "Release of Mobile App", // Release of Mobile App
+        "ROADMAP_08": "Release of Beta version", // Release of Beta version
         "ROADMAP_09": "Testing beta version", // 
         "ROADMAP_10": "Relase version 1 of platform (web and mobile)", // Relase version 1 of platform (web and mobile)
         "ROADMAP_11": "Platform fully functional in Romania", // Platform fully functional in Romania
@@ -89,7 +89,7 @@ var arrLang = {
         "ROADMAP_19": "beside the initial 6 initially planned.", // beside the initial 6 initially planned.
 
         "MISSION_01": "Mission", // Mission
-        "MISSION_02": "To allow migrants who want to send money to a recipient in their country of origin through blockchain.", // To allow migrants who want to send money to a recipient in their country of origin through blockchain.
+        "MISSION_02": "To enable migrants to send money to a recipient in their home country safely through blockchain .", // To enable migrants to send money to a recipient in their home country safely through blockchain.
         "MISSION_03": "Time saving", // Time saving
         "MISSION_04": "Time is money and so much more, and we urge you to keep this in mind.", // Time is money and so much more, and we urge you to keep this in mind.
         "MISSION_05": "A decentralized cryptocurrency remittance system will help people save precious hours they would otherwise waste on trips to the nearest bank or MTO.", // A decentralized cryptocurrency remittance system will help people save precious hours they would otherwise waste on trips to the nearest bank or MTO. 
@@ -124,8 +124,8 @@ var arrLang = {
         "VALUES_21": "We are open for partnerships", // We are open for partnerships
         "VALUES_22": "MigrantCoin is a project aiming to make its services available across the world. This is a very difficult and complex process we alone cannot complete. For this reason, you will be happy to know that, in the countries where we will offer our services, you too can become our partner.", // MigrantCoin is a project aiming to make its services available across the world. This is a very difficult and complex process we alone cannot complete. For this reason, you will be happy to know that, in the countries where we will offer our services, you too can become our partner.
  
-        "TEAM_01": "A Small Team Having a Vast Experience", // A Small Team Having a Vast Experience
-        "TEAM_02": "Our extraordinary team, ready to achieve high results.", // Our extraordinary team, ready to achieve high results.
+        "TEAM_01": "A strong team drawing on their broad experience ", // A strong team drawing on their broad experience 
+        "TEAM_02": "Our wonderful team is ready to achieve lasting results.", // Our wonderful team is ready to achieve lasting results.
         "TEAM_03": "Community Manager", // Community Manager
         "TEAM_04": "Legal Adviser", // Legal Adviser
         "TEAM_05": "Graphic Designer", // Graphic Designer
@@ -212,7 +212,7 @@ var arrLang = {
         "HOWITWORKS_12": "Destinatarul confirma primirea banilor printr-o semnatura electronica.", // The beneficiary will acknowledge the receipt of the money with an electronic signature.
         "HOWITWORKS_13": "La final, prin intermediul aplicatiei, expeditorul primeste confirmarea livrarii banilor.", // Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.
 
-        "MAP_01": "258 milioane de emigranti", // 258 Millions of migrants
+        "MAP_01": "258 milioane de emigranti", // 258 Million of migrants
         "MAP_02": "Isi petrec in medie 128 de zile din viata deplasandu-se pentru a putea trimite bani rudelor.", // Spend 128 days on commuting in their lifetime to send money to their relatives
 
         "VISION_01": "Viziune", // Vision
@@ -247,13 +247,13 @@ var arrLang = {
         "TOKEN_19": "Total supply :", // Total supply :
 
         "ROADMAP_01": "Roadmap", // Roadmap
-        "ROADMAP_02": "Calatoria noastra abia a inceput", // Our journey has just began
+        "ROADMAP_02": "Calatoria noastra abia a inceput", // Our journey has just begun
         "ROADMAP_03": "Generarea de token-uri", // Token creation
         "ROADMAP_04": "Vanzarea", // Sales
-        "ROADMAP_05": "Versiunea Alpha a platformei lansate", // Alpha version of the platform released
-        "ROADMAP_06": "Testarea versiunii Alpha", // Testing Alpha version 
-        "ROADMAP_07": "Lansarea aplicatiei pentru mobil", // Mobile Phone app released
-        "ROADMAP_08": "Lansarea versiunii Beta", // Beta version of the platform released
+        "ROADMAP_05": "Versiunea Alpha a platformei lansate", // Release of Alpha version
+        "ROADMAP_06": "Testarea versiunii Alpha pentru clienti", // Release of Alpha version with alpha customers and delivery businesses and banks
+        "ROADMAP_07": "Lansarea aplicatiei pentru mobil", // Release of Mobile App
+        "ROADMAP_08": "Lansarea versiunii Beta", // Release of Beta version
         "ROADMAP_09": "Testarea versiunii Beta", // 
         "ROADMAP_10": "Lansarea versiunii 1 a platformei (website and mobil)", // Release version 1 of platform (web and mobile)
         "ROADMAP_11": "Platforma functionala in Romania", // Platform fully functional in Romania
@@ -267,7 +267,7 @@ var arrLang = {
         "ROADMAP_19": "pe langa cele 6 din planul initial.", // beside the 6 countries initially planned.
 
         "MISSION_01": "Misiunea", // Mission
-        "MISSION_02": "Scopul nostru este de a permite emigrantilor sa trimita bani in tarile de origine prin intermediul sistemului blockchain.", // To allow migrants who want to send money to a recipient in their country of origin through blockchain.
+        "MISSION_02": "Scopul nostru este de a permite emigrantilor sa trimita bani in tarile de origine prin intermediul sistemului blockchain.", // To enable migrants to send money to a recipient in their home country safely through blockchain .
         "MISSION_03": "Reduce timpul pierdut pentru transfer", // Time saving
         "MISSION_04": "Sa nu uitam ca timpul inseamna bani si nu doar atat.", // Time is money and so much more, and we urge you to keep this in mind.
         "MISSION_05": "Un sistem de transfer de bani descentralizat bazat pe criptomonede va ajuta oamenii sa castige timpul pretios pe care altfel l-ar irosi pe drumuri la cea mai apropiata banca sau cel mai apropiat oficiu de transfer monetar.", // A decentralized cryptocurrency remittance system will help people save precious hours they would otherwise waste on trips to the nearest bank or MTO. 
@@ -302,8 +302,8 @@ var arrLang = {
         "VALUES_21": "Suntem deschisi pentru parteneriat", // We are open for partnerships
         "VALUES_22": "MigrantCoin isi propune sa fie accesibil pentru orice utilizator oriunde in lume. Acest proces in sine, este unul foarte complex si de durata, pe care noi singuri nu il putem finaliza. De aceea, veti fi multumiti sa aflati ca, in tarile in care ne oferim serviciile, si voi puteti deveni partenerii nostri.", // MigrantCoin is a project aiming to make its services available across the world. This is a very difficult and complex process we alone cannot complete. For this reason, you will be happy to know that, in the countries where we will offer our services, you too can become our partner.
 
-        "TEAM_01": "O echipa mica cu experienta diversa", // A Small Team Having a Vast Experience
-        "TEAM_02": "Echipa noastra extraordinara, este pregatita sa obtina rezultate pe masura.", // Our extraordinary team, ready to achieve high results.
+        "TEAM_01": "O echipa mica cu experienta diversa", // A strong team drawing on their broad experience 
+        "TEAM_02": "Echipa noastra extraordinara, este pregatita sa obtina rezultate pe masura.", // Our wonderful team is ready to achieve lasting results.
         "TEAM_03": "Managerul Comunitatii", // Community Manager
         "TEAM_04": "Avocat", // Legal Adviser
         "TEAM_05": "Designer Grafic", // Graphic Designer

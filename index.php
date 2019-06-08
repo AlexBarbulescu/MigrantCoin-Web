@@ -195,6 +195,18 @@
                 </div>
             </div> -->
 
+            <div class="row text-center hidden-m title_default_light" style="margin-top:100px;">
+                <div class="col-sm-12">
+                    <br /> <br /> <br /> <br /> <br />
+                    <!-- <h4 class="animation " data-animation="fadeInUp" data-animation-delay="0.2s">Find out more</h4> -->
+                    <a href="#how-it-works">
+                        <img src="assets/images/icon-large-downchevron.png" class="arrow_down">
+                    </a>
+                </div>
+                <br>
+            </div>
+
+
         </div>
         <!-- <div class="angle_bottom"></div> -->
     </section>
@@ -249,7 +261,7 @@
                 <span class="sparks spark-5 ripple-out"></span>
                 <span class="sparks spark-6 ripple-out"></span>
                 <div class="box-text text-center wow fadeIn">
-                    <p class="map-textbig lang" key="MAP_01">258 Millions of migrants</p>
+                    <p class="map-textbig lang" key="MAP_01">258 Million of migrants</p>
                     <p class="map-textsmall lang" key="MAP_02">Spens 128 days on commuting in their lifetime to send money to their relatives</p>
                 </div>
             </div>
@@ -472,7 +484,7 @@
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_light title_border text-center">
                         <h4 class="animation lang" key="ROADMAP_01" data-animation="fadeInUp" data-animation-delay="0.2s">Roadmap</h4>
-                        <p class="animation lang" key="ROADMAP_02" data-animation="fadeInUp" data-animation-delay="0.4s">Our journey has just began</p>
+                        <p class="animation lang" key="ROADMAP_02" data-animation="fadeInUp" data-animation-delay="0.4s">Our journey has just begun</p>
                     </div>
                 </div>
             </div>
@@ -508,7 +520,7 @@
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2019</h6>
                                     <p class="animation lang" key="ROADMAP_05" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Alpha version of the platform released
+                                        Release of Alpha version
                                     </p>
                                 </div>
                             </div>
@@ -530,7 +542,7 @@
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q4 2019</h6>
                                     <p class="animation lang" key="ROADMAP_06" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Testing Alpha version with Alpha customers and delivery businesses and banks
+                                        Release of Alpha version with alpha customers and delivery businesses and banks
                                     </p>
                                 </div>
                             </div>
@@ -552,7 +564,7 @@
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1-Q2 2020</h6>
                                     <p class="animation lang" key="ROADMAP_07" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Mobile Phone app released
+                                        Release of Mobile App
                                     </p>
                                 </div>
                             </div>
@@ -573,7 +585,7 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2020</h6>
-                                    <p class="animation lang" key="ROADMAP_08" data-animation="fadeInUp" data-animation-delay="0.4s">Beta version of the platform released</p>
+                                    <p class="animation lang" key="ROADMAP_08" data-animation="fadeInUp" data-animation-delay="0.4s">Release of Beta version</p>
                                     <p class="animation lang" key="ROADMAP_09" data-animation="fadeInUp" data-animation-delay="0.4s">Testing beta version</p>
                                 </div>
                             </div>
@@ -701,7 +713,7 @@
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_dark title_border text-center">
                         <h4 class="animation lang" key="MISSION_01" data-animation="fadeInUp" data-animation-delay="0.2s">Mission</h4>
-                        <p class="animation lang" key="MISSION_02" data-animation="fadeInUp" data-animation-delay="0.4s">To allow migrants who want to send money to a recipient in their country of origin through blockchain.</p>
+                        <p class="animation lang" key="MISSION_02" data-animation="fadeInUp" data-animation-delay="0.4s">To enable migrants to send money to a recipient in their home country safely through blockchain.</p>
                     </div>
                 </div>
             </div>
@@ -845,8 +857,8 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_dark title_border text-center">
-                        <h4 class="animation lang" key="TEAM_01" data-animation="fadeInUp" data-animation-delay="0.2s">A Small Team Having a Vast Experience</h4>
-                        <p class="animation lang" key="TEAM_02" data-animation="fadeInUp" data-animation-delay="0.2s">Our extraordinary team, ready to achieve high results.</p>
+                        <h4 class="animation lang" key="TEAM_01" data-animation="fadeInUp" data-animation-delay="0.2s">A strong team drawing on their broad experience</h4>
+                        <p class="animation lang" key="TEAM_02" data-animation="fadeInUp" data-animation-delay="0.2s">Our wonderful team is ready to achieve lasting results.</p>
                     </div>
                 </div>
             </div>
