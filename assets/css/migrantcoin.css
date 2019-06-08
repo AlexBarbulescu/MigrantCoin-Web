@@ -705,6 +705,10 @@ header .navbar-nav a {
     height: 100%;
   }
 
+  .animation{
+    animation: none !important;
+  }
+
 }
 
 @media screen and (max-width:576px) {
@@ -733,6 +737,11 @@ header .navbar-nav a {
   .lang {
       width: none;
   }
+
+  .animation{
+    animation: none !important;
+  }
+
 }
 
 
