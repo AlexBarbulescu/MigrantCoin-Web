@@ -511,12 +511,17 @@
                         <div class="item">
                             <div class="roadmap_box">
                                 <div class="roadmap_inner">
-                                    <div class="sk-folding-cube mask">
+                                    <div class="sk-cube-grid">
                                         <div class="spinner_square"></div>
-                                        <div class="sk-cube1 sk-cube"></div>
-                                        <div class="sk-cube2 sk-cube"></div>
-                                        <div class="sk-cube4 sk-cube"></div>
-                                        <div class="sk-cube3 sk-cube"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2019</h6>
                                     <p class="animation lang" key="ROADMAP_05" data-animation="fadeInUp" data-animation-delay="0.4s">
@@ -884,7 +889,7 @@
                                 <div class="job">
                                     Operations Manager
                                 </div>
-                                <p>Insert text here.</p>
+                                <p></p>
                                 <div class="social">
                                     <a href="https://www.linkedin.com/in/titus-pal-19295082/" target="_blank">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -916,7 +921,7 @@
                                 <div class="job lang" key="TEAM_03">
                                     Community Manager
                                 </div>
-                                <p>Insert text here.</p>
+                                <p></p>
                                 <div class="social">
                                     <a href="https://www.linkedin.com/in/abeldragomir/" target="_blank">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -948,7 +953,7 @@
                                 <div class="job lang" key="TEAM_04">
                                     Legal Adviser
                                 </div>
-                                <p>Insert text here</p>
+                                <p></p>
                                 <div class="social">
                                     <a href="https://www.linkedin.com/in/ion-mazilu-krall-51291972" target="_blank">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -961,7 +966,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.6s">
+                    <!-- <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.6s">
                         <div class="team-item">
                             <div class="hover-back"></div>
                             <img class="img-fluid" src="assets/images/team/00.png" alt="">
@@ -980,7 +985,7 @@
                                 <div class="job">
 
                                 </div>
-                                <p>Insert text here</p>
+                                <p></p>
                                 <div class="social">
                                     <a href="https://www.linkedin.com/in/vlad-cosma-66b272125/" target="_blank">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -991,7 +996,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.7s">
                         <div class="team-item">
@@ -1060,7 +1065,7 @@
                     <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.9s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/00.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/10.png" alt="">
                             <div class="info-top">
                                 <div class="name">
                                     Dragos Ungur
@@ -1260,7 +1265,7 @@
                                 <div class="job lang" key="TEAM_05">
                                     Graphic Designer
                                 </div>
-                                <p>Insert text here</p>
+                                <p></p>
                                 <div class="social">
                                     <a href="https://www.linkedin.com/in/alex-barbulescu-78b46a1b/" target="_blank">
                                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -1547,6 +1552,15 @@
         });
     </script>
 
-</body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123257907-1%22%3E"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'UA-123257907-1');
+    </script>
+
+</body>
 </html>
