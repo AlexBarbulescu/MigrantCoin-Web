@@ -6,7 +6,7 @@ var arrLang = {
         "HOWITWORKS": "How it works", // How it works
         "VISION": "Vision", // Vision
         "TOKEN": "Token", // Token
-        "ROADMAP": "Roadmaps", // Roadmaps
+        "ROADMAP": "Roadmap", // Roadmap
         "MISSION": "Mission", // Mission
         "VALUES": "Values", // Values
         "TEAM": "Team", // Team

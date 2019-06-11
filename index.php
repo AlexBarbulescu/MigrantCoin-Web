@@ -116,13 +116,19 @@
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.10s">&nbsp;</li>
 
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.11s">
-                            <a class="nav-icon nav_icon nav_item" href="https://t.me/migrantcoin" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                            <a class="nav-icon nav_icon nav_item" href="https://www.facebook.com/Migrantcoin-2336469606669909" target="_blank"><i class="fab fa-facebook"></i></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.12s">
-                            <a class="nav-icon nav_icon nav_item" href="https://medium.com/@Migrantcoin" target="_blank"><i class="fab fa-medium-m"></i></a>
+                            <a class="nav-icon nav_icon nav_item" href="https://t.me/migrantcoin" target="_blank"><i class="fab fa-telegram-plane"></i></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.13s">
+                            <a class="nav-icon nav_icon nav_item" href="https://medium.com/@Migrantcoin" target="_blank"><i class="fab fa-medium-m"></i></a>
+                        </li>
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.14s">
                             <a class="nav-icon nav_icon nav_item" href="https://twitter.com/MigrantcoinO" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.15s">
+                            <a class="nav-icon nav_icon nav_item" href="https://www.instagram.com/migrantcoin/" target="_blank"><i class="fab fa-instagram"></i></a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -142,7 +148,7 @@
     <!-- START TOP -->
     <section id="home_section" class="section_banner blue_lr">
         <div id="banner_bg_effect" class="banner_effect"></div>
-        <div class="container">
+        <div class="container"><br /><br /><br />
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12 order-lg-first">
                     <div class="banner_text text_md_center">
@@ -158,7 +164,7 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <a class="thumbnail-link">
                             <img src="assets/images/thumbnail.jpg" id="hideMe" class="video-thumbnail no-select">
-                            <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/hRitW810wmY?showinfo=0&autohide=1&color=white&controls=2&modestbranding=1" allowfullscreen></iframe>
+                            <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/hRitW810wmY?showinfo=0&autohide=1&color=white&controls=2&modestbranding=1&rel=0" allowfullscreen></iframe>
                         </a>
                     </div>
                 </div>
@@ -194,20 +200,18 @@
                     </div>
                 </div>
             </div> -->
-
-            <div class="row text-center hidden-m title_default_light" style="margin-top:100px;">
-                <div class="col-sm-12">
-                    <br /> <br /> <br /> <br /> <br />
-                    <!-- <h4 class="animation " data-animation="fadeInUp" data-animation-delay="0.2s">Find out more</h4> -->
-                    <a href="#how-it-works">
-                        <img src="assets/images/icon-large-downchevron.png" class="arrow_down">
-                    </a>
-                </div>
-                <br>
-            </div>
-
-
         </div>
+        <div class="row text-center hidden-m title_default_light" style="margin-top:0px;">
+            <div class="col-sm-12">
+                <br /> <br /> <br /> <br /> <br />
+                <!-- <h4 class="animation " data-animation="fadeInUp" data-animation-delay="0.2s">Find out more</h4> -->
+                <a href="#how-it-works">
+                    <img src="assets/images/icon-large-downchevron.png" class="arrow_down">
+                </a>
+            </div>
+            <br>
+        </div>
+
         <!-- <div class="angle_bottom"></div> -->
     </section>
     <!-- END TOP -->
@@ -698,7 +702,7 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">2021</h6>
+                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3-Q4 2021</h6>
                                     <p class="animation lang" key="ROADMAP_18" data-animation="fadeInUp" data-animation-delay="0.4s">Extend to other Countries,</p>
                                     <p class="animation lang" key="ROADMAP_19" data-animation="fadeInUp" data-animation-delay="0.4s">beside the initial 6 initially planned.</p>
                                 </div>
@@ -1001,7 +1005,7 @@
                     <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.7s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/00.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/12.png" alt="">
                             <div class="info-top">
                                 <div class="name">
                                     Șerban Victor
@@ -1033,7 +1037,7 @@
                     <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/00.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/11.png" alt="">
                             <div class="info-top">
                                 <div class="name">
                                     Emanuel Tănasă
