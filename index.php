@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="MigrantCoin - A platform on the Stellar blockchain" />
+    <meta name="description" content="Blockchain-based decentralized money transfer powered by users. Possibility to send money home straight from your virtual wallet." />
     <!-- SITE TITLE -->
     <title>MigrantCoin</title>
     <!-- Favicon Icon -->
@@ -163,7 +163,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 order-first">
                     <div class="embed-responsive embed-responsive-16by9">
                         <a class="thumbnail-link">
-                            <img src="assets/images/thumbnail.jpg" id="hideMe" class="video-thumbnail no-select">
+                            <img src="assets/images/thumbnail.jpg" id="hideMe" class="video-thumbnail no-select" alt="Thumbnail Video">
                             <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/hRitW810wmY?showinfo=0&autohide=1&color=white&controls=2&modestbranding=1&rel=0" allowfullscreen></iframe>
                         </a>
                     </div>
@@ -206,7 +206,7 @@
                 <br /> <br /> <br /> <br /> <br />
                 <!-- <h4 class="animation " data-animation="fadeInUp" data-animation-delay="0.2s">Find out more</h4> -->
                 <a href="#how-it-works">
-                    <img src="assets/images/icon-large-downchevron.png" class="arrow_down">
+                    <img src="assets/images/icon-large-downchevron.png" class="arrow_down" alt="Jump Arrow">
                 </a>
             </div>
             <br>
@@ -226,8 +226,8 @@
                     </div>
 
                     <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
-                        <img class="sedr_big" src="assets/images/SEDR01.png">
-                        <img class="sedr_small" src="assets/images/SEDR02.png">
+                        <img class="sedr_big" src="assets/images/SEDR01.png" alt="How it Works Big">
+                        <img class="sedr_small" src="assets/images/SEDR02.png" alt="How it Works Small">
                     </p>
 
                     <div class="title_blue_dark title_border text-center">
@@ -334,7 +334,7 @@
                     <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="0.4s">
                         <canvas id="token_sale"></canvas>
                         <div class="chart_icon">
-                            <img src="assets/images/logo-chart.png" />
+                            <img src="assets/images/logo-chart.png" alt="logo"/>
                         </div>
                     </div>
                 </div>
@@ -428,7 +428,7 @@
                     <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="0.4s">
                         <canvas id="token_dist"></canvas>
                         <div class="chart_icon">
-                            <img src="assets/images/logo-chart.png" />
+                            <img src="assets/images/logo-chart.png" alt="logo" />
                         </div>
                     </div>
                 </div>
@@ -885,7 +885,7 @@
                                 </div>
                             </div>
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/07.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/07.jpg" alt="Team Member">
                             <div class="info-bottom">
                                 <div class="name">
                                     Titus Pal
@@ -917,7 +917,7 @@
                                 </div>
                             </div>
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/01.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/01.jpg" alt="Team Member">
                             <div class="info-bottom">
                                 <div class="name">
                                     Abel Dragomir
@@ -941,7 +941,7 @@
                     <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.5s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/02.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/02.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Krall Mazilu Ion
@@ -970,10 +970,42 @@
                         </div>
                     </div>
 
-                    <!-- <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.6s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.6s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/00.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/00.jpg" alt="Team Member">
+                            <div class="info-top">
+                                <div class="name">
+                                    Istvan Preda
+                                </div>
+                                <div class="job">
+                                    Product Designer
+                                </div>
+                            </div>
+                            <div class="info-bottom">
+                                <div class="name">
+                                    Istvan Preda
+                                </div>
+                                <div class="job">
+                                    Product Designer
+                                </div>
+                                <p></p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/istvanpreda/" target="_blank">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <title>LinkedIn icon</title>
+                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.7s">
+                        <div class="team-item">
+                            <div class="hover-back"></div>
+                            <img class="img-fluid" src="assets/images/team/00.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Vlad Cosma
@@ -1000,12 +1032,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.7s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/12.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/12.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Șerban Victor
@@ -1034,10 +1066,10 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.9s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/11.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/11.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Emanuel Tănasă
@@ -1066,10 +1098,10 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.9s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.0s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/10.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/10.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Dragos Ungur
@@ -1098,10 +1130,10 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.0s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.1s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/05.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/05.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Cristian Zlatea
@@ -1130,10 +1162,10 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.1s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.2s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/04.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/04.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Valean Octavian
@@ -1162,10 +1194,10 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.2s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.3s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/09.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/09.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Kiraly Tamas
@@ -1194,10 +1226,10 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.3s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.4s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/08.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/08.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Adina Suciu
@@ -1226,10 +1258,10 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.4s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.5s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/06.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/06.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Zarcher
@@ -1250,10 +1282,10 @@
                     </div>
 
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.5s">
+                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.6s">
                         <div class="team-item">
                             <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/03.png" alt="">
+                            <img class="img-fluid" src="assets/images/team/03.jpg" alt="Team Member">
                             <div class="info-top">
                                 <div class="name">
                                     Alex Bărbulescu
