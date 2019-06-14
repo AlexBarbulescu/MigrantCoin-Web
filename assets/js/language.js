@@ -154,11 +154,11 @@ var arrLang = {
         "FAQ_19": "- It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.", // - It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.
         "FAQ_20": "- It will save a lot of time for customers, both for sender and receiver.", // - It will save a lot of time for customers, both for sender and receiver.
         "FAQ_21": "How will Migrantcoin benefit holders?", // How will Migrantcoin benefit holders?
-        "FAQ_22": "- We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.", // - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.
+        "FAQ_22": "- We are considering other benefits for the holders, but we will disclose all these aspects at the right time.", // - We are considering other benefits for the holders, but we will disclose all these aspects at the right time.
         "FAQ_23": "How is Migrantcoin legally compliant?", // How is Migrantcoin legally compliant?
         "FAQ_24": "Migrantcoin platform will operate under the legislation of UK.", // Migrantcoin platform will operate under the legislation of UK.
         "FAQ_25": "Will Migrantcoin be available worldwide?", // Will Migrantcoin be available worldwide?
-        "FAQ_26": "First, the Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.", // First, the Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.
+        "FAQ_26": "First, Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.", // First, Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.
 
         "FOOTER_01": "Migrantcoin Ltd", // Migrantcoin Ltd
         "FOOTER_02": "2 Institute Road Aldershot, Institute Road, Aldershot, GU12 4DA, United Kingdom", // 2 Institute Road Aldershot, Institute Road, Aldershot, GU12 4DA, United Kingdom
@@ -302,7 +302,7 @@ var arrLang = {
         "VALUES_21": "Suntem deschisi pentru parteneriat", // We are open for partnerships
         "VALUES_22": "MigrantCoin isi propune sa fie accesibil pentru orice utilizator oriunde in lume. Acest proces in sine, este unul foarte complex si de durata, pe care noi singuri nu il putem finaliza. De aceea, veti fi multumiti sa aflati ca, in tarile in care ne oferim serviciile, si voi puteti deveni partenerii nostri.", // MigrantCoin is a project aiming to make its services available across the world. This is a very difficult and complex process we alone cannot complete. For this reason, you will be happy to know that, in the countries where we will offer our services, you too can become our partner.
 
-        "TEAM_01": "O echipa mica cu experienta diversa", // A strong team drawing on their broad experience 
+        "TEAM_01": "O echipa puternica cu o experienta diversa", // A strong team drawing on their broad experience 
         "TEAM_02": "Echipa noastra extraordinara, este pregatita sa obtina rezultate pe masura.", // Our wonderful team is ready to achieve lasting results.
         "TEAM_03": "Managerul Comunitatii", // Community Manager
         "TEAM_04": "Avocat", // Legal Adviser
@@ -332,11 +332,11 @@ var arrLang = {
         "FAQ_19": "- Va simplifica procesul anevoios prin care banii trimisi de expeditor ajung la destinatar. Veti reusi sa transferati banii prin doar cateva click-uri.", // - It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.
         "FAQ_20": "- Va castiga mult timp pentru clienti,atat pentru expeditor cat si pentru destinatar.", // - It will save a lot of time for customers, both for sender and receiver.
         "FAQ_21": "-Cum vor avea de castigat detinatorii de Migrantcoin ", // How will Migrantcoin benefit holders?
-        "FAQ_22": "- Luam in considerare acordarea de beneficii pentru cei ce detin monede, insa acest aspect va fi elucidat la momentul oportun.", // - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.
+        "FAQ_22": "- Luam in considerare acordarea de beneficii pentru cei ce detin monede, insa acest aspect va fi elucidat la momentul oportun.", // - We are considering other benefits for the holders, but we will disclose all these aspects at the right time.
         "FAQ_23": "De ce este Migrant coin in conformitate cu legea?", // How is Migrantcoin legally compliant?
         "FAQ_24": "Platforma Migrantcoin va functiona in conformitate cu legislatia tarilor in care isi va desfasura activitatea.", // Migrantcoin platform will operate under the legislation of the countries in which it operates.
         "FAQ_25": "Va fi Migrantcoin disponibil la nivel mondial?", // Will Migrantcoin be available worldwide?
-        "FAQ_26": "Initial, MigrantCoin isi va oferi serviciile utilizatorilor din Europa, thereafter, iar pe masura ce se desvolta, se va extinde la nivel global.", // First, the Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.
+        "FAQ_26": "Initial, MigrantCoin isi va oferi serviciile utilizatorilor din Europa, thereafter, iar pe masura ce se desvolta, se va extinde la nivel global.", // First, Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.
 
         "FOOTER_01": "Migrantcoin Ltd", // Migrantcoin Ltd
         "FOOTER_02": "2 Institute Road Aldershot, Institute Road, Aldershot, GU12 4DA, United Kingdom", // 2 Institute Road Aldershot, Institute Road, Aldershot, GU12 4DA, United Kingdom

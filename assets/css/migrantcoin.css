@@ -1,6 +1,7 @@
 body {
   height: 100%;
   /*background-color: #fff !important;*/
+  overflow-x: hidden;
 }
 
 #home_section {
@@ -712,6 +713,7 @@ header .navbar-nav a {
 }
 
 @media screen and (max-width:576px) {
+
   .banner_image_right{
     display: none;
   }

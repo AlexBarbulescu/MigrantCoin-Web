@@ -78,7 +78,7 @@
     display: block;
     background: url(../images/migrant-map-data2.png);
     background-position: center center;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
     z-index: 5;
 	overflow: hidden;
 }
@@ -657,6 +657,7 @@
 		padding: 17.5%;
 		margin: 0px -20px;
 		padding-top: 200px;
+		overflow: hidden;
 	}
 	.o-purchased-tokens::before {
 	    position: absolute;
@@ -692,6 +693,7 @@
 		height: 35px;
 		left: -15%;
 		width: 130%;
+		overflow: hidden;
 	}
 
 	.o-purchased-tokens .sparks {
@@ -783,6 +785,16 @@
 	    left: 266px;
 /*		top: 71%;
 	    left: 81.5%;*/
+	}
+
+	.ripple_effect_left_bottom{
+		width: 400px;
+		height: 400px;
+	}
+
+	.ripple_effect_right_top{
+		width: 400px;
+		height: 400px;
 	}
 
 }

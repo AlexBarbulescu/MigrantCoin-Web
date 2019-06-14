@@ -1432,7 +1432,7 @@
                                     </div>
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
                                         <div class="card-body">
-                                            <p class="lang language" key="FAQ_22"> - We are also considering other benefits for the holders, but we will disclose all these aspects at the right time.</p>
+                                            <p class="lang language" key="FAQ_22"> - We are considering other benefits for the holders, but we will disclose all these aspects at the right time.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1457,7 +1457,7 @@
                                         </h6>
                                     </div>
                                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
-                                        <div class="card-body lang" key="FAQ_26">First, the Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.</div>
+                                        <div class="card-body lang" key="FAQ_26">First, Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.</div>
                                     </div>
                                 </div>
                             </div>
