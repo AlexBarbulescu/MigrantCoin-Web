@@ -253,18 +253,17 @@
     <!-- END HOW IT WORKS -->
 
     <!-- START MAP -->
-    <!-- <section class="section_token blue_lr">
+    <section class="section_token blue_lr">
         <div class="angle_top"></div>
         <div class="divider large_divider"></div>
-        <div class="container-map d-flex align-items-center animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-  
-            <div class="container">
-                <span class="sparks spark-1 ripple-out"></span>
+        <div class="container-map d-flex animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+            <div class="container map">
+                <!-- <span class="sparks spark-1 ripple-out"></span>
                 <span class="sparks spark-2 ripple-out"></span>
                 <span class="sparks spark-3 ripple-out"></span>
                 <span class="sparks spark-4 ripple-out"></span>
                 <span class="sparks spark-5 ripple-out"></span>
-                <span class="sparks spark-6 ripple-out"></span>
+                <span class="sparks spark-6 ripple-out"></span> -->
                 <div class="box-text text-center wow fadeIn">
                     <p class="map-textbig lang" key="MAP_01">258 Million of migrants</p>
                     <p class="map-textsmall lang" key="MAP_02">Spens 128 days on commuting in their lifetime to send money to their relatives</p>
@@ -293,7 +292,7 @@
                 <span></span>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- END MAP -->
 
     <!-- VISION -->

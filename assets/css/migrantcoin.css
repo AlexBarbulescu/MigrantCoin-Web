@@ -5,7 +5,6 @@ body {
   overflow-y: auto;
 }
 
-
 #home_section {
   height: 100%;
   padding-top: 200px;
@@ -690,11 +689,6 @@ header .navbar-nav a {
 
 @media screen and (max-width:768px) {
 
-  body {
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-
   .banner_image_right{
     display: none;
   }
@@ -725,11 +719,6 @@ header .navbar-nav a {
 }
 
 @media screen and (max-width:576px) {
-
-  body {
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
 
   .banner_image_right{
     display: none;
@@ -764,5 +753,16 @@ header .navbar-nav a {
   .cc-window{
     visibility: hidden;
   }
+
+	.ripple_effect_left_bottom{
+		width: 300px;
+		height: 300px;
+	}
+
+	.ripple_effect_right_top{
+		width: 300px;
+		height: 300px;
+	}
+
 
 }
