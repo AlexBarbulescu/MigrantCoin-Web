@@ -27,8 +27,6 @@
 	animation-name: ripple-out;
 }
 
-
-
 .box-text{
 	position: relative;
 	background: rgb(255,162,0);
@@ -80,7 +78,6 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	z-index: 5;
-	overflow: hidden;
 }
 
 .container-map .container {
@@ -231,8 +228,6 @@
 
 }
 
-
-
 @media screen and (max-width: 500px) {
 
 	.container-map {
@@ -271,8 +266,8 @@
 
 	.box-text{
 		margin-top: -90px;
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: -35px;
+		margin-right: -35px;
 		height: 35px;
 		left: 0px;
 		overflow: hidden;

@@ -42,6 +42,13 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css" />
 
+
+    <?php
+    $json = file_get_contents('assets/js/language.json');
+    $language = json_decode($json, true);
+    $active_language = $_COOKIE["active_language"];
+    ?>
+
 </head>
 
 <body class="bg_light" data-spy="scroll" data-offset="110">
@@ -86,31 +93,31 @@
                     <ul class="navbar-nav">
 
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.1s">
-                            <a class="nav-link page-scroll nav_item lang" key="HOME" href="#home_section">Home</a>
+                            <a class="nav-link page-scroll nav_item lang" key="HOME" href="#home_section"><?php print_r($language[$active_language]['HOME']); ?></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.2s">
-                            <a class="nav-link page-scroll nav_item lang" key="HOWITWORKS" href="#how-it-works">How it works</a>
+                            <a class="nav-link page-scroll nav_item lang" key="HOWITWORKS" href="#how-it-works"><?php print_r($language[$active_language]['HOWITWORKS']); ?></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.3s">
-                            <a class="nav-link page-scroll nav_item lang" key="VISION" href="#vision">Vision</a>
+                            <a class="nav-link page-scroll nav_item lang" key="VISION" href="#vision"><?php print_r($language[$active_language]['VISION']); ?></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.4s">
-                            <a class="nav-link page-scroll nav_item lang" key="TOKEN" href="#token">Token</a>
+                            <a class="nav-link page-scroll nav_item lang" key="TOKEN" href="#token"><?php print_r($language[$active_language]['TOKEN']); ?></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.5s">
-                            <a class="nav-link page-scroll nav_item lang" key="ROADMAP" href="#roadmap">Roadmap</a>
+                            <a class="nav-link page-scroll nav_item lang" key="ROADMAP" href="#roadmap"><?php print_r($language[$active_language]['ROADMAP']); ?></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.6s">
-                            <a class="nav-link page-scroll nav_item lang" key="MISSION" href="#mission">Mission</a>
+                            <a class="nav-link page-scroll nav_item lang" key="MISSION" href="#mission"><?php print_r($language[$active_language]['MISSION']); ?></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.7s">
-                            <a class="nav-link page-scroll nav_item lang" key="VALUES" href="#values">Values</a>
+                            <a class="nav-link page-scroll nav_item lang" key="VALUES" href="#values"><?php print_r($language[$active_language]['VALUES']); ?></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.8s">
-                            <a class="nav-link page-scroll nav_item lang" key="TEAM" href="#team">Team</a>
+                            <a class="nav-link page-scroll nav_item lang" key="TEAM" href="#team"><?php print_r($language[$active_language]['TEAM']); ?></a>
                         </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.9s">
-                            <a class="nav-link page-scroll nav_item lang" key="FAQ" href="#faq">FAQ</a>
+                            <a class="nav-link page-scroll nav_item lang" key="FAQ" href="#faq"><?php print_r($language[$active_language]['FAQ']); ?></a>
                         </li>
 
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.10s">&nbsp;</li>
@@ -132,7 +139,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon lang language" key="LANG"> EN</span></a>
+                            <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon lang language" key="LANG"> <?php print_r($language[$active_language]['LANG']); ?></span></a>
                             <div class="dropdown-menu" aria-labelledby="dropdown09">
                                 <a class="dropdown-item translate" id="en" href="#en"><span class="flag-icon flag-icon-en"> </span> EN</a>
                                 <a class="dropdown-item translate" id="ro" href="#ro"><span class="flag-icon flag-icon-ro"> </span> RO</a>
@@ -152,11 +159,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12 order-lg-first">
                     <div class="banner_text text_md_center">
-                        <h1 class="animation lang" key="TOP_01" data-animation="fadeInUp" data-animation-delay="0.1s">MigrantCoin delivers money to your home</h1>
-                        <p class="animation mb-0 lang" key="TOP_02" data-animation="fadeInUp" data-animation-delay="0.3s">Blockchain-based decentralized money transfer powered by users.</p>
-                        <p class="animation lang" key="TOP_03" data-animation="fadeInUp" data-animation-delay="0.4s">Possibility to send money home straight from your virtual wallet.</p><br />
+                        <h1 class="animation lang" key="TOP_01" data-animation="fadeInUp" data-animation-delay="0.1s"><?php print_r($language[$active_language]['TOP_01']); ?></h1>
+                        <p class="animation mb-0 lang" key="TOP_02" data-animation="fadeInUp" data-animation-delay="0.3s"><?php print_r($language[$active_language]['TOP_02']); ?></p>
+                        <p class="animation lang" key="TOP_03" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOP_03']); ?></p><br />
                         <div class="btn_group animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                            <a href="MIGRANTCOIN_Whitepaper.pdf" target="_blank" class="btn btn-border-white btn-radius lang" key="TOP_04">Whitepaper</i></a>
+                            <a href="MIGRANTCOIN_Whitepaper.pdf" target="_blank" class="btn btn-border-white btn-radius lang" key="TOP_04"><?php print_r($language[$active_language]['TOP_04']); ?></i></a>
                         </div>
                     </div>
                 </div>
@@ -222,7 +229,7 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="HOWITWORKS_01" data-animation="fadeInUp" data-animation-delay="0.2s">How It works</h4>
+                        <h4 class="animation lang" key="HOWITWORKS_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['HOWITWORKS_01']); ?></h4>
                     </div>
 
                     <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
@@ -231,20 +238,20 @@
                     </p>
 
                     <div class="title_blue_dark title_border text-center">
-                        <p class="animation font-weight-bold lang lang-width" key="HOWITWORKS_02" data-animation="fadeInUp" data-animation-delay="0.2s">FASTER THAN EVER BEFORE, STRAIGHT TO THE RECIPIENT’S DOORSTEP.</p><br />
-                        <p class="animation lang lang-width" key="HOWITWORKS_03" data-animation="fadeInUp" data-animation-delay="0.3s">By using blockchain and the Stellar platform, remittances take a few minutes to reach their destination.</p>
-                        <p class="animation lang lang-width" key="HOWITWORKS_04" data-animation="fadeInUp" data-animation-delay="0.3s">The user only needs to sign in, deposit the amount he or she wants to send and choose the way to deliver it.</p>
-                        <p class="animation lang lang-width" key="HOWITWORKS_05" data-animation="fadeInUp" data-animation-delay="0.3s">The sender may opt for a bank account transfer, delivery to the door or for a paypoint via which the money can reach the beneficiary.</p><br />
+                        <p class="animation font-weight-bold lang lang-width" key="HOWITWORKS_02" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['HOWITWORKS_02']); ?>.</p><br />
+                        <p class="animation lang lang-width" key="HOWITWORKS_03" data-animation="fadeInUp" data-animation-delay="0.3s"><?php print_r($language[$active_language]['HOWITWORKS_03']); ?></p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_04" data-animation="fadeInUp" data-animation-delay="0.3s"><?php print_r($language[$active_language]['HOWITWORKS_04']); ?></p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_05" data-animation="fadeInUp" data-animation-delay="0.3s"><?php print_r($language[$active_language]['HOWITWORKS_05']); ?></p><br />
 
-                        <p class="animation lang lang-width" key="HOWITWORKS_06" data-animation="fadeInUp" data-animation-delay="0.4s">It takes a few simple steps:</p>
-                        <p class="animation lang lang-width" key="HOWITWORKS_07" data-animation="fadeInUp" data-animation-delay="0.4s">1. Download the MigrantCoin app.</p>
-                        <p class="animation lang lang-width" key="HOWITWORKS_08" data-animation="fadeInUp" data-animation-delay="0.4s">2. Sign up to create an account.</p>
-                        <p class="animation lang lang-width" key="HOWITWORKS_09" data-animation="fadeInUp" data-animation-delay="0.4s">3. Choose between a paypoint and a bank account (sender’s discretion) to purchase MGC.</p>
-                        <p class="animation lang lang-width" key="HOWITWORKS_10" data-animation="fadeInUp" data-animation-delay="0.4s">4. Send the money.</p><br />
+                        <p class="animation lang lang-width" key="HOWITWORKS_06" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['HOWITWORKS_06']); ?></p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_07" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['HOWITWORKS_07']); ?></p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_08" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['HOWITWORKS_08']); ?></p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_09" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['HOWITWORKS_09']); ?></p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_10" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['HOWITWORKS_10']); ?></p><br />
 
-                        <p class="animation lang lang-width" key="HOWITWORKS_11" data-animation="fadeInUp" data-animation-delay="0.5s">MigrantCoin will then process quickly the transaction and deliver the money to the beneficiary in person, by courier.</p>
-                        <p class="animation lang lang-width" key="HOWITWORKS_12" data-animation="fadeInUp" data-animation-delay="0.5s">The beneficiary will acknowledge the receipt of the money with an electronic signature.</p>
-                        <p class="animation lang lang-width" key="HOWITWORKS_13" data-animation="fadeInUp" data-animation-delay="0.5s">Lastly, the sender will receive in the app a confirmation that the money was delivered successfully.</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_11" data-animation="fadeInUp" data-animation-delay="0.5s"><?php print_r($language[$active_language]['HOWITWORKS_11']); ?></p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_12" data-animation="fadeInUp" data-animation-delay="0.5s"><?php print_r($language[$active_language]['HOWITWORKS_12']); ?>.</p>
+                        <p class="animation lang lang-width" key="HOWITWORKS_13" data-animation="fadeInUp" data-animation-delay="0.5s"><?php print_r($language[$active_language]['HOWITWORKS_13']); ?></p>
                     </div>
                 </div>
             </div>
@@ -257,7 +264,7 @@
         <div class="angle_top"></div>
         <div class="divider large_divider"></div>
         <div class="container-map d-flex animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-            <div class="container map">
+            <div class="container">
                 <!-- <span class="sparks spark-1 ripple-out"></span>
                 <span class="sparks spark-2 ripple-out"></span>
                 <span class="sparks spark-3 ripple-out"></span>
@@ -265,8 +272,8 @@
                 <span class="sparks spark-5 ripple-out"></span>
                 <span class="sparks spark-6 ripple-out"></span> -->
                 <div class="box-text text-center wow fadeIn">
-                    <p class="map-textbig lang" key="MAP_01">258 Million of migrants</p>
-                    <p class="map-textsmall lang" key="MAP_02">Spens 128 days on commuting in their lifetime to send money to their relatives</p>
+                    <p class="map-textbig lang" key="MAP_01"><?php print_r($language[$active_language]['MAP_01']); ?></p>
+                    <p class="map-textsmall lang" key="MAP_02"><?php print_r($language[$active_language]['MAP_02']); ?></p>
                 </div>
             </div>
         </div>
@@ -301,16 +308,16 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="VISION_01" data-animation="fadeInUp" data-animation-delay="0.2s">Vision</h4>
-                        <p class="animation lang" key="VISION_02" data-animation="fadeInUp" data-animation-delay="0.3s">Spending money is easy, sending them should be the same</p> <br />
-                        <p class="animation lang lang-width" key="VISION_03" data-animation="fadeInUp" data-animation-delay="0.5s">Aiming for a shift in the core structure of our money remittance systems, we also seek a change in the way we engage and commit to one another.</p>
-                        <p class="animation lang lang-width" key="VISION_04" data-animation="fadeInUp" data-animation-delay="0.5s">As we stride towards the comprehensive use of blockchain technology, new prospects of establishing sustainable communities arise.</p>
-                        <p class="animation lang lang-width" key="VISION_05" data-animation="fadeInUp" data-animation-delay="0.5s">MigrantCoin is such an opportunity, tying the senders and receivers more reliably, owing to the very ease attached to the whole remittance process.</p> <br />
-                        <p class="animation lang lang-width" key="VISION_06" data-animation="fadeInUp" data-animation-delay="0.6s">In other words, we aim for a revolution.</p>
-                        <p class="animation lang lang-width" key="VISION_07" data-animation="fadeInUp" data-animation-delay="0.6s">In the end, the future belongs to those who are able to challenge the state-of-things, to believe that they can do more and be better than they are right now.</p>
-                        <p class="animation lang lang-width" key="VISION_08" data-animation="fadeInUp" data-animation-delay="0.6s">(Im)migrants do just that: they strive for improvement and hope and dream for a more serene future.</p> <br />
-                        <p class="animation lang lang-width" key="VISION_09" data-animation="fadeInUp" data-animation-delay="0.7s">We see ourselves moving forward towards the same ideals and making MigrantCoin available at a large scale, to any migrant who wants to use it.</p>
-                        <p class="animation lang lang-width" key="VISION_10" data-animation="fadeInUp" data-animation-delay="0.7s">This will mean the opportunity to obtain easy access (that would be otherwise very difficult) to user-friendly and secure remittance mechanisms.</p>
+                        <h4 class="animation lang" key="VISION_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['VISION_01']); ?></h4>
+                        <p class="animation lang" key="VISION_02" data-animation="fadeInUp" data-animation-delay="0.3s"><?php print_r($language[$active_language]['VISION_02']); ?></p> <br />
+                        <p class="animation lang lang-width" key="VISION_03" data-animation="fadeInUp" data-animation-delay="0.5s"><?php print_r($language[$active_language]['VISION_03']); ?></p>
+                        <p class="animation lang lang-width" key="VISION_04" data-animation="fadeInUp" data-animation-delay="0.5s"><?php print_r($language[$active_language]['VISION_04']); ?></p>
+                        <p class="animation lang lang-width" key="VISION_05" data-animation="fadeInUp" data-animation-delay="0.5s"><?php print_r($language[$active_language]['VISION_05']); ?></p> <br />
+                        <p class="animation lang lang-width" key="VISION_06" data-animation="fadeInUp" data-animation-delay="0.6s"><?php print_r($language[$active_language]['VISION_06']); ?></p>
+                        <p class="animation lang lang-width" key="VISION_07" data-animation="fadeInUp" data-animation-delay="0.6s"><?php print_r($language[$active_language]['VISION_07']); ?></p>
+                        <p class="animation lang lang-width" key="VISION_08" data-animation="fadeInUp" data-animation-delay="0.6s"><?php print_r($language[$active_language]['VISION_08']); ?></p> <br />
+                        <p class="animation lang lang-width" key="VISION_09" data-animation="fadeInUp" data-animation-delay="0.7s"><?php print_r($language[$active_language]['VISION_09']); ?></p>
+                        <p class="animation lang lang-width" key="VISION_10" data-animation="fadeInUp" data-animation-delay="0.7s"><?php print_r($language[$active_language]['VISION_10']); ?></p>
                     </div>
                 </div>
             </div>
@@ -324,8 +331,8 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="TOKEN_01" data-animation="fadeInUp" data-animation-delay="0.4s">Token allocation</h4>
-                        <p class="animation lang" key="TOKEN_02" data-animation="fadeInUp" data-animation-delay="0.4s">A fixed number of tokens will be created for token sale. There will be no more tokens generated after that.</p>
+                        <h4 class="animation lang" key="TOKEN_01" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_01']); ?></h4>
+                        <p class="animation lang" key="TOKEN_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_02']); ?></p>
                     </div>
                 </div>
             </div>
@@ -342,7 +349,7 @@
                     <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="0.4s">
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_03">Founder & Team - 200.000.000</p>
+                                <p class="lang" key="TOKEN_03"><?php print_r($language[$active_language]['TOKEN_03']); ?></p>
                             </h6>
                             <div class="progress bg-orange">
                                 <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
@@ -350,7 +357,7 @@
                         </li>
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_04">Advisors - 100.000.000</p>
+                                <p class="lang" key="TOKEN_04"><?php print_r($language[$active_language]['TOKEN_04']); ?></p>
                             </h6>
                             <div class="progress bg-green">
                                 <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
@@ -358,7 +365,7 @@
                         </li>
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_05">Marketing - 300.000.000</p>
+                                <p class="lang" key="TOKEN_05"><?php print_r($language[$active_language]['TOKEN_05']); ?></p>
                             </h6>
                             <div class="progress bg-red">
                                 <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
@@ -366,7 +373,7 @@
                         </li>
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_06">Partnerships - 100.000.000</p>
+                                <p class="lang" key="TOKEN_06"><?php print_r($language[$active_language]['TOKEN_06']); ?></p>
                             </h6>
                             <div class="progress bg-blue">
                                 <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
@@ -374,7 +381,7 @@
                         </li>
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_07">Crowdsale - 1.300.000.000</p>
+                                <p class="lang" key="TOKEN_07"><?php print_r($language[$active_language]['TOKEN_072']); ?></p>
                             </h6>
                             <div class="progress bg-purple">
                                 <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
@@ -387,7 +394,7 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="TOKEN_15" data-animation="fadeInUp" data-animation-delay="0.4s">Token Info</h4>
+                        <h4 class="animation lang" key="TOKEN_15" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_15']); ?></h4>
                     </div>
                 </div>
             </div>
@@ -395,20 +402,20 @@
             <div class="col-lg-8 offset-md-3 animation offset-left-token" data-animation="fadeInUp" data-animation-delay="0.4s">
                 <div class="row">
                     <div class="col col-box">
-                        <p class="lang black" key="TOKEN_16">Token symbol :</p>
+                        <p class="lang black" key="TOKEN_16"><?php print_r($language[$active_language]['TOKEN_16']); ?></p>
                         <p class="lang gray">&nbsp;&nbsp; MGC</p><br />
                     </div>
                     <div class="col offset-right-token col-box">
-                        <p class="lang black" key="TOKEN_17">Type :</p>
+                        <p class="lang black" key="TOKEN_17"><?php print_r($language[$active_language]['TOKEN_17']); ?></p>
                         <p class="lang gray">&nbsp;&nbsp; ERC-20</p>
                     </div>
                     <div class="w-100"></div>
                     <div class="col col-box">
-                        <p class="lang black" key="TOKEN_18">Token initial value :</p>
+                        <p class="lang black" key="TOKEN_18"><?php print_r($language[$active_language]['TOKEN_18']); ?></p>
                         <p class="lang gray">&nbsp;&nbsp; 1 MGC = 0.01 USD</p><br />
                     </div>
                     <div class="col offset-right-token col-box">
-                        <p class="lang black" key="TOKEN_19">Total supply :</p>
+                        <p class="lang black" key="TOKEN_19"><?php print_r($language[$active_language]['TOKEN_19']); ?></p>
                         <p class="lang gray">&nbsp;&nbsp; 2,000,000,000</p>
                     </div>
                 </div>
@@ -418,8 +425,8 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="TOKEN_08" data-animation="fadeInUp" data-animation-delay="0.4s">Funds distribution</h4>
-                        <p class="animation lang" key="TOKEN_09" data-animation="fadeInUp" data-animation-delay="0.4s">It is also possible to have a static supply with a dynamic funding goal, in which the distribution of tokens will be made according to the funds received</p>
+                        <h4 class="animation lang" key="TOKEN_08" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_08']); ?></h4>
+                        <p class="animation lang" key="TOKEN_09" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_09']); ?></p>
                     </div>
                 </div>
             </div>
@@ -436,7 +443,7 @@
                     <ul class="list_none chart_list animation" data-animation="fadeInLeft" data-animation-delay="0.4s">
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_10">R & D - 4.231.966</p>
+                                <p class="lang" key="TOKEN_10"><?php print_r($language[$active_language]['TOKEN_10']); ?></p>
                             </h6>
                             <div class="progress bg-orange">
                                 <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
@@ -444,7 +451,7 @@
                         </li>
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_11">Marketing - 2.115.983</p>
+                                <p class="lang" key="TOKEN_11"><?php print_r($language[$active_language]['TOKEN_11']); ?></p>
                             </h6>
                             <div class="progress bg-green">
                                 <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
@@ -452,7 +459,7 @@
                         </li>
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_12">Ops - 3.702.971</p>
+                                <p class="lang" key="TOKEN_12"><?php print_r($language[$active_language]['TOKEN_12']); ?></p>
                             </h6>
                             <div class="progress bg-red">
                                 <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
@@ -460,7 +467,7 @@
                         </li>
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_13">Legal - 211.598</p>
+                                <p class="lang" key="TOKEN_13"><?php print_r($language[$active_language]['TOKEN_13']); ?></p>
                             </h6>
                             <div class="progress bg-blue">
                                 <div class="progress-bar" role="progressbar" style="width: 2%;" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
@@ -468,7 +475,7 @@
                         </li>
                         <li>
                             <h6>
-                                <p class="lang" key="TOKEN_14">Licensing - 317.397</p>
+                                <p class="lang" key="TOKEN_14"><?php print_r($language[$active_language]['TOKEN_14']); ?></p>
                             </h6>
                             <div class="progress bg-purple">
                                 <div class="progress-bar" role="progressbar" style="width: 3%;" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100">3%</div>
@@ -487,8 +494,8 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_light title_border text-center">
-                        <h4 class="animation lang" key="ROADMAP_01" data-animation="fadeInUp" data-animation-delay="0.2s">Roadmap</h4>
-                        <p class="animation lang" key="ROADMAP_02" data-animation="fadeInUp" data-animation-delay="0.4s">Our journey has just begun</p>
+                        <h4 class="animation lang" key="ROADMAP_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['ROADMAP_01']); ?></h4>
+                        <p class="animation lang" key="ROADMAP_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_02']); ?></p>
                     </div>
                 </div>
             </div>
@@ -507,8 +514,8 @@
                                         <div class="double-bounce3"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2-Q3 2019</h6>
-                                    <p class="animation lang" key="ROADMAP_03" data-animation="fadeInUp" data-animation-delay="0.4s">Token creation</p>
-                                    <p class="animation lang" key="ROADMAP_04" data-animation="fadeInUp" data-animation-delay="0.4s">Sales</p>
+                                    <p class="animation lang" key="ROADMAP_03" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_03']); ?></p>
+                                    <p class="animation lang" key="ROADMAP_04" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_04']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -529,7 +536,7 @@
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2019</h6>
                                     <p class="animation lang" key="ROADMAP_05" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Release of Alpha version
+                                        <?php print_r($language[$active_language]['ROADMAP_05']); ?>
                                     </p>
                                 </div>
                             </div>
@@ -551,7 +558,7 @@
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q4 2019</h6>
                                     <p class="animation lang" key="ROADMAP_06" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Release of Alpha version with alpha customers and delivery businesses and banks
+                                        <?php print_r($language[$active_language]['ROADMAP_06']); ?>
                                     </p>
                                 </div>
                             </div>
@@ -573,7 +580,7 @@
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1-Q2 2020</h6>
                                     <p class="animation lang" key="ROADMAP_07" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Release of Mobile App
+                                        <?php print_r($language[$active_language]['ROADMAP_07']); ?>
                                     </p>
                                 </div>
                             </div>
@@ -594,8 +601,8 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2020</h6>
-                                    <p class="animation lang" key="ROADMAP_08" data-animation="fadeInUp" data-animation-delay="0.4s">Release of Beta version</p>
-                                    <p class="animation lang" key="ROADMAP_09" data-animation="fadeInUp" data-animation-delay="0.4s">Testing beta version</p>
+                                    <p class="animation lang" key="ROADMAP_08" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_08']); ?></p>
+                                    <p class="animation lang" key="ROADMAP_09" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_09']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -616,7 +623,7 @@
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2020</h6>
                                     <p class="animation lang" key="ROADMAP_10" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Relase version 1 of platform (web and mobile)
+                                        <?php print_r($language[$active_language]['ROADMAP_10']); ?>
                                     </p>
                                 </div>
                             </div>
@@ -638,7 +645,7 @@
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q4 2020</h6>
                                     <p class="animation lang" key="ROADMAP_11" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        Platform fully functional in Romania
+                                        <?php print_r($language[$active_language]['ROADMAP_11']); ?>
                                     </p>
                                 </div>
                             </div>
@@ -659,10 +666,10 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1 2021</h6>
-                                    <p class="animation lang" key="ROADMAP_12" data-animation="fadeInUp" data-animation-delay="0.4s">Compliance implementation</p>
-                                    <p class="animation lang" key="ROADMAP_13" data-animation="fadeInUp" data-animation-delay="0.4s">Infrastructure setup</p>
-                                    <p class="animation lang" key="ROADMAP_14" data-animation="fadeInUp" data-animation-delay="0.4s">Security implementation</p>
-                                    <p class="animation lang" key="ROADMAP_15" data-animation="fadeInUp" data-animation-delay="0.4s">Security enforcement: penetration test by independent specialists</p>
+                                    <p class="animation lang" key="ROADMAP_12" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_12']); ?></p>
+                                    <p class="animation lang" key="ROADMAP_13" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_13']); ?></p>
+                                    <p class="animation lang" key="ROADMAP_14" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_14']); ?></p>
+                                    <p class="animation lang" key="ROADMAP_15" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_15']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -682,8 +689,8 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2021</h6>
-                                    <p class="animation lang" key="ROADMAP_16" data-animation="fadeInUp" data-animation-delay="0.4s">Money transfer licence UK - (6-12 months)</p>
-                                    <p class="animation lang" key="ROADMAP_17" data-animation="fadeInUp" data-animation-delay="0.4s">Public support – Call Center</p>
+                                    <p class="animation lang" key="ROADMAP_16" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_16']); ?></p>
+                                    <p class="animation lang" key="ROADMAP_17" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_17']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -703,8 +710,8 @@
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
                                     <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3-Q4 2021</h6>
-                                    <p class="animation lang" key="ROADMAP_18" data-animation="fadeInUp" data-animation-delay="0.4s">Extend to other Countries,</p>
-                                    <p class="animation lang" key="ROADMAP_19" data-animation="fadeInUp" data-animation-delay="0.4s">beside the initial 6 initially planned.</p>
+                                    <p class="animation lang" key="ROADMAP_18" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_18']); ?></p>
+                                    <p class="animation lang" key="ROADMAP_19" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_19']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -721,8 +728,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_dark title_border text-center">
-                        <h4 class="animation lang" key="MISSION_01" data-animation="fadeInUp" data-animation-delay="0.2s">Mission</h4>
-                        <p class="animation lang" key="MISSION_02" data-animation="fadeInUp" data-animation-delay="0.4s">To enable migrants to send money to a recipient in their home country safely through blockchain.</p>
+                        <h4 class="animation lang" key="MISSION_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['MISSION_01']); ?></h4>
+                        <p class="animation lang" key="MISSION_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['MISSION_02']); ?></p>
                     </div>
                 </div>
             </div>
@@ -730,26 +737,26 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="box_wrap radius_box bg-white text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                         <i class="fas fa-user-clock"></i>
-                        <h4 class="lang" key="MISSION_03">Time saving</h4>
-                        <p class="lang" key="MISSION_04">Time is money and so much more, and we urge you to keep this in mind.</p>
-                        <p class="lang" key="MISSION_05">A decentralized cryptocurrency remittance system will help people save precious hours they would otherwise waste on trips to the nearest bank or MTO.</p>
-                        <p class="lang" key="MISSION_06">Our solution will enable you to avoid commuting just for the sake of sending and receiving money.</p>
+                        <h4 class="lang" key="MISSION_03"><?php print_r($language[$active_language]['MISSION_03']); ?></h4>
+                        <p class="lang" key="MISSION_04"><?php print_r($language[$active_language]['MISSION_04']); ?></p>
+                        <p class="lang" key="MISSION_05"><?php print_r($language[$active_language]['MISSION_05']); ?></p>
+                        <p class="lang" key="MISSION_06"><?php print_r($language[$active_language]['MISSION_06']); ?></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="box_wrap radius_box bg-white text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-shield-alt"></i>
-                        <h4 class="lang" key="MISSION_07">Fully Secured</h4>
-                        <p class="lang" key="MISSION_08">The world we envisage is one in which people have undeterred, steady access to the methods by which they can send and receive money and in which they can feel the money they send/pick up is safe.</p>
+                        <h4 class="lang" key="MISSION_07"><?php print_r($language[$active_language]['MISSION_07']); ?></h4>
+                        <p class="lang" key="MISSION_08"><?php print_r($language[$active_language]['MISSION_08']); ?></p>
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 col-sm-12">
                     <div class="box_wrap radius_box bg-white text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
                         <i class="fas fa-user-shield"></i>
-                        <h4 class="lang" key="MISSION_09">Risk free</h4>
-                        <p class="lang" key="MISSION_10">Many receive money via occasional delivering parties, which raises the risk of losing it.</p>
-                        <p class="lang" key="MISSION_11">Even worse, the money may never reach its intended destination.</p>
-                        <p class="lang" key="MISSION_12">MigrantCoin seeks to eliminate this risk, by its user-powered structure allowing the detection of any potential error in the process of sending and receiving a specific sum of money, owing to the ensuing transparency and security of the system.</p>
+                        <h4 class="lang" key="MISSION_09"><?php print_r($language[$active_language]['MISSION_09']); ?></h4>
+                        <p class="lang" key="MISSION_10"><?php print_r($language[$active_language]['MISSION_10']); ?></p>
+                        <p class="lang" key="MISSION_11"><?php print_r($language[$active_language]['MISSION_11']); ?>.</p>
+                        <p class="lang" key="MISSION_12"><?php print_r($language[$active_language]['MISSION_12']); ?></p>
                     </div>
                 </div>
             </div>
@@ -763,8 +770,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_light title_border text-center">
-                        <h4 class="animation lang" key="VALUES_01" data-animation="fadeInUp" data-animation-delay="0.2s">Values</h4>
-                        <p class="animation lang" key="VALUES_02" data-animation="fadeInUp" data-animation-delay="0.4s">For more detail, click on each item.</p>
+                        <h4 class="animation lang" key="VALUES_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['VALUES_01']); ?></h4>
+                        <p class="animation lang" key="VALUES_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['VALUES_02']); ?></p>
                     </div>
                 </div>
             </div>
@@ -772,90 +779,90 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value1" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                         <i class="fas fa-lightbulb"></i>
-                        <span class="btn_text lang" key="VALUES_03">We embrace change and innovation</span>
+                        <span class="btn_text lang" key="VALUES_03"><?php print_r($language[$active_language]['VALUES_03']); ?></span>
                     </button>
                     <div id="value1" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_04">Change and innovation are needed if we want to advance. MigrantCoin looks at the money remittance market and finds that there is considerable room for improvement.</span>
+                        <span class="btn_textsmall lang" key="VALUES_04"><?php print_r($language[$active_language]['VALUES_04']); ?></span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value2" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-heart"></i>
                         <span class="btn_text">
-                            <p class="lang" key="VALUES_05">We value</p>
-                            <p class="lang" key="VALUES_06">people</p>
+                            <p class="lang" key="VALUES_05"><?php print_r($language[$active_language]['VALUES_05']); ?></p>
+                            <p class="lang" key="VALUES_06"><?php print_r($language[$active_language]['VALUES_06']); ?></p>
                         </span>
                     </button>
                     <div id="value2" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_07">Our concept is being developed for migrants and those at home alike. We believe that our appreciation of the people will draw, in time, their appreciation of our efforts. Without people, there would be no point to our struggle.</span>
+                        <span class="btn_textsmall lang" key="VALUES_07"><?php print_r($language[$active_language]['VALUES_07']); ?></span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value3" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-chess"></i>
                         <span class="btn_text">
-                            <p class="lang" key="VALUES_08">We like</p>
-                            <p class="lang" key="VALUES_09">to think differently</p>
+                            <p class="lang" key="VALUES_08"><?php print_r($language[$active_language]['VALUES_08']); ?></p>
+                            <p class="lang" key="VALUES_09"><?php print_r($language[$active_language]['VALUES_09']); ?></p>
                         </span>
                     </button>
                     <div id="value3" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_10">Following a careful analysis of the remittance market, we concluded that, in general, the solutions offered to the problems of this market are rather similar. MigrantCoin seeks to implement unique solutions to these issues and we believe that we can make a difference.</span>
+                        <span class="btn_textsmall lang" key="VALUES_10"><?php print_r($language[$active_language]['VALUES_10']); ?></span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value4" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-eye"></i>
                         <span class="btn_text">
-                            <p class="lang" key="VALUES_11">We value</p>
-                            <p class="lang" key="VALUES_12">transparency</p>
+                            <p class="lang" key="VALUES_11"><?php print_r($language[$active_language]['VALUES_11']); ?></p>
+                            <p class="lang" key="VALUES_12"><?php print_r($language[$active_language]['VALUES_12']); ?></p>
                         </span>
                     </button>
                     <div id="value4" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_13">We believe that transparency in relation to the investors and to our community is very important. We propose that all the amounts of money gathered in the ICO should be justified and we shall do our best to fulfill our commitments.</span>
+                        <span class="btn_textsmall lang" key="VALUES_13"><?php print_r($language[$active_language]['VALUES_13']); ?></span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value5" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-tasks"></i>
-                        <span class="btn_text lang" key="VALUES_14">We identify needs and satisfy them</span>
+                        <span class="btn_text lang" key="VALUES_14"><?php print_r($language[$active_language]['VALUES_14']); ?></span>
                     </button>
                     <div id="value5" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_15">The MigrantCoin project is, first of all, the result of the desire to solve some of the needs of a specific category of people ((im)migrants) and, thus, to make their lives easier.</span>
+                        <span class="btn_textsmall lang" key="VALUES_15"><?php print_r($language[$active_language]['VALUES_15']); ?></span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value6" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-handshake"></i>
-                        <span class="btn_text lang" key="VALUES_16">We offer guarantees and trust</span>
+                        <span class="btn_text lang" key="VALUES_16"><?php print_r($language[$active_language]['VALUES_16']); ?></span>
                     </button>
                     <div id="value6" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_17">Our main concern is to guarantee the amounts of money entrusted to us for their delivery to the destination indicated by the client. Your trust is our success – and we aim for success.</span>
+                        <span class="btn_textsmall lang" key="VALUES_17"><?php print_r($language[$active_language]['VALUES_17']); ?></span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value7" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-rocket"></i>
                         <span class="btn_text">
-                            <p class="lang" key="VALUES_18">We keep an eye</p>
-                            <p class="lang" key="VALUES_19">on the future</p>
+                            <p class="lang" key="VALUES_18"><?php print_r($language[$active_language]['VALUES_18']); ?></p>
+                            <p class="lang" key="VALUES_19"><?php print_r($language[$active_language]['VALUES_19']); ?></p>
                         </span>
                     </button>
                     <div id="value7" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_20">Conventional payment and money transfer systems cannot keep the pace with the human kind’s desire of quick and constant evolution. We are the result of the technological revolution and it is our duty to offer to the future generations the tools required for the same remittance of money, anywhere in the world, fast and risk-free.</span>
+                        <span class="btn_textsmall lang" key="VALUES_20"><?php print_r($language[$active_language]['VALUES_20']); ?></span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <button data-toggle="collapse" data-target="#value8" class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                         <i class="fas fa-hands-helping"></i>
-                        <span class="btn_text lang" key="VALUES_21">We are open for partnerships</span>
+                        <span class="btn_text lang" key="VALUES_21"><?php print_r($language[$active_language]['VALUES_21']); ?></span>
                     </button>
                     <div id="value8" class="collapse btn_collapse">
-                        <span class="btn_textsmall lang" key="VALUES_22">MigrantCoin is a project aiming to make its services available across the world. This is a very difficult and complex process we alone cannot complete. For this reason, you will be happy to know that, in the countries where we will offer our services, you too can become our partner.</span>
+                        <span class="btn_textsmall lang" key="VALUES_22"><?php print_r($language[$active_language]['VALUES_22']); ?></span>
                     </div>
                 </div>
             </div>
         </div>
-        
+
     </section>
     <!-- END VALUES -->
 
@@ -866,352 +873,352 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_dark title_border text-center">
-                        <h4 class="animation lang" key="TEAM_01" data-animation="fadeInUp" data-animation-delay="0.2s">A strong team drawing on their broad experience</h4>
-                        <p class="animation lang" key="TEAM_02" data-animation="fadeInUp" data-animation-delay="0.2s">Our wonderful team is ready to achieve lasting results.</p>
+                        <h4 class="animation lang" key="TEAM_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['TEAM_01']); ?></h4>
+                        <p class="animation lang" key="TEAM_02" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['TEAM_02']); ?></p>
                     </div>
                 </div>
             </div>
             <div class="row small_space justify-content-center">
-                
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.3s">
-                        <div class="team-item">
-                            <div class="info-top">
-                                <div class="name">
-                                    Titus Pal
-                                </div>
-                                <div class="job">
-                                    Operations Manager
-                                </div>
+
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.3s">
+                    <div class="team-item">
+                        <div class="info-top">
+                            <div class="name">
+                                Titus Pal
                             </div>
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/07.jpg" alt="Team Member">
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Titus Pal
-                                </div>
-                                <div class="job">
-                                    Operations Manager
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/titus-pal-19295082/" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="job lang" key="TEAM_03">
+                                <?php print_r($language[$active_language]['TEAM_03']); ?>
+                            </div>
+                        </div>
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/07.jpg" alt="Team Member">
+                        <div class="info-bottom">
+                            <div class="name">
+                                Titus Pal
+                            </div>
+                            <div class="job lang" key="TEAM_03">
+                                <?php print_r($language[$active_language]['TEAM_03']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/titus-pal-19295082/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.4s">
-                        <div class="team-item">
-                            <div class="info-top">
-                                <div class="name">
-                                    Abel Dragomir
-                                </div>
-                                <div class="job lang" key="TEAM_03">
-                                    Community Manager
-                                </div>
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.4s">
+                    <div class="team-item">
+                        <div class="info-top">
+                            <div class="name">
+                                Abel Dragomir
                             </div>
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/01.jpg" alt="Team Member">
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Abel Dragomir
-                                </div>
-                                <div class="job lang" key="TEAM_03">
-                                    Community Manager
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/abeldragomir/" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="job lang" key="TEAM_04">
+                                <?php print_r($language[$active_language]['TEAM_04']); ?>
+                            </div>
+                        </div>
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/01.jpg" alt="Team Member">
+                        <div class="info-bottom">
+                            <div class="name">
+                                Abel Dragomir
+                            </div>
+                            <div class="job lang" key="TEAM_04">
+                                <?php print_r($language[$active_language]['TEAM_04']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/abeldragomir/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.5s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/02.jpg" alt="Team Member">
-                            <div class="info-top">
-                                <div class="name">
-                                    Krall Mazilu Ion
-                                </div>
-                                <div class="job lang" key="TEAM_04">
-                                    Legal Adviser
-                                </div>
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.5s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/02.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Krall Mazilu Ion
                             </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Krall Mazilu Ion
-                                </div>
-                                <div class="job lang" key="TEAM_04">
-                                    Legal Adviser
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/ion-mazilu-krall-51291972" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="job lang" key="TEAM_05">
+                                <?php print_r($language[$active_language]['TEAM_05']); ?>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Krall Mazilu Ion
+                            </div>
+                            <div class="job lang" key="TEAM_05">
+                                <?php print_r($language[$active_language]['TEAM_05']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/ion-mazilu-krall-51291972" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.6s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/00.jpg" alt="Team Member">
-                            <div class="info-top">
-                                <div class="name">
-                                    Istvan Preda
-                                </div>
-                                <div class="job">
-                                    Product Designer
-                                </div>
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.6s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/00.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Istvan Preda
                             </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Istvan Preda
-                                </div>
-                                <div class="job">
-                                    Product Designer
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/istvanpreda/" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="job">
+                                <?php print_r($language[$active_language]['TEAM_06']); ?>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Istvan Preda
+                            </div>
+                            <div class="job">
+                                <?php print_r($language[$active_language]['TEAM_06']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/istvanpreda/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.7s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/00.jpg" alt="Team Member">
-                            <div class="info-top">
-                                <div class="name">
-                                    Vlad Cosma
-                                </div>
-                                <div class="job">
-
-                                </div>
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.7s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/00.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Vlad Cosma
                             </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Vlad Cosma
-                                </div>
-                                <div class="job">
+                            <div class="job">
 
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/vlad-cosma-66b272125/" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Vlad Cosma
+                            </div>
+                            <div class="job">
+
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/vlad-cosma-66b272125/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/12.jpg" alt="Team Member">
-                            <div class="info-top">
-                                <div class="name">
-                                    Șerban Victor
-                                </div>
-                                <div class="job lang" key="TEAM_06">
-                                    Lead Developer
-                                </div>
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/12.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Șerban Victor
                             </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Șerban Victor
-                                </div>
-                                <div class="job lang" key="TEAM_06">
-                                    Lead Developer
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/serban-victor-itil/" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="job lang" key="TEAM_08">
+                                <?php print_r($language[$active_language]['TEAM_08']); ?>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Șerban Victor
+                            </div>
+                            <div class="job lang" key="TEAM_08">
+                                <?php print_r($language[$active_language]['TEAM_08']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/serban-victor-itil/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.9s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/11.jpg" alt="Team Member">
-                            <div class="info-top">
-                                <div class="name">
-                                    Emanuel Tănasă
-                                </div>
-                                <div class="job lang" key="TEAM_07">
-                                    Software Developer
-                                </div>
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.9s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/11.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Emanuel Tănasă
                             </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Emanuel Tănasă
-                                </div>
-                                <div class="job lang" key="TEAM_07">
-                                    Software Developer
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/emanueltanasa/" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="job lang" key="TEAM_09">
+                                <?php print_r($language[$active_language]['TEAM_09']); ?>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Emanuel Tănasă
+                            </div>
+                            <div class="job lang" key="TEAM_09">
+                                <?php print_r($language[$active_language]['TEAM_09']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/emanueltanasa/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.0s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/10.jpg" alt="Team Member">
-                            <div class="info-top">
-                                <div class="name">
-                                    Dragos Ungur
-                                </div>
-                                <div class="job lang" key="TEAM_07">
-                                    Software Developer
-                                </div>
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.0s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/10.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Dragos Ungur
                             </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Dragos Ungur
-                                </div>
-                                <div class="job lang" key="TEAM_07">
-                                    Software Developer
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/dragos-ungur-2b008926/" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="job lang" key="TEAM_09">
+                                <?php print_r($language[$active_language]['TEAM_09']); ?>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Dragos Ungur
+                            </div>
+                            <div class="job lang" key="TEAM_09">
+                                <?php print_r($language[$active_language]['TEAM_09']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/dragos-ungur-2b008926/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.1s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/05.jpg" alt="Team Member">
-                            <div class="info-top">
-                                <div class="name">
-                                    Cristian Zlatea
-                                </div>
-                                <div class="job lang" key="TEAM_07">
-                                    Software Developer
-                                </div>
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.1s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/05.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Cristian Zlatea
                             </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Cristian Florin Zlatea
-                                </div>
-                                <div class="job lang" key="TEAM_07">
-                                    Software Developer
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/czlatea/" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="job lang" key="TEAM_09">
+                                <?php print_r($language[$active_language]['TEAM_09']); ?>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Cristian Florin Zlatea
+                            </div>
+                            <div class="job lang" key="TEAM_09">
+                                <?php print_r($language[$active_language]['TEAM_09']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/czlatea/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.2s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/04.jpg" alt="Team Member">
-                            <div class="info-top">
-                                <div class="name">
-                                    Valean Octavian
-                                </div>
-                                <div class="job">
-                                    Network Specialist
-                                </div>
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.2s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/04.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Valean Octavian
                             </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Valean Octavian
-                                </div>
-                                <div class="job">
-                                    Network Specialist
-                                </div>
-                                <p></p>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/valean-octavian-933101168/" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title>LinkedIn icon</title>
-                                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                        </svg>
-                                    </a>
-                                </div>
+                            <div class="job lang" key="TEAM_10">
+                                <?php print_r($language[$active_language]['TEAM_10']); ?>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Valean Octavian
+                            </div>
+                            <div class="job lang" key="TEAM_10">
+                                <?php print_r($language[$active_language]['TEAM_10']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/valean-octavian-933101168/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.3s">
-                        <div class="team-item">
-                            <div class="hover-back"></div>
-                            <img class="img-fluid" src="assets/images/team/09.jpg" alt="Team Member">
-                            <div class="info-top">
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="1.3s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/09.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Kiraly Tamas
+                            </div>
+                            <div class="job lang" key="TEAM_11"">
+                                <?php print_r($language[$active_language]['TEAM_11']); ?>
+                            </div>
+                        </div>
+                        <div class=" info-bottom">
                                 <div class="name">
                                     Kiraly Tamas
                                 </div>
-                                <div class="job">
-                                    Marketing
-                                </div>
-                            </div>
-                            <div class="info-bottom">
-                                <div class="name">
-                                    Kiraly Tamas
-                                </div>
-                                <div class="job">
-                                    Marketing
+                                <div class="job lang" key="TEAM_11">
+                                    <?php print_r($language[$active_language]['TEAM_11']); ?>
                                 </div>
                                 <p></p>
                                 <div class="social">
@@ -1234,16 +1241,16 @@
                                 <div class="name">
                                     Adina Suciu
                                 </div>
-                                <div class="job lang" key="TEAM_08">
-                                    Advisors
+                                <div class="job lang" key="TEAM_12">
+                                    <?php print_r($language[$active_language]['TEAM_12']); ?>
                                 </div>
                             </div>
                             <div class="info-bottom">
                                 <div class="name">
                                     Adina Suciu
                                 </div>
-                                <div class="job lang" key="TEAM_08">
-                                    Advisors
+                                <div class="job lang" key="TEAM_12">
+                                    <?php print_r($language[$active_language]['TEAM_12']); ?>
                                 </div>
                                 <p></p>
                                 <div class="social">
@@ -1266,16 +1273,16 @@
                                 <div class="name">
                                     Zarcher
                                 </div>
-                                <div class="job lang" key="TEAM_08">
-                                    Advisors
+                                <div class="job lang" key="TEAM_12">
+                                    <?php print_r($language[$active_language]['TEAM_12']); ?>
                                 </div>
                             </div>
                             <div class="info-bottom">
                                 <div class="name">
                                     Zarcher
                                 </div>
-                                <div class="job lang" key="TEAM_08">
-                                    Advisors
+                                <div class="job lang" key="TEAM_12">
+                                    <?php print_r($language[$active_language]['TEAM_12']); ?>
                                 </div>
                             </div>
                         </div>
@@ -1290,16 +1297,16 @@
                                 <div class="name">
                                     Alex Bărbulescu
                                 </div>
-                                <div class="job lang" key="TEAM_05">
-                                    Graphic Designer
+                                <div class="job lang" key="TEAM_07">
+                                    <?php print_r($language[$active_language]['TEAM_07']); ?>
                                 </div>
                             </div>
                             <div class="info-bottom">
                                 <div class="name">
                                     Alex Bărbulescu
                                 </div>
-                                <div class="job lang" key="TEAM_05">
-                                    Graphic Designer
+                                <div class="job lang" key="TEAM_07">
+                                    <?php print_r($language[$active_language]['TEAM_07']); ?>
                                 </div>
                                 <p></p>
                                 <div class="social">
@@ -1334,8 +1341,8 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_light title_border text-center">
-                        <h4 class="animation lang" key="FAQ_01" data-animation="fadeInUp" data-animation-delay="0.2s">Have Any Questions?</h4>
-                        <p class="animation lang" key="FAQ_02" data-animation="fadeInUp" data-animation-delay="0.4s">Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context</p><br />
+                        <h4 class="animation lang" key="FAQ_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['FAQ_01']); ?></h4>
+                        <p class="animation lang" key="FAQ_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['FAQ_02']); ?></p><br />
                     </div>
                 </div>
             </div>
@@ -1348,28 +1355,28 @@
                                     <div class="card-header" id="headingTwo">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                <p class="lang inline language" key="FAQ_03">What is Migrantcoin?</p>
+                                                <p class="lang inline language" key="FAQ_03"><?php print_r($language[$active_language]['FAQ_03']); ?></p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
-                                        <div class="card-body lang" key="FAQ_04">A platform started on the Stellar blockchain, meant for international money transfer, through a currency of the same name. The Migrantcoin platform applies especially to the immigrants who want to send money toward a recipient in their country of origin.</div>
+                                        <div class="card-body lang" key="FAQ_04"><?php print_r($language[$active_language]['FAQ_04']); ?></div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                                     <div class="card-header" id="headingTwo">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                <p class="lang inline language" key="FAQ_05">Why is the Migrantcoin project unique?</p>
+                                                <p class="lang inline language" key="FAQ_05"><?php print_r($language[$active_language]['FAQ_05']); ?></p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
                                         <div class="card-body">
-                                            <p class="lang language" key="FAQ_06">- The transactions are reversible.</p>
-                                            <p class="lang language" key="FAQ_07">- The guarantee of the amount in the case where the transaction is reversible.</p>
-                                            <p class="lang language" key="FAQ_08">- The money which is sent reaches directly the recipient’s address.</p>
-                                            <p class="lang language" key="FAQ_09">- The lowest taxes on the market OR We offer some of the lowest taxes on the market.</p>
+                                            <p class="lang language" key="FAQ_06"><?php print_r($language[$active_language]['FAQ_06']); ?></p>
+                                            <p class="lang language" key="FAQ_07"><?php print_r($language[$active_language]['FAQ_07']); ?>.</p>
+                                            <p class="lang language" key="FAQ_08"><?php print_r($language[$active_language]['FAQ_08']); ?></p>
+                                            <p class="lang language" key="FAQ_09"><?php print_r($language[$active_language]['FAQ_09']); ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -1377,16 +1384,16 @@
                                     <div class="card-header" id="headingThree">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                <p class="lang inline language" key="FAQ_10">What are the benefits of Migrantcoin for customers?</p>
+                                                <p class="lang inline language" key="FAQ_10"><?php print_r($language[$active_language]['FAQ_10']); ?></p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
                                         <div class="card-body">
-                                            <p class="lang language" key="FAQ_11">- They can send money with just a few clicks.</p>
-                                            <p class="lang language" key="FAQ_12">- Money which is sent reaches the receiver’s door.</p>
-                                            <p class="lang language" key="FAQ_13">- The money transfer is a matter of seconds.</p>
-                                            <p class="lang language" key="FAQ_14">- Bonuses for those who achieve a specific amount/value of the transactions.</p>
+                                            <p class="lang language" key="FAQ_11"><?php print_r($language[$active_language]['FAQ_11']); ?>.</p>
+                                            <p class="lang language" key="FAQ_12"><?php print_r($language[$active_language]['FAQ_12']); ?></p>
+                                            <p class="lang language" key="FAQ_13"><?php print_r($language[$active_language]['FAQ_13']); ?></p>
+                                            <p class="lang language" key="FAQ_14"><?php print_r($language[$active_language]['FAQ_14']); ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -1394,12 +1401,12 @@
                                     <div class="card-header" id="headingFour">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                <p class="lang inline language" key="FAQ_15">Does Migrantcoin have a legal entity for its business?</p>
+                                                <p class="lang inline language" key="FAQ_15"><?php print_r($language[$active_language]['FAQ_15']); ?></p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion1">
-                                        <div class="card-body lang" key="FAQ_16">Yes. Migrantcoin Ltd is an active company with the registered office located in Aldershot, Hampshire (UK). It can also be contacted via email at contact@migrantcoin.com.</div>
+                                        <div class="card-body lang" key="FAQ_16"><?php print_r($language[$active_language]['FAQ_16']); ?></div>
                                     </div>
                                 </div>
                             </div>
@@ -1410,15 +1417,15 @@
                                     <div class="card-header" id="headingSix">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                <p class="lang inline language" key="FAQ_17">What problems does Migrantcoin seek to solve?</p>
+                                                <p class="lang inline language" key="FAQ_17"><?php print_r($language[$active_language]['FAQ_17']); ?></p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseFive" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
                                         <div class="card-body">
-                                            <p class="lang language" key="FAQ_18">- The high taxes applied in the case of international money transfers.</p>
-                                            <p class="lang language" key="FAQ_19">- It will simplify the difficult process through which the money dispatched by a sender reaches the recipient. You will be able to send money in just a few clicks.</p>
-                                            <p class="lang language" key="FAQ_20">- It will save a lot of time for customers, both for sender and receiver.</p>
+                                            <p class="lang language" key="FAQ_18"><?php print_r($language[$active_language]['FAQ_18']); ?></p>
+                                            <p class="lang language" key="FAQ_19"><?php print_r($language[$active_language]['FAQ_19']); ?></p>
+                                            <p class="lang language" key="FAQ_20"><?php print_r($language[$active_language]['FAQ_20']); ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -1426,13 +1433,13 @@
                                     <div class="card-header" id="headingSix">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                <p class="lang inline language" key="FAQ_21">How will Migrantcoin benefit holders?</p>
+                                                <p class="lang inline language" key="FAQ_21"><?php print_r($language[$active_language]['FAQ_21']); ?></p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
                                         <div class="card-body">
-                                            <p class="lang language" key="FAQ_22"> - We are considering other benefits for the holders, but we will disclose all these aspects at the right time.</p>
+                                            <p class="lang language" key="FAQ_22"><?php print_r($language[$active_language]['FAQ_22']); ?>.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1440,24 +1447,24 @@
                                     <div class="card-header" id="headingSeven">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                                <p class="lang inline language" key="FAQ_23">How is Migrantcoin legally compliant?</p>
+                                                <p class="lang inline language" key="FAQ_23"><?php print_r($language[$active_language]['FAQ_23']); ?></p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion2">
-                                        <div class="card-body lang" key="FAQ_24">Migrantcoin platform will operate under the legislation of UK.</div>
+                                        <div class="card-body lang" key="FAQ_24"><?php print_r($language[$active_language]['FAQ_24']); ?></div>
                                     </div>
                                 </div>
                                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="1s">
                                     <div class="card-header" id="headingEight">
                                         <h6 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                <p class="lang inline language" key="FAQ_25">Will Migrantcoin be available worldwide?</p>
+                                                <p class="lang inline language" key="FAQ_25"><?php print_r($language[$active_language]['FAQ_25']); ?></p>
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
-                                        <div class="card-body lang" key="FAQ_26">First, Migrantcoin will develop its services for Europe, thereafter, with the growth of the business, it will extend worldwide.</div>
+                                        <div class="card-body lang" key="FAQ_26"><?php print_r($language[$active_language]['FAQ_26']); ?></div>
                                     </div>
                                 </div>
                             </div>
@@ -1481,40 +1488,40 @@
                             </a>
                         </div>
                         <div class="footer_desc">
-                            <p class="animation lang" key="FOOTER_01" data-animation="fadeInUp" data-animation-delay="0.4s">Migrantcoin Ltd</p>
-                            <p class="animation lang" key="FOOTER_02" data-animation="fadeInUp" data-animation-delay="0.4s">2 Institute Road Aldershot, Institute Road, Aldershot, GU12 4DA, United Kingdom</p>
+                            <p class="animation lang" key="FOOTER_01" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['FOOTER_01']); ?></p>
+                            <p class="animation lang" key="FOOTER_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['FOOTER_02']); ?></p>
                             <br />
-                            <p class="animation lang" key="FOOTER_03" data-animation="fadeInUp" data-animation-delay="0.4s"><a href="#">contact@migrantcoin.com</a></p>
+                            <p class="animation lang" key="FOOTER_03" data-animation="fadeInUp" data-animation-delay="0.4s"><a href="#"><?php print_r($language[$active_language]['FOOTER_03']); ?></a></p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 res_md_mt_30 res_sm_mt_20">
-                        <h4 class="footer_title border_title animation lang" key="FOOTER_04" data-animation="fadeInUp" data-animation-delay="0.2s">Quick Links</h4><br />
+                        <h4 class="footer_title border_title animation lang" key="FOOTER_04" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['FOOTER_04']); ?></h4><br />
                         <ul class="footer_link list_arrow">
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                                <a class="page-scroll lang" key="FOOTER_05" href="#vision">Vision</a>
+                                <a class="page-scroll lang" key="FOOTER_05" href="#vision"><?php print_r($language[$active_language]['FOOTER_05']); ?></a>
                             </li>
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                                <a class="page-scroll lang" key="FOOTER_06" href="#token">Token</a>
+                                <a class="page-scroll lang" key="FOOTER_06" href="#token"><?php print_r($language[$active_language]['FOOTER_06']); ?></a>
                             </li>
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                <a class="page-scroll lang" key="FOOTER_07" href="#roadmap">Roadmap</a>
+                                <a class="page-scroll lang" key="FOOTER_07" href="#roadmap"><?php print_r($language[$active_language]['FOOTER_07']); ?></a>
                             </li>
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-                                <a class="page-scroll lang" key="FOOTER_08" href="#mission">Mission</a>
+                                <a class="page-scroll lang" key="FOOTER_08" href="#mission"><?php print_r($language[$active_language]['FOOTER_08']); ?></a>
                             </li>
                             <li class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-                                <a class="page-scroll lang" key="FOOTER_09" href="#values">Values</a>
+                                <a class="page-scroll lang" key="FOOTER_09" href="#values"><?php print_r($language[$active_language]['FOOTER_09']); ?></a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-5 col-md-6 res_md_mt_30 res_sm_mt_20">
                         <div class="newsletter_form">
-                            <h4 class="footer_title border_title animation lang" key="FOOTER_10" data-animation="fadeInUp" data-animation-delay="0.2s">Newsletter</h4> <br />
-                            <p class="animation lang" key="FOOTER_11" data-animation="fadeInUp" data-animation-delay="0.4s">Sign up for updates and market news. Subscribe to our newsletter and receive update about ICOs and crypto tips</p><br />
+                            <h4 class="footer_title border_title animation lang" key="FOOTER_10" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['FOOTER_10']); ?></h4> <br />
+                            <p class="animation lang" key="FOOTER_11" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['FOOTER_11']); ?></p><br />
                             <form class="subscribe_form animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                                 <input class="input-rounded" type="text" required placeholder="Enter Email Address" />
                                 <button type="submit" title="Subscribe" class="btn-info" name="submit" value="Submit">
-                                    <p class="lang" key="FOOTER_12">Subscribe</p>
+                                    <p class="lang" key="FOOTER_12"><?php print_r($language[$active_language]['FOOTER_12']); ?></p>
                                 </button>
                             </form>
                         </div>
@@ -1526,12 +1533,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class="language">MigrantCoin &copy; <a class="class=" copyright lang" key="FOOTER_13">2019 All Rights Reserved.</a></p>
+                        <p class="language">MigrantCoin &copy; <a class="class=" copyright lang" key="FOOTER_13"><?php print_r($language[$active_language]['FOOTER_13']); ?></a></p>
                     </div>
                     <div class="col-md-6">
                         <ul class="list_none footer_menu">
-                            <li class="lang language" key="FOOTER_14"><a href=" #">Privacy Policy</a></li>
-                            <li class="lang language" key="FOOTER_15"><a href="#">Terms & Conditions</a></li>
+                            <li class="lang language" key="FOOTER_14"><a href=" #"><?php print_r($language[$active_language]['FOOTER_14']); ?>y</a></li>
+                            <li class="lang language" key="FOOTER_15"><a href="#"><?php print_r($language[$active_language]['FOOTER_15']); ?></a></li>
                         </ul>
                     </div>
                 </div>
@@ -1543,6 +1550,8 @@
     <a href="#" class="scrollup btn-default"><i class="ion-ios-arrow-up"></i></a>
     <!-- Latest jQuery -->
     <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <!-- translation js  -->
+    <script src="assets/js/language.js?version=<?= time() ?>"></script>
     <!-- Latest compiled and minified Bootstrap -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <!-- owl-carousel min js  -->
@@ -1568,7 +1577,6 @@
     <script src="assets/js/chart_script.js?version=<?= time() ?>"></script>
     <!-- scripts js -->
     <script src="assets/js/scripts.js?version=<?= time() ?>"></script>
-    <script src="assets/js/language.js?version=<?= time() ?>"></script>
 
     <script src="assets/js/cookieconsent.min.js"></script>
     <script>
