@@ -58,7 +58,7 @@
 	letter-spacing: 1px;
 }
 
-.o-purchased-tokens {
+.container-map {
 	background-size: cover;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -68,7 +68,7 @@
     z-index: 5;
 }
 
-.o-purchased-tokens::before {
+.container-map::before {
     content: " ";
     position: absolute;
     top: 0;
@@ -83,7 +83,7 @@
 	overflow: hidden;
 }
 
-.o-purchased-tokens .container {
+.container-map .container {
 	position: relative;
 }
 
@@ -117,7 +117,7 @@
 	animation-name: ripple-out;
 }
 
-.o-purchased-tokens .sparks {
+.container-map .sparks {
 	width: 20px;
 	height: 20px;
 	display: block;
@@ -132,37 +132,37 @@
 	opacity: 1;
 }
 
-	.o-purchased-tokens .sparks.spark-1 {
+	.container-map .sparks.spark-1 {
 		top: -12px;
 		left: 270px;
 /*	    top: 37%;
 	    left: 33.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-2 {
+	.container-map .sparks.spark-2 {
 		top: 180px;
 		left: 390px;
 /*		top: 66%;
 		left: 39.7%;*/
 	}
-	.o-purchased-tokens .sparks.spark-3 {
+	.container-map .sparks.spark-3 {
 		top: -19px;
 		left: 573px;
 /*		top: 36%;
 	    left: 49.4%;*/
 	}
-	.o-purchased-tokens .sparks.spark-4 {
+	.container-map .sparks.spark-4 {
 		top: 134px;
 		left: 629px;
 /*	    top: 61%;
 	    left: 52.3%;*/
 	}
-	.o-purchased-tokens .sparks.spark-5 {
+	.container-map .sparks.spark-5 {
 		top: -30px;
 		left: 896px;
 /*	    top: 34%;
 	    left: 66.3%;*/
 	}
-	.o-purchased-tokens .sparks.spark-6 {
+	.container-map .sparks.spark-6 {
 		top: 227px;
 		left: 937px;
 /*		top: 73%;
@@ -268,37 +268,37 @@
 		top: 76%;
 	    left: 82%;
 	}
-	.o-purchased-tokens .sparks.spark-1 {
+	.container-map .sparks.spark-1 {
 	    top: -16px;
 	    left: 270px;
 /*		top: 35%;
 	    left: 25%;*/
 	}
-	.o-purchased-tokens .sparks.spark-2 {
+	.container-map .sparks.spark-2 {
 		top: 178px;
 	    left: 391px;
 /*	    top: 66%;
 	    left: 34.4%;*/
 	}
-	.o-purchased-tokens .sparks.spark-3 {
+	.container-map .sparks.spark-3 {
 	    top: -20px;
 	    left: 575px;
 /*		top: 34%;
 	    left: 49.4%;*/
 	}
-	.o-purchased-tokens .sparks.spark-4 {
+	.container-map .sparks.spark-4 {
 		top: 135px;
 	    left: 630px;
 /*	    top: 61%;
 	    left: 53.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-5 {
+	.container-map .sparks.spark-5 {
 		top: -26px;
 		left: 896px;
 /*	    top: 34%;
 	    left: 75%;*/
 	}
-	.o-purchased-tokens .sparks.spark-6 {
+	.container-map .sparks.spark-6 {
 	    top: 223px;
 	    left: 937px;
 /*	    top: 73%;
@@ -341,37 +341,37 @@
 	    left: 82%
 	}
 
-	.o-purchased-tokens .sparks.spark-1 {
+	.container-map .sparks.spark-1 {
 	    top: -13px;
 	    left: 166px;
 /*		top: 35%;
 	    left: 23.3%;*/
 	}
-	.o-purchased-tokens .sparks.spark-2 {
+	.container-map .sparks.spark-2 {
 	    top: 177px;
 	    left: 286px;
 /*		top: 67%;
 	    left: 33.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-3 {
+	.container-map .sparks.spark-3 {
 	    top: -18px;
 	    left: 468px;
 /*		top: 36%;
 	    left: 49%;*/
 	}
-	.o-purchased-tokens .sparks.spark-4 {
+	.container-map .sparks.spark-4 {
 	    top: 129px;
 	    left: 524px;
 /*		top: 61%;
 	    left: 53.7%;*/
 	}
-	.o-purchased-tokens .sparks.spark-5 {
+	.container-map .sparks.spark-5 {
 	    top: -24px;
 	    left: 791px;
 /*	    top: 34%;
 	    left: 76.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-6 {
+	.container-map .sparks.spark-6 {
 	    top: 225px;
 	    left: 833px;
 /*	    top: 73%;
@@ -391,13 +391,13 @@
 	.map-textsmall{
 	    font-size: 14px;
 	}
-	.o-purchased-tokens {
+	.container-map {
 		margin: 0;
 		height: auto;
 		min-height: 540px;
 		padding: 0;
 	}
-	.o-purchased-tokens .sparks {
+	.container-map .sparks {
 		width: 15px;
 		height: 15px;
 		-webkit-border-radius: 50%;
@@ -408,7 +408,7 @@
 		opacity: 1;
 	}
 
-	.o-purchased-tokens::before {
+	.container-map::before {
 		background-size: 100%;
 	}
 	.card-1{
@@ -441,37 +441,37 @@
 	    top: 73%;
 	    left: 82%
 	}
-	.o-purchased-tokens .sparks.spark-1 {
+	.container-map .sparks.spark-1 {
 	    top: -8px;
 	    left: 80px;
 /*		top: 35%;
 	    left: 21.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-2 {
+	.container-map .sparks.spark-2 {
 	    top: 164px;
 	    left: 187px;
 /*		top: 67%;
 	    left: 32.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-3 {
+	.container-map .sparks.spark-3 {
 	    top: -12px;
 	    left: 350px;
 /*		top: 36%;
 	    left: 49%;*/
 	}
-	.o-purchased-tokens .sparks.spark-4 {
+	.container-map .sparks.spark-4 {
 		top: 129px;
 		left: 401px;
 /*		top: 61%;
 	    left: 54%;*/
 	}
-	.o-purchased-tokens .sparks.spark-5 {
+	.container-map .sparks.spark-5 {
 	    top: -20px;
 	    left: 639px;
 /*	    top: 34%;
 	    left: 78%;*/
 	}
-	.o-purchased-tokens .sparks.spark-6 {
+	.container-map .sparks.spark-6 {
 	    top: 201px;
 	    left: 677px;
 /*	    top: 73%;
@@ -482,14 +482,14 @@
 
 @media screen and (max-width: 767px) {
 
-/*	.o-purchased-tokens {
+/*	.container-map {
 		height: auto;
 		min-height: auto;
 		padding: 17.5%;
 		margin: 0px -20px;
 		padding-top: 150px;
 	}
-	.o-purchased-tokens::before {
+	.container-map::before {
 	    position: absolute;
 	    top: 0px;
 	    left: 0;
@@ -501,14 +501,14 @@
 	    background-repeat: no-repeat;
 	}
 */
-	.o-purchased-tokens {
+	.container-map {
 		height: auto;
 		min-height: auto;
 	    padding: 135px;
 	    margin: 0px -30px;
 	    padding-top: 315px;
 	}
-	.o-purchased-tokens::before {
+	.container-map::before {
 	    position: absolute;
 	    top: 0px;
 	    left: 0;
@@ -519,7 +519,7 @@
 	    background-position: center center;
 	    background-repeat: no-repeat;
 	}
-	.o-purchased-tokens .sparks {
+	.container-map .sparks {
 		width: 12px;
 		height: 12px;
 		-webkit-border-radius: 50%;
@@ -580,37 +580,37 @@
 		top: 76%;
 	    left: 79%;
 	}
-	.o-purchased-tokens .sparks.spark-1 {
+	.container-map .sparks.spark-1 {
 		top: -153px;
 	    left: 36px;
 /*		top: 35%;
 	    left: 21.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-2 {
+	.container-map .sparks.spark-2 {
 	    top: -6px;
 	    left: 125px;
 /*		top: 67%;
 	    left: 32.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-3 {
+	.container-map .sparks.spark-3 {
 	    top: -156px;
 	    left: 262px;
 /*		top: 36%;
 	    left: 49%;*/
 	}
-	.o-purchased-tokens .sparks.spark-4 {
+	.container-map .sparks.spark-4 {
 		top: -43px;
 	    left: 303px;
 /*		top: 61%;
 	    left: 54%;*/
 	}
-	.o-purchased-tokens .sparks.spark-5 {
+	.container-map .sparks.spark-5 {
 	    top: -161px;
 	    left: 501px;
 /*	    top: 34%;
 	    left: 78%;*/
 	}
-	.o-purchased-tokens .sparks.spark-6 {
+	.container-map .sparks.spark-6 {
 	    top: 21px;
 	    left: 533px;
 /*	    top: 73%;
@@ -620,27 +620,27 @@
 }
 @media screen and (max-width: 660px) {
 
-	.o-purchased-tokens .sparks.spark-1 {
+	.container-map .sparks.spark-1 {
 	    top: -148px;
 	    left: 12px;
 	}
-	.o-purchased-tokens .sparks.spark-2 {
+	.container-map .sparks.spark-2 {
 	    top: -20px;
 	    left: 89px;
 	}
-	.o-purchased-tokens .sparks.spark-3 {
+	.container-map .sparks.spark-3 {
 		top: -148px;
 	    left: 207px;
 	}
-	.o-purchased-tokens .sparks.spark-4 {
+	.container-map .sparks.spark-4 {
 		top: -51px;
 	    left: 243px;/
 	}
-	.o-purchased-tokens .sparks.spark-5 {
+	.container-map .sparks.spark-5 {
 	    top: -153px;
 	    left: 414px;
 	}
-	.o-purchased-tokens .sparks.spark-6 {
+	.container-map .sparks.spark-6 {
 	    top: 7px;
 	    left: 442px;
 	}
@@ -651,7 +651,7 @@
 
 @media screen and (max-width: 500px) {
 
-	.o-purchased-tokens {
+	.container-map {
 		height: auto;
 		min-height: auto;
 		padding: 17.5%;
@@ -659,7 +659,7 @@
 		padding-top: 200px;
 		overflow: hidden;
 	}
-	.o-purchased-tokens::before {
+	.container-map::before {
 	    position: absolute;
 	    top: 0px;
 	    left: 0;
@@ -696,7 +696,7 @@
 		overflow: hidden;
 	}
 
-	.o-purchased-tokens .sparks {
+	.container-map .sparks {
 		width: 11px;
 		height: 11px;
 		-webkit-border-radius: 50%;
@@ -707,7 +707,7 @@
 		opacity: 1;
 	}
 
-	.o-purchased-tokens::before {
+	.container-map::before {
 	    position: absolute;
 	    top: 0px;
 	    left: 0;
@@ -750,37 +750,37 @@
 	    left: 81.5%;
 	}
 
-	.o-purchased-tokens .sparks.spark-1 {
+	.container-map .sparks.spark-1 {
 	    top: -105px;
 	    left: 19px;
 /*	    top: 0%;
 	    left: 7.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-2 {
+	.container-map .sparks.spark-2 {
 	    top: -31px;
 	    left: 63px;
 /*		top: 65%;
 	    left: 31.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-3 {
+	.container-map .sparks.spark-3 {
 		top: -105px;
 		left: 131px;
 /*	    top: 36%;
 	    left: 49%;*/
 	}
-	.o-purchased-tokens .sparks.spark-4 {
+	.container-map .sparks.spark-4 {
 		top: -48px;
    		left: 152px;
 /*	    top: 58%;
 	    left: 53%;*/
 	}
-	.o-purchased-tokens .sparks.spark-5 {
+	.container-map .sparks.spark-5 {
 	    top: -108px;
 	    left: 251px;
 /*	    top: 34%;
 	    left: 77.5%;*/
 	}
-	.o-purchased-tokens .sparks.spark-6 {
+	.container-map .sparks.spark-6 {
 	    top: -18px;
 	    left: 266px;
 /*		top: 71%;

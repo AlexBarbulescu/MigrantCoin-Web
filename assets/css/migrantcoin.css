@@ -1,8 +1,10 @@
 body {
-  height: 100%;
   /*background-color: #fff !important;*/
+  height: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
 }
+
 
 #home_section {
   height: 100%;
@@ -573,6 +575,10 @@ h6 span {
     white-space: nowrap;
 }
 
+.about_shape_bg{
+  margin-top: 50px;
+}
+
 header .navbar-nav a {
     color: #ffffff !important;
 }
@@ -683,6 +689,12 @@ header .navbar-nav a {
 }
 
 @media screen and (max-width:768px) {
+
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
   .banner_image_right{
     display: none;
   }
@@ -713,6 +725,11 @@ header .navbar-nav a {
 }
 
 @media screen and (max-width:576px) {
+
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
 
   .banner_image_right{
     display: none;

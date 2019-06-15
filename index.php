@@ -253,10 +253,11 @@
     <!-- END HOW IT WORKS -->
 
     <!-- START MAP -->
-    <section class="section_token blue_lr">
+    <!-- <section class="section_token blue_lr">
         <div class="angle_top"></div>
         <div class="divider large_divider"></div>
-        <div class="o-purchased-tokens d-flex align-items-center animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+        <div class="container-map d-flex align-items-center animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+  
             <div class="container">
                 <span class="sparks spark-1 ripple-out"></span>
                 <span class="sparks spark-2 ripple-out"></span>
@@ -292,7 +293,7 @@
                 <span></span>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END MAP -->
 
     <!-- VISION -->
@@ -334,7 +335,7 @@
                     <div class="token_chart res_md_mb_30 res_sm_mb_20 text-center animation" data-animation="fadeInRight" data-animation-delay="0.4s">
                         <canvas id="token_sale"></canvas>
                         <div class="chart_icon">
-                            <img src="assets/images/logo-chart.png" alt="logo"/>
+                            <img src="assets/images/logo-chart.png" alt="logo" />
                         </div>
                     </div>
                 </div>
@@ -855,13 +856,13 @@
                 </div>
             </div>
         </div>
+        
     </section>
     <!-- END VALUES -->
 
     <!-- START SECTION TEAM -->
-    <section class="about_shape_bg">
-        <div class="angle_top"></div>
-        <br id="team"><br /><br />
+    <section class="about_shape_bg" id="team">
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
@@ -872,7 +873,7 @@
                 </div>
             </div>
             <div class="row small_space justify-content-center">
-                <div class="row no-gutters">
+                
 
                     <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.3s">
                         <div class="team-item">

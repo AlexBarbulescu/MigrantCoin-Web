@@ -2225,9 +2225,9 @@ header a:hover,
 
 /*About Us 2*/
 .about_shape_bg {
-	background-image: url("../images_old/about_bg.png");
+	/* background-image: url("../images_old/about_bg.png");
 	background-position: center top;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 }
 .work_icon {
 	float: left;
