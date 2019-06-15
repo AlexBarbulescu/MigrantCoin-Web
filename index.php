@@ -46,7 +46,17 @@
     <?php
     $json = file_get_contents('assets/js/language.json');
     $language = json_decode($json, true);
-    $active_language = $_COOKIE["active_language"];
+
+    if (!isset($_COOKIE["active_language"])) {
+        // setcookie("active_language", 'en');
+        // $_COOKIE["active_language"] = 'en';
+        $active_language = 'en';
+        setcookie("active_language", 'en');
+        $_COOKIE["active_language"] = 'en';
+    } else {
+        $active_language = $_COOKIE["active_language"];
+    }
+
     ?>
 
 </head>
@@ -159,10 +169,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12 order-lg-first">
                     <div class="banner_text text_md_center">
-                        <h1 class="animation lang" key="TOP_01" data-animation="fadeInUp" data-animation-delay="0.1s"><?php print_r($language[$active_language]['TOP_01']); ?></h1>
-                        <p class="animation mb-0 lang" key="TOP_02" data-animation="fadeInUp" data-animation-delay="0.3s"><?php print_r($language[$active_language]['TOP_02']); ?></p>
-                        <p class="animation lang" key="TOP_03" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOP_03']); ?></p><br />
-                        <div class="btn_group animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                        <h1 class="lang" key="TOP_01"><?php print_r($language[$active_language]['TOP_01']); ?></h1>
+                        <p class="mb-0 lang" key="TOP_02"><?php print_r($language[$active_language]['TOP_02']); ?></p>
+                        <p class="lang" key="TOP_03"><?php print_r($language[$active_language]['TOP_03']); ?></p><br />
+                        <div class="btn_group">
                             <a href="MIGRANTCOIN_Whitepaper.pdf" target="_blank" class="btn btn-border-white btn-radius lang" key="TOP_04"><?php print_r($language[$active_language]['TOP_04']); ?></i></a>
                         </div>
                     </div>
@@ -229,10 +239,10 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="HOWITWORKS_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['HOWITWORKS_01']); ?></h4>
+                        <h4 class="lang" key="HOWITWORKS_01"><?php print_r($language[$active_language]['HOWITWORKS_01']); ?></h4>
                     </div>
 
-                    <p class="animation" data-animation="fadeInUp" data-animation-delay="1s">
+                    <p>
                         <img class="sedr_big" src="assets/images/SEDR01.png" alt="How it Works Big">
                         <img class="sedr_small" src="assets/images/SEDR02.png" alt="How it Works Small">
                     </p>
@@ -263,7 +273,7 @@
     <section class="section_token blue_lr">
         <div class="angle_top"></div>
         <div class="divider large_divider"></div>
-        <div class="container-map d-flex animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+        <div class="container-map d-flex">
             <div class="container">
                 <!-- <span class="sparks spark-1 ripple-out"></span>
                 <span class="sparks spark-2 ripple-out"></span>
@@ -308,8 +318,8 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="VISION_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['VISION_01']); ?></h4>
-                        <p class="animation lang" key="VISION_02" data-animation="fadeInUp" data-animation-delay="0.3s"><?php print_r($language[$active_language]['VISION_02']); ?></p> <br />
+                        <h4 class="lang" key="VISION_01"><?php print_r($language[$active_language]['VISION_01']); ?></h4>
+                        <p class="lang" key="VISION_02"><?php print_r($language[$active_language]['VISION_02']); ?></p> <br />
                         <p class="animation lang lang-width" key="VISION_03" data-animation="fadeInUp" data-animation-delay="0.5s"><?php print_r($language[$active_language]['VISION_03']); ?></p>
                         <p class="animation lang lang-width" key="VISION_04" data-animation="fadeInUp" data-animation-delay="0.5s"><?php print_r($language[$active_language]['VISION_04']); ?></p>
                         <p class="animation lang lang-width" key="VISION_05" data-animation="fadeInUp" data-animation-delay="0.5s"><?php print_r($language[$active_language]['VISION_05']); ?></p> <br />
@@ -331,8 +341,8 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="TOKEN_01" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_01']); ?></h4>
-                        <p class="animation lang" key="TOKEN_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_02']); ?></p>
+                        <h4 class="lang" key="TOKEN_01"><?php print_r($language[$active_language]['TOKEN_01']); ?></h4>
+                        <p class="lang" key="TOKEN_02"><?php print_r($language[$active_language]['TOKEN_02']); ?></p>
                     </div>
                 </div>
             </div>
@@ -394,7 +404,7 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="TOKEN_15" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_15']); ?></h4>
+                        <h4 class="lang" key="TOKEN_15"><?php print_r($language[$active_language]['TOKEN_15']); ?></h4>
                     </div>
                 </div>
             </div>
@@ -425,8 +435,8 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_blue_dark title_border text-center">
-                        <h4 class="animation lang" key="TOKEN_08" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_08']); ?></h4>
-                        <p class="animation lang" key="TOKEN_09" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['TOKEN_09']); ?></p>
+                        <h4 class="lang" key="TOKEN_08"><?php print_r($language[$active_language]['TOKEN_08']); ?></h4>
+                        <p class="lang" key="TOKEN_09"><?php print_r($language[$active_language]['TOKEN_09']); ?></p>
                     </div>
                 </div>
             </div>
@@ -494,8 +504,8 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_light title_border text-center">
-                        <h4 class="animation lang" key="ROADMAP_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['ROADMAP_01']); ?></h4>
-                        <p class="animation lang" key="ROADMAP_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_02']); ?></p>
+                        <h4 class="lang" key="ROADMAP_01"><?php print_r($language[$active_language]['ROADMAP_01']); ?></h4>
+                        <p class="lang" key="ROADMAP_02"><?php print_r($language[$active_language]['ROADMAP_02']); ?></p>
                     </div>
                 </div>
             </div>
@@ -728,8 +738,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_dark title_border text-center">
-                        <h4 class="animation lang" key="MISSION_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['MISSION_01']); ?></h4>
-                        <p class="animation lang" key="MISSION_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['MISSION_02']); ?></p>
+                        <h4 class="lang" key="MISSION_01"><?php print_r($language[$active_language]['MISSION_01']); ?></h4>
+                        <p class="lang" key="MISSION_02"><?php print_r($language[$active_language]['MISSION_02']); ?></p>
                     </div>
                 </div>
             </div>
@@ -770,8 +780,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                     <div class="title_default_light title_border text-center">
-                        <h4 class="animation lang" key="VALUES_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['VALUES_01']); ?></h4>
-                        <p class="animation lang" key="VALUES_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['VALUES_02']); ?></p>
+                        <h4 class="lang" key="VALUES_01"><?php print_r($language[$active_language]['VALUES_01']); ?></h4>
+                        <p class="lang" key="VALUES_02"><?php print_r($language[$active_language]['VALUES_02']); ?></p>
                     </div>
                 </div>
             </div>
@@ -873,8 +883,8 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_dark title_border text-center">
-                        <h4 class="animation lang" key="TEAM_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['TEAM_01']); ?></h4>
-                        <p class="animation lang" key="TEAM_02" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['TEAM_02']); ?></p>
+                        <h4 class="lang" key="TEAM_01"><?php print_r($language[$active_language]['TEAM_01']); ?></h4>
+                        <p class="lang" key="TEAM_02"><?php print_r($language[$active_language]['TEAM_02']); ?></p>
                     </div>
                 </div>
             </div>
@@ -1341,8 +1351,8 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 offset-lg-2">
                     <div class="title_default_light title_border text-center">
-                        <h4 class="animation lang" key="FAQ_01" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['FAQ_01']); ?></h4>
-                        <p class="animation lang" key="FAQ_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['FAQ_02']); ?></p><br />
+                        <h4 class="lang" key="FAQ_01"><?php print_r($language[$active_language]['FAQ_01']); ?></h4>
+                        <p class="lang" key="FAQ_02"><?php print_r($language[$active_language]['FAQ_02']); ?></p><br />
                     </div>
                 </div>
             </div>
@@ -1482,43 +1492,45 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
-                        <div class="footer_logo mb-3 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+                        <div class="footer_logo mb-3">
                             <a href="#home_section" class="page-scroll">
                                 <img alt="logo" src="assets/images/logo.png">
                             </a>
                         </div>
                         <div class="footer_desc">
-                            <p class="animation lang" key="FOOTER_01" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['FOOTER_01']); ?></p>
-                            <p class="animation lang" key="FOOTER_02" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['FOOTER_02']); ?></p>
+                            <p class="lang" key="FOOTER_01"><?php print_r($language[$active_language]['FOOTER_01']); ?></p>
+                            <p class="lang" key="FOOTER_02"><?php print_r($language[$active_language]['FOOTER_02']); ?></p>
                             <br />
-                            <p class="animation lang" key="FOOTER_03" data-animation="fadeInUp" data-animation-delay="0.4s"><a href="#"><?php print_r($language[$active_language]['FOOTER_03']); ?></a></p>
+                            <p class="lang" key="FOOTER_03"><a href="#"><?php print_r($language[$active_language]['FOOTER_03']); ?></a></p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 res_md_mt_30 res_sm_mt_20">
-                        <h4 class="footer_title border_title animation lang" key="FOOTER_04" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['FOOTER_04']); ?></h4><br />
+                        <h4 class="footer_title border_title lang" key="FOOTER_04"><?php print_r($language[$active_language]['FOOTER_04']); ?></h4><br />
                         <ul class="footer_link list_arrow">
-                            <li class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                                <a class="page-scroll lang" key="FOOTER_05" href="#vision"><?php print_r($language[$active_language]['FOOTER_05']); ?></a>
+
+                            <li>
+                                <a class="page-scroll lang" href="https://www.facebook.com/Migrantcoin-2336469606669909" target="_blank"><i class="fab fa-facebook"></i> &nbsp; Facebook</a>
                             </li>
-                            <li class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                                <a class="page-scroll lang" key="FOOTER_06" href="#token"><?php print_r($language[$active_language]['FOOTER_06']); ?></a>
+                            <li>
+                                <a class="page-scroll lang" href="https://t.me/migrantcoin" target="_blank"><i class="fab fa-telegram-plane"></i> &nbsp; Telegram</a>
                             </li>
-                            <li class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                <a class="page-scroll lang" key="FOOTER_07" href="#roadmap"><?php print_r($language[$active_language]['FOOTER_07']); ?></a>
+                            <li>
+                                <a class="page-scroll lang" href="https://medium.com/@Migrantcoin" target="_blank"><i class="fab fa-medium-m"></i> &nbsp; Medium</a>
                             </li>
-                            <li class="animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-                                <a class="page-scroll lang" key="FOOTER_08" href="#mission"><?php print_r($language[$active_language]['FOOTER_08']); ?></a>
+                            <li>
+                                <a class="page-scroll lang" href="https://twitter.com/MigrantcoinO" target="_blank"><i class="fab fa-twitter"></i> &nbsp; Twitter</a>
                             </li>
-                            <li class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-                                <a class="page-scroll lang" key="FOOTER_09" href="#values"><?php print_r($language[$active_language]['FOOTER_09']); ?></a>
+                            <li>
+                                <a class="page-scroll lang" href="https://www.instagram.com/migrantcoin/" target="_blank"><i class="fab fa-instagram"></i> &nbsp; Instagram</a>
                             </li>
+
                         </ul>
                     </div>
                     <div class="col-lg-5 col-md-6 res_md_mt_30 res_sm_mt_20">
                         <div class="newsletter_form">
-                            <h4 class="footer_title border_title animation lang" key="FOOTER_10" data-animation="fadeInUp" data-animation-delay="0.2s"><?php print_r($language[$active_language]['FOOTER_10']); ?></h4> <br />
-                            <p class="animation lang" key="FOOTER_11" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['FOOTER_11']); ?></p><br />
-                            <form class="subscribe_form animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                            <h4 class="footer_title border_title lang" key="FOOTER_10"><?php print_r($language[$active_language]['FOOTER_10']); ?></h4> <br />
+                            <p class="lang" key="FOOTER_11"><?php print_r($language[$active_language]['FOOTER_11']); ?></p><br />
+                            <form class="subscribe_form">
                                 <input class="input-rounded" type="text" required placeholder="Enter Email Address" />
                                 <button type="submit" title="Subscribe" class="btn-info" name="submit" value="Submit">
                                     <p class="lang" key="FOOTER_12"><?php print_r($language[$active_language]['FOOTER_12']); ?></p>

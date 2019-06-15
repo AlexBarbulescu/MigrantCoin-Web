@@ -12,8 +12,12 @@ var arrLang = (function () {
     return json;
 })();
 
+// if (getCookie('active_language')== null){
+//     setCookie('active_language', 'en', 7);
+// }
+
 // The default language is English
-var lang = getCookie('active_language');
+var lang = 'en';
 // Check for localStorage support
 if ('localStorage' in window) {
     var usrLang = localStorage.getItem('uiLang');
