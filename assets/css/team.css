@@ -1,6 +1,6 @@
 .team-item {
     position: relative;
-    margin: 10px;
+    margin: 9px;
 }
 .team h2,
 .team h6 {
@@ -69,7 +69,7 @@
 .team-item .info-top {
  color:#ffffff;
  position:absolute;
- left:40px;
+ left:20px;
  z-index:99;
  -webkit-transition:.3s;
  -o-transition:.3s;

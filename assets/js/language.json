@@ -132,8 +132,10 @@
         "TEAM_08": "Lead Developer",
         "TEAM_09": "Software Developer", 
         "TEAM_10": "Network Specialist", 
-        "TEAM_11": "Marketing", 
+        "TEAM_11": "Marketing Advisor", 
         "TEAM_12": "Advisor", 
+        "TEAM_13": "Business Advisor", 
+        "TEAM_14": "Technical Advisor",
 
         "FAQ_01": "Have Any Questions?", 
         "FAQ_02": "Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context", 
@@ -312,8 +314,10 @@
         "TEAM_08": "Developer Principal", 
         "TEAM_09": "Developer Software", 
         "TEAM_10": "Specialist Infrastructura", 
-        "TEAM_11": "Marketing", 
+        "TEAM_11": "Consilier Marketing", 
         "TEAM_12": "Consilier", 
+        "TEAM_13": "Consilier Afacere",
+        "TEAM_14": "Consilier Technic ",
 
         "FAQ_01": "Ai intrebari?", 
         "FAQ_02": "Intrebari frecvente (FAQ) sau Raspunsuri si intrebari (Q&A), reprezinta o lista de intrebari si raspunsuri considerate relevante", 
