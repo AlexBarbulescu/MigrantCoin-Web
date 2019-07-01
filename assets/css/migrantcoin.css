@@ -5,9 +5,9 @@ body {
   overflow-y: auto;
 }
 
-/* .animation{
+.animation{
   animation: none !important;
-} */
+}
 
 #home_section {
   height: 100%;
