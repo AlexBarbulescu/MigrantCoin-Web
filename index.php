@@ -44,6 +44,11 @@
 
 
     <?php
+
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+
     $json = file_get_contents('assets/js/language.json');
     $language = json_decode($json, true);
 
@@ -56,6 +61,8 @@
     } else {
         $active_language = $_COOKIE["active_language"];
     }
+
+    // $language[$active_language]  = str_replace("\n", "<br />", $language[$active_language]);
 
     ?>
 
@@ -174,6 +181,7 @@
                         <p class="lang" key="TOP_03"><?php print_r($language[$active_language]['TOP_03']); ?></p><br />
                         <div class="btn_group">
                             <a href="MIGRANTCOIN_Whitepaper.pdf" target="_blank" class="btn btn-border-white btn-radius lang" key="TOP_04"><?php print_r($language[$active_language]['TOP_04']); ?></i></a>
+                            <a href="MIGRANTCOIN_Whitepaper.pdf" target="_blank" class="btn btn-border-white btn-radius lang">LightPaper</i></a>
                         </div>
                     </div>
                 </div>
@@ -922,6 +930,70 @@
                     </div>
                 </div>
 
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/12.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Serban Victor
+                            </div>
+                            <div class="job lang" key="TEAM_08">
+                                <?php print_r($language[$active_language]['TEAM_08']); ?>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Serban Victor
+                            </div>
+                            <div class="job lang" key="TEAM_08">
+                                <?php print_r($language[$active_language]['TEAM_08']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/serban-victor-itil/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
+                    <div class="team-item">
+                        <div class="hover-back"></div>
+                        <img class="img-fluid" src="assets/images/team/00.jpg" alt="Team Member">
+                        <div class="info-top">
+                            <div class="name">
+                                Raul Daniel Siderias
+                            </div>
+                            <div class="job lang" key="TEAM_08">
+                                <?php print_r($language[$active_language]['TEAM_16']); ?>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <div class="name">
+                                Raul Daniel Siderias
+                            </div>
+                            <div class="job lang" key="TEAM_08">
+                                <?php print_r($language[$active_language]['TEAM_16']); ?>
+                            </div>
+                            <p></p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/raul-siderias/" target="_blank">
+                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title>LinkedIn icon</title>
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.3s">
                     <div class="team-item">
@@ -1051,37 +1123,6 @@
                     </div>
                 </div>
 
-                <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.8s">
-                    <div class="team-item">
-                        <div class="hover-back"></div>
-                        <img class="img-fluid" src="assets/images/team/12.jpg" alt="Team Member">
-                        <div class="info-top">
-                            <div class="name">
-                                Serban Victor
-                            </div>
-                            <div class="job lang" key="TEAM_08">
-                                <?php print_r($language[$active_language]['TEAM_08']); ?>
-                            </div>
-                        </div>
-                        <div class="info-bottom">
-                            <div class="name">
-                                Șerban Victor
-                            </div>
-                            <div class="job lang" key="TEAM_08">
-                                <?php print_r($language[$active_language]['TEAM_08']); ?>
-                            </div>
-                            <p></p>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/in/serban-victor-itil/" target="_blank">
-                                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <title>LinkedIn icon</title>
-                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-6 col-lg-3 col-md-4 col-sm-4 animation" data-animation="fadeInDown" data-animation-delay="0.9s">
                     <div class="team-item">
@@ -1563,12 +1604,28 @@
                         <div class="newsletter_form">
                             <h4 class="footer_title border_title lang" key="FOOTER_10"><?php print_r($language[$active_language]['FOOTER_10']); ?></h4> <br />
                             <p class="lang" key="FOOTER_11"><?php print_r($language[$active_language]['FOOTER_11']); ?></p><br />
-                            <form class="subscribe_form">
+
+
+                            <!-- <form class="subscribe_form" action="https://migrantcoin.us18.list-manage.com/subscribe/post?u=d5f6a9e61425f4e4d98ddc8d0&amp;id=38f1c78ace" method="post" target="_blank" novalidat>
                                 <input class="input-rounded" type="text" required placeholder="Enter Email Address" />
                                 <button type="submit" title="Subscribe" class="btn-info" name="submit" value="Submit">
+                                    <p class="lang" key="FOOTER_12"></p>
+                                </button>
+                            </form> -->
+
+
+                            <form id="mc-form" class="subscribe_form">
+                                <input id="mc-email" type="email" placeholder="email" class="input-rounded">
+                                <label for="mc-email" class="valid lang">By clicking subscribe you agree on our GDPR, (<a href="./GDPR.pdf" class="yellow">for more info</a>)
+                                </label>
+                                <input type="hidden" name="action" value="0" />
+                                <button type="submit" class="btn-info">
                                     <p class="lang" key="FOOTER_12"><?php print_r($language[$active_language]['FOOTER_12']); ?></p>
                                 </button>
                             </form>
+
+
+
                         </div>
                     </div>
                 </div>
@@ -1639,6 +1696,24 @@
                 }
             })
         });
+    </script>
+
+    <!-- Mailchimp Signup Form -->
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script src="assets/js/jquery.ajaxchimp.js"></script>
+
+    <script type='text/javascript'>
+        $('#mc-form').ajaxChimp({
+            url: 'https://migrantcoin.us18.list-manage.com/subscribe/post?u=d5f6a9e61425f4e4d98ddc8d0&amp;id=38f1c78ace'
+        });
+
+        (function($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->

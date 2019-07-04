@@ -12,7 +12,7 @@
 
         "TOP_01": "MigrantCoin delivers money to your doorsteps", 
         "TOP_02": "Blockchain-based decentralized money transfer powered by users.",
-        "TOP_03": "The possibility to send money home straight from your virtual wallet is here.",
+        "TOP_03": "The possibility to send money home straight \n from your virtual wallet is here.",
         "TOP_04": "Whitepaper",
         "TOP_05": "Sale Raised",
         "TOP_06": "Soft-caps",
@@ -137,6 +137,7 @@
         "TEAM_13": "Business Advisor", 
         "TEAM_14": "Technical Advisor",
         "TEAM_15": "Chief Executive Officer",
+        "TEAM_16": "Chief Marketing Officer",
 
         "FAQ_01": "Have Any Questions?", 
         "FAQ_02": "Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context", 
@@ -320,6 +321,7 @@
         "TEAM_13": "Consilier Afacere",
         "TEAM_14": "Consilier Technic",
         "TEAM_15": "Director Executiv",
+        "TEAM_16": "Director Marketing",
 
         "FAQ_01": "Ai intrebari?", 
         "FAQ_02": "Intrebari frecvente (FAQ) sau Raspunsuri si intrebari (Q&A), reprezinta o lista de intrebari si raspunsuri considerate relevante", 

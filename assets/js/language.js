@@ -12,6 +12,9 @@ var arrLang = (function () {
     return json;
 })();
 
+
+
+
 // if (getCookie('active_language')== null){
 //     setCookie('active_language', 'en', 7);
 // }
@@ -28,20 +31,21 @@ if ('localStorage' in window) {
 }
 
 // console.log(lang);
+// on document load set selected language
 
 $(document).ready(function () {
 
     $(".lang").each(function (index, element) {
         $(this).text(arrLang[lang][$(this).attr("key")]);
+        // $(this).text(arrLang[lang][$(this).attr("key")].replace("\n", "\<br /\>"));
     });
 
-    $(".dropdown-menu a").click(function () {
-        $(this).parents(".dropdown").find('.dropdown-toggle').html($(this).text());
-        $(this).parents(".dropdown").find('.dropdown-toggle').val($(this).data('value'));
-    });
+    // $(".dropdown-menu a").click(function () {
+    //     $(this).parents(".dropdown").find('.dropdown-toggle').html($(this).text());
+    //     $(this).parents(".dropdown").find('.dropdown-toggle').val($(this).data('value'));
+    // });
 
 });
-
 
 // get/set the selected language
 $(".translate").click(function () {
@@ -52,10 +56,11 @@ $(".translate").click(function () {
         localStorage.setItem('uiLang', lang);
         console.log(localStorage.getItem('uiLang'));
     }
-
+    
     setCookie('active_language', lang ,7);
 
     $(".lang").each(function (index, element) {
+        // $(this).text(arrLang[lang][$(this).attr("key")].replace("\n", "<br />"));
         $(this).text(arrLang[lang][$(this).attr("key")]);
     });
 
@@ -63,9 +68,11 @@ $(".translate").click(function () {
         // $(".dropdown-menu a").parents(".dropdown").find('.dropdown-toggle').html($(this).text(lang));
         // $(".dropdown-menu a").parents(".dropdown").find('.dropdown-toggle').val($(this).data(lang));
 
-        $(this).text(arrLanguage[lang][$(this).attr("id")]);
+        $(this).text(arrLang[lang][$(this).attr("id")]);
     });
 });
+
+
 
 
 function setCookie(name,value,days) {
