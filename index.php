@@ -970,7 +970,7 @@
                             <div class="name">
                                 Raul Daniel Siderias
                             </div>
-                            <div class="job lang" key="TEAM_08">
+                            <div class="job lang" key="TEAM_16">
                                 <?php print_r($language[$active_language]['TEAM_16']); ?>
                             </div>
                         </div>
@@ -978,7 +978,7 @@
                             <div class="name">
                                 Raul Daniel Siderias
                             </div>
-                            <div class="job lang" key="TEAM_08">
+                            <div class="job lang" key="TEAM_16">
                                 <?php print_r($language[$active_language]['TEAM_16']); ?>
                             </div>
                             <p></p>
