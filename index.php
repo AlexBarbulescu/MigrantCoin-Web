@@ -189,7 +189,7 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <a class="thumbnail-link">
                             <img src="assets/images/thumbnail.jpg" id="hideMe" class="video-thumbnail no-select" alt="Thumbnail Video">
-                            <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/hRitW810wmY?showinfo=0&autohide=1&color=white&controls=2&modestbranding=1&rel=0" allowfullscreen></iframe>
+                            <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/qXhvfnZF9ag?showinfo=0&autohide=1&color=white&controls=2&modestbranding=1&rel=0" allowfullscreen></iframe>
                         </a>
                     </div>
                 </div>
