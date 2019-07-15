@@ -211,8 +211,8 @@
                                 <div class="progress_col">
                                     <div class="progress animation" data-animation="fadeInUp" data-animation-delay="0.3s">
                                         <div class="progress-bar progress-bar-striped gradient" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100" style="width:0%"> 0% </div>
-                                        <span class="progress_label bg-white" style="left: 30%"> <strong> 46,000 MGC </strong></span>
-                                        <span class="progress_label bg-white" style="left: 75%"> <strong> 90,000 MGC </strong></span>
+                                        <span class="progress_label bg-white" style="left: 30%"> <strong> 46,000 MIGRA </strong></span>
+                                        <span class="progress_label bg-white" style="left: 75%"> <strong> 90,000 MIGRA </strong></span>
                                         <span class="progress_min_val lang" key="TOP_05">Sale Raised</span>
                                         <span class=" progress_max_val lang" key="TOP_06">Soft-caps</span>
                                     </div>
@@ -421,7 +421,7 @@
                 <div class="row">
                     <div class="col col-box">
                         <p class="lang black" key="TOKEN_16"><?php print_r($language[$active_language]['TOKEN_16']); ?></p>
-                        <p class="lang gray">&nbsp;&nbsp; MGC</p><br />
+                        <p class="lang gray">&nbsp;&nbsp; MIGRA</p><br />
                     </div>
                     <div class="col offset-right-token col-box">
                         <p class="lang black" key="TOKEN_17"><?php print_r($language[$active_language]['TOKEN_17']); ?></p>
@@ -430,7 +430,7 @@
                     <div class="w-100"></div>
                     <div class="col col-box">
                         <p class="lang black" key="TOKEN_18"><?php print_r($language[$active_language]['TOKEN_18']); ?></p>
-                        <p class="lang gray">&nbsp;&nbsp; 1 MGC = 0.01 USD</p><br />
+                        <p class="lang gray">&nbsp;&nbsp; 1 MIGRA = 0.01 USD</p><br />
                     </div>
                     <div class="col offset-right-token col-box">
                         <p class="lang black" key="TOKEN_19"><?php print_r($language[$active_language]['TOKEN_19']); ?></p>
