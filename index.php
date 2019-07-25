@@ -148,6 +148,9 @@
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.14s">
                             <a class="nav-icon nav_icon nav_item" href="https://twitter.com/MigrantcoinO" target="_blank"><i class="fab fa-twitter"></i></a>
                         </li>
+                        <li class="animation" data-animation="fadeInDown" data-animation-delay="0.14s">
+                            <a class="nav-icon nav_icon nav_item" href="https://www.reddit.com/r/MigrantCoin/" target="_blank"><i class="fab fa-reddit-alien"></i></a>
+                        </li>
                         <li class="animation" data-animation="fadeInDown" data-animation-delay="0.13s">
                             <a class="nav-icon nav_icon nav_item" href="https://medium.com/@Migrantcoin" target="_blank"><i class="fab fa-medium-m"></i></a>
                         </li>
@@ -531,9 +534,8 @@
                                         <div class="double-bounce2"></div>
                                         <div class="double-bounce3"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2-Q3 2019</h6>
-                                    <p class="animation lang" key="ROADMAP_03" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_03']); ?></p>
-                                    <p class="animation lang" key="ROADMAP_04" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_04']); ?></p>
+                                    <h6>Q3 2019</h6>
+                                    <p class="lang" key="ROADMAP_03"><?php print_r($language[$active_language]['ROADMAP_03']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -552,10 +554,8 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2019</h6>
-                                    <p class="animation lang" key="ROADMAP_05" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        <?php print_r($language[$active_language]['ROADMAP_05']); ?>
-                                    </p>
+                                    <h6>Q3 2019</h6>
+                                    <p class="lang" key="ROADMAP_04"><?php print_r($language[$active_language]['ROADMAP_04']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -574,10 +574,8 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q4 2019</h6>
-                                    <p class="animation lang" key="ROADMAP_06" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        <?php print_r($language[$active_language]['ROADMAP_06']); ?>
-                                    </p>
+                                    <h6>Q4 2019</h6>
+                                    <p class="lang" key="ROADMAP_05"><?php print_r($language[$active_language]['ROADMAP_05']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -596,10 +594,8 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1-Q2 2020</h6>
-                                    <p class="animation lang" key="ROADMAP_07" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        <?php print_r($language[$active_language]['ROADMAP_07']); ?>
-                                    </p>
+                                    <h6>Q4 2019</h6>
+                                    <p class="lang" key="ROADMAP_06"><?php print_r($language[$active_language]['ROADMAP_06']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -618,9 +614,8 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2020</h6>
-                                    <p class="animation lang" key="ROADMAP_08" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_08']); ?></p>
-                                    <p class="animation lang" key="ROADMAP_09" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_09']); ?></p>
+                                    <h6>Q1 2020</h6>
+                                    <p class="lang" key="ROADMAP_07"><?php print_r($language[$active_language]['ROADMAP_07']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -639,10 +634,8 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3 2020</h6>
-                                    <p class="animation lang" key="ROADMAP_10" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        <?php print_r($language[$active_language]['ROADMAP_10']); ?>
-                                    </p>
+                                    <h6>Q1 -Q2 2020</h6>
+                                    <p class="lang" key="ROADMAP_08"><?php print_r($language[$active_language]['ROADMAP_08']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -661,10 +654,8 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q4 2020</h6>
-                                    <p class="animation lang" key="ROADMAP_11" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                        <?php print_r($language[$active_language]['ROADMAP_11']); ?>
-                                    </p>
+                                    <h6>Q2 2020</h6>
+                                    <p class="lang" key="ROADMAP_09"><?php print_r($language[$active_language]['ROADMAP_09']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -683,11 +674,8 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q1 2021</h6>
-                                    <p class="animation lang" key="ROADMAP_12" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_12']); ?></p>
-                                    <p class="animation lang" key="ROADMAP_13" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_13']); ?></p>
-                                    <p class="animation lang" key="ROADMAP_14" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_14']); ?></p>
-                                    <p class="animation lang" key="ROADMAP_15" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_15']); ?></p>
+                                    <h6>Q3 2020</h6>
+                                    <p class="lang" key="ROADMAP_10"><?php print_r($language[$active_language]['ROADMAP_10']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -706,9 +694,8 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q2 2021</h6>
-                                    <p class="animation lang" key="ROADMAP_16" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_16']); ?></p>
-                                    <p class="animation lang" key="ROADMAP_17" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_17']); ?></p>
+                                    <h6>Q3 2020</h6>
+                                    <p class="lang" key="ROADMAP_11"><?php print_r($language[$active_language]['ROADMAP_11']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -727,9 +714,128 @@
                                         <div class="sk-cube sk-cube8"></div>
                                         <div class="sk-cube sk-cube9"></div>
                                     </div>
-                                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Q3-Q4 2021</h6>
-                                    <p class="animation lang" key="ROADMAP_18" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_18']); ?></p>
-                                    <p class="animation lang" key="ROADMAP_19" data-animation="fadeInUp" data-animation-delay="0.4s"><?php print_r($language[$active_language]['ROADMAP_19']); ?></p>
+                                    <h6>Q4 2020</h6>
+                                    <p class="lang" key="ROADMAP_12"><?php print_r($language[$active_language]['ROADMAP_12']); ?></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="roadmap_box">
+                                <div class="roadmap_inner">
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
+                                    </div>
+                                    <h6>Q1 2020</h6>
+                                    <p class="lang" key="ROADMAP_13"><?php print_r($language[$active_language]['ROADMAP_13']); ?></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="roadmap_box">
+                                <div class="roadmap_inner">
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
+                                    </div>
+                                    <h6>Q1 2020</h6>
+                                    <p class="lang" key="ROADMAP_14"><?php print_r($language[$active_language]['ROADMAP_14']); ?></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="roadmap_box">
+                                <div class="roadmap_inner">
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
+                                    </div>
+                                    <h6>Q1 2020</h6>
+                                    <p class="lang" key="ROADMAP_15"><?php print_r($language[$active_language]['ROADMAP_15']); ?></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="roadmap_box">
+                                <div class="roadmap_inner">
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
+                                    </div>
+                                    <h6>Q1 2020</h6>
+                                    <p class="lang" key="ROADMAP_16"><?php print_r($language[$active_language]['ROADMAP_16']); ?></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="roadmap_box">
+                                <div class="roadmap_inner">
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
+                                    </div>
+                                    <h6>Q2 2021</h6>
+                                    <p class="lang" key="ROADMAP_17"><?php print_r($language[$active_language]['ROADMAP_17']); ?></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="roadmap_box">
+                                <div class="roadmap_inner">
+                                    <div class="sk-cube-grid">
+                                        <div class="spinner_square"></div>
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
+                                    </div>
+                                    <h6>Q2 2021</h6>
+                                    <p class="lang" key="ROADMAP_18"><?php print_r($language[$active_language]['ROADMAP_18']); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -1593,6 +1699,9 @@
                             </li>
                             <li>
                                 <a class="page-scroll lang" href="https://twitter.com/MigrantcoinO" target="_blank"><i class="fab fa-twitter"></i> &nbsp; Twitter</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll lang" href="https://www.reddit.com/r/MigrantCoin/" target="_blank"><i class="fab fa-reddit-alien"></i> &nbsp; Reddit</a>
                             </li>
                             <li>
                                 <a class="page-scroll lang" href="https://www.instagram.com/migrantcoin/" target="_blank"><i class="fab fa-instagram"></i> &nbsp; Instagram</a>
